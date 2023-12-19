@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, rgb(255, 225, 225), rgb(194, 228, 238));
+    background: linear-gradient(0.3turn, rgba(255, 225, 225, 0.5), rgb(194, 228, 238));
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,11 +10,7 @@ body {
 }
 
 #form-container {
-    margin-top:50%;
-    background-color: #ffffff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -23,30 +19,39 @@ body {
     margin-bottom: 20px;
 }
 
-input, button {
+input,
+button {
     margin-bottom: 10px;
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
+    border-radius: 8px; /* Adjust the radius as needed for rounded corners */
+    border: 1px solid #a5a5a58c; /* Add your preferred border color */
 }
 
 button {
     background-color: #007BFF;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 40px;
     cursor: pointer;
 }
 
 button.create-account-btn {
-    background-color: #28a745;
+    background-color: #28a74600;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    position: absolute;
+    bottom: 40px;
+    max-width: 90%;
 }
 
 .forgot-password {
     text-decoration: none;
-    color: #007BFF;
+    color: #000000;
     display: block;
-    margin-top: 10px;
+    margin-top: 8px;
+    
 }
 
 .meta {
@@ -56,4 +61,10 @@ button.create-account-btn {
 
 .meta i {
     margin-right: 10px;
+    
+}
+.logoLogin{
+    margin-bottom: 28%;
+    margin-top: 28%;
+    max-width: 70px;
 }

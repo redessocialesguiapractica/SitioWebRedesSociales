@@ -1,0 +1,7 @@
+<div *ngIf="isMobileDevice; else desktopContent">
+    <app-tutoriales-telefono></app-tutoriales-telefono>
+</div>
+<ng-template #desktopContent>
+    <app-tutoriales-navegador></app-tutoriales-navegador>
+</ng-template>
+<app-back-button></app-back-button>

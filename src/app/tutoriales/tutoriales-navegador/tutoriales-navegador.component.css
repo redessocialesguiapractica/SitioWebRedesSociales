@@ -1,0 +1,47 @@
+.tituloRed {
+  font-size: xx-large !important;
+  text-shadow: 4px 4px 8px #afafaf;
+}
+.social-image {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.redesSociales {
+  font-size: x-large;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 2%;
+}
+
+.card-wrapper {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card-wrapper:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  box-shadow: 4px 4px 8px #afafaf;
+  border-radius: 10px; /* Increase the border-radius for rounded corners */
+  padding: 30px; /* Increase the padding for more space inside the card */
+  text-align: center;
+}
+
+.navbar {
+  background: white;
+  box-shadow: 6px 6px 12px #d8d8d8;
+  
+}
+
+.navbar-brand {
+  font-size: 2.3em;
+  letter-spacing: 2px;
+}
+
+.body {
+  background-color: #f0f0f0;
+}

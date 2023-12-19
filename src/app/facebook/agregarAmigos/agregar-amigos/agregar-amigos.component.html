@@ -1,0 +1,8 @@
+<div *ngIf="isMobileDevice; else desktopContent">
+    <app-en-desarrollo></app-en-desarrollo>
+  </div>
+  <ng-template #desktopContent>
+    <app-agregar-amigos-navegador></app-agregar-amigos-navegador>
+</ng-template>
+  
+  

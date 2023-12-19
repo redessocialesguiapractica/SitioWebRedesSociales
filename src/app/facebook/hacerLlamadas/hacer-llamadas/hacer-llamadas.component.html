@@ -1,0 +1,8 @@
+<div *ngIf="isMobileDevice; else desktopContent">
+    <app-en-desarrollo></app-en-desarrollo>
+  </div>
+  <ng-template #desktopContent>
+    <app-hacer-llamadas-navegador></app-hacer-llamadas-navegador>
+</ng-template>
+  
+  

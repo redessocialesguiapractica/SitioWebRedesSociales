@@ -1,0 +1,32 @@
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex justify-content-center">
+            <h1 class="navbar-brand mx-auto" [routerLink]="['/']">Redes Sociales Fácil!</h1>
+        </div>
+    </nav>
+
+    <div>
+        <div class="row justify-content-center align-items-center redesSociales">
+            <!-- Update routerLink for each social network -->
+            <div class="col-12 col-md-4 text-center mt-4 facebook"
+                [routerLink]="['/tutoriales', 'telefono', 'facebook']">
+                <h3 class="tituloRed">Haz click aquí para aprender a usar Facebook</h3>
+                <img src="/assets/images/imagesHome/Facebook_logo_home.png" alt="Facebook" class="social-image">
+                <p>Conéctate con familiares y amigos. Comparte fotos, mensajes y momentos especiales.</p>
+            </div>
+
+            <div class="col-12 col-md-4 text-center mt-4 whatsApp" [routerLink]="['/tutoriales', 'telefono', 'whatsapp']">
+                <h3 class="tituloRed">Haz click aquí para aprender a usar WhatsApp</h3>
+                <img src="/assets/images/imagesHome/Whatsapp_logo_home.png" alt="WhatsApp" class="social-image">
+                <p>Mantente en contacto con tus seres queridos a través de mensajes, llamadas y videollamadas.</p>
+            </div>
+
+            <div class="col-12 col-md-4 text-center mt-4 instagram"
+                [routerLink]="['/tutoriales', 'telefono', 'instagram']">
+                <h3 class="tituloRed">Haz click aquí para aprender a usar Instagram</h3>
+                <img src="/assets/images/imagesHome/Instagram_logo_home.png" alt="Instagram" class="social-image">
+                <p>Comparte fotos y momentos visuales con tu familia. Explora y descubre nuevas cosas juntos.</p>
+            </div>
+        </div>
+    </div>
+</body>

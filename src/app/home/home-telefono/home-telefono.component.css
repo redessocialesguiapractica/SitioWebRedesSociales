@@ -1,0 +1,96 @@
+.social-image {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+    border-radius: 50px; /* Add rounded borders */
+    border-width: 20cap;
+  }
+
+  .redesSociales {
+    font-size: x-large;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+  }
+
+  .facebook, .whatsApp, .instagram {
+    cursor: pointer;
+    box-shadow: 4px 4px 8px #afafaf;
+    border-radius: 4%;
+    margin-bottom: 20px;
+  }
+
+  .social-image {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+    border-radius: 50px; /* Add rounded corners */
+    border-width: 20cap;
+}
+
+.redesSociales {
+    font-size: x-large;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+.facebook {
+    cursor: pointer;
+    background-color: #0867ff18;
+    box-shadow: 4px 4px 12px #afafaf;
+    border-radius: 4%;
+}
+
+.whatsApp {
+    cursor: pointer;
+    background-color: #49c9581c;
+    box-shadow: 4px 4px 12px #afafaf;
+    border-radius: 4%;
+}
+
+.instagram {
+    cursor: pointer;
+    background-color: #ff88001c;
+    box-shadow: 4px 4px 12px #afafaf;
+    border-radius: 4%;
+}
+.gmail {
+    cursor: pointer;
+    background-color: #ff00001c;
+    box-shadow: 4px 4px 12px #afafaf;
+    border-radius: 4%;
+}
+.navbar {
+    background: white;
+    box-shadow: 4px 4px 8px #e7e7e7;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: #333;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 8px #afafaf;
+}
+
+.tituloRed {
+    font-size: xx-large !important;
+    text-shadow: 4px 4px 8px #afafaf;
+}
+
+.col-4 {
+    margin-left: 2%;
+}
+
+.col-4:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Additional Styles for Mobile View */
+@media (max-width: 576px) {
+    .col-4 {
+        margin-left: 0; /* Remove left margin for small screens */
+        margin-right: 0; /* Remove right margin for small screens */
+    }
+}

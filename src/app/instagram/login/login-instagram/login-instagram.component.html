@@ -1,0 +1,8 @@
+<div *ngIf="isMobileDevice; else desktopContent">
+    <app-en-desarrollo></app-en-desarrollo>
+  </div>
+  <ng-template #desktopContent>
+    <app-login-instagram-navegador></app-login-instagram-navegador>
+  </ng-template>
+  
+  

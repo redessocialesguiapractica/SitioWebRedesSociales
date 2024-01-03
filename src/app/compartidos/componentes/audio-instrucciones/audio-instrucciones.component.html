@@ -1,0 +1,16 @@
+<div class="audio-instrucciones-box">
+  <div class="index">{{ index !== undefined ? index + 1 : 'N/A' }} / {{ maxIndex !== undefined ? maxIndex : 'N/A' }}</div>
+  <h1>Instrucciones</h1>
+  <p>{{ content }}</p>
+  <div class="button-container">
+      <button (click)="onButtonClick('Anterior')">
+          <i class="fas fa-arrow-left"></i> Anterior
+      </button>
+      <button (click)="onButtonClick('Siguiente')">
+          Siguiente <i class="fas fa-arrow-right"></i>
+      </button>
+      <button (click)="onButtonClick('Repetir')">
+          Repetir Audio <i class="fas fa-redo"></i>
+      </button>
+  </div>
+</div>

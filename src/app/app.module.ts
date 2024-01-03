@@ -53,6 +53,7 @@ import { HistoriasInstagramComponent } from './instagram/historiasInstagram/hist
 import { HistoriasInstagramNavegadorComponent } from './instagram/historiasInstagram/historias-instagram-navegador/historias-instagram-navegador.component';
 import { LikesInstagramComponent } from './instagram/likesInstagram/likes-instagram/likes-instagram.component';
 import { LikesInstagramNavegadorComponent } from './instagram/likesInstagram/likes-instagram-navegador/likes-instagram-navegador.component';
+import { AudioInstruccionesComponent } from './compartidos/componentes/audio-instrucciones/audio-instrucciones.component';
 
 @NgModule({
   declarations: [
@@ -108,6 +109,7 @@ import { LikesInstagramNavegadorComponent } from './instagram/likesInstagram/lik
     HistoriasInstagramNavegadorComponent,
     LikesInstagramComponent,
     LikesInstagramNavegadorComponent,
+    AudioInstruccionesComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,70 +1,597 @@
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(0.3turn, rgba(255, 225, 225, 0.5), rgb(194, 228, 238));
-    margin: 0;
-    padding: 0;
+/* facebook-registro-p1 */
+
+.facebook-registro-p1 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+
+
+
+
+
+
+/* facebook-registro-p2 */
+
+.facebook-registro-p2 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+.facebook-registro-p2-button-image {
+  /* Add styling for the image */
+  width: 64px; /* Initial width */
+  height: auto; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 162.5%;
+  margin-left: 0.5%;
+
+  /* Animation */
+  animation-name: buttonAnimation;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimation {
+  0%, 100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    width: 64px;
+    margin-top: 162.5%;
+  }
+
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    width: 128px;
+    margin-top: 155.5%;
+  }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.facebook-registro-p2-button-image:hover {
+  animation-play-state: paused;
+  width: 64px!important;
+  margin-top: 162.5%!important;
+}
+
+
+
+
+
+/* facebook-registro-p3 */
+.facebook-registro-p3 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+.facebook-registro-p3-button-image {
+  /* Add styling for the image */
+  width: 270px; /* Initial width */
+  height: auto; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 7%;
+  margin-right: 26%;
+
+ /* Animation */
+ animation-name: buttonAnimationp3;
+ animation-duration: 2s; /* Total duration of the animation */
+ animation-iteration-count: infinite; /* Infinite loop */
+
+ /* Add a transition to smoothly revert to the initial state on hover */
+ transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimationp3 {
+ 0%, 100% {
+   /* Initial and final keyframes - the button will be at its original size */
+   width: 270px;
+   margin-top: 7%;
+   margin-right: 26%;
+ }
+
+ 50% {
+   /* Midpoint keyframe - the button will be twice its original size */
+   width: 350px;
+   margin-top: 4%;
+   margin-right: 20%;
+   
+ }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.facebook-registro-p3-button-image:hover {
+ animation-play-state: paused;
+ width: 270px!important;
+ margin-top: 7%!important;
+margin-right: 26%!important;
+}
+
+/* facebook-registro-p4 */
+
+.facebook-registro-p4 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-registro-p4-input {
+  border: 2px solid red; /* Initial border color */
+  margin-top: 10%;
+  font-size: 17px;
+  margin-right: 10%;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+
+  /* Animation */
+  animation-name: borderAnimationp4;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp4 {
+  0%, 100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+
+
+
+/* facebook-registro-p5 */
+.facebook-registro-p5 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-registro-p5-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 393px; /* Adjust the width as needed */
+  height: 380px; /* Adjust the height as needed */
+  margin-top: 74%;
+  border: 2px solid red;
+  border-radius: 10px;
+
+    /* Animation */
+    animation-name: borderAnimationp5;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp5 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+
+.facebook-registro-p5-button-image {
+  width: auto; /* Adjust the width as needed */
+  height: 76px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 77%;
+  margin-left: 62%;
+  position: absolute;
+
+  /*Animation*/
+  animation-name: buttonAnimationp5;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+ 
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+ }
+ 
+ /* Define the keyframes for the animation */
+ @keyframes buttonAnimationp5 {
+  0%, 100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    height:  77px;
+    margin-top: 76%;
+    margin-left: 62%;
+  }
+ 
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    height: 100px;
+    margin-top: 73%;
+    margin-left: 70%;
+    
+  }
+ }
+ 
+ /* Pause the animation when the cursor is over the button and revert to the initial state */
+ .facebook-registro-p5-button-image:hover {
+  animation-play-state: paused;
+  height: 77px!important;
+  margin-top: 76%!important;
+  margin-left: 62%!important;
+ }
+
+
+ /* facebook-registro-p6 */
+ .facebook-registro-p6 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro5-4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+
+  animation-name: facebook-registro-p6-background;
+  animation-duration: 8s; /* Total duration of the animation */
+ }
+  @keyframes facebook-registro-p6-background {
+    0%{
+      /* Initial keyframes */
+      background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro5-1.png');
+    }
+   
+    50% {
+      /* Midpoint keyframe */
+      background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro5-2.png');
+      
+    }
+    100% {
+      /* final keyframe */
+      background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro5-3.png');
+    }
+
+   }
+   
+   .facebook-registro-p6-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 393px; /* Adjust the width as needed */
+    height: 450px; /* Adjust the height as needed */
+    margin-top: 74%;
+    border-color: transparent;
+    border-radius: 10px;
+  
+    /* Animation */
+    animation-name: borderAnimationp6;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    animation-delay: 9s; /* Delay start by 5 seconds */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp6 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border: 2px solid red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+  .facebook-registro-p6-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 80%;
+    margin-left: 74%;
+    position: absolute;
+    visibility: hidden;
+    /*Animation*/
+    animation-name: buttonAnimationp6;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    animation-delay: 10s;
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp6 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  50px;
+      margin-top: 80%;
+      margin-left: 74%;
+      visibility:visible;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 70px;
+      margin-top: 77%;
+      margin-left: 70%;
+      visibility:visible;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .facebook-registro-p6-button-image:hover {
+    animation-play-state: paused;
+    height: 50px!important;
+    margin-top: 80%!important;
+    margin-left: 74%!important;
+    visibility: visible!important;
+   }
+
+   /* facebook-registro-p7 */
+   .facebook-registro-p7 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro6-3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-}
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  
+    animation-name: facebook-registro-p7-background;
+    animation-duration: 5s; /* Total duration of the animation */
+   }
+    @keyframes facebook-registro-p7-background {
+      0%{
+        /* Initial keyframes */
+        background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro6-1.png');
+      }
+      100% {
+        /* final keyframe */
+        background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro6-2.png');
+      }
+  
+     }
 
-#form-container {
-    padding: 20px;
-    text-align: center;
-}
+     .facebook-registro-p7-button-image {
+      width: auto; /* Adjust the width as needed */
+      height: 75px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 177.5%;
+      margin-left: 2%;
+      position: absolute;
+      visibility: hidden;
+      /*Animation*/
+      animation-name: buttonAnimationp7;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+      animation-delay: 7s;
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+     }
+     
+     /* Define the keyframes for the animation */
+     @keyframes buttonAnimationp7 {
+      0%, 100% {
+        /* Initial and final keyframes - the button will be at its original size */
+        height:  75px;
+        margin-top: 177.5%;
+        visibility:visible;
+      }
+     
+      50% {
+        /* Midpoint keyframe - the button will be twice its original size */
+        height: 90px;
+        margin-top: 175%;
+        margin-left: 8%;
+        visibility:visible;
+      }
+     }
+     .facebook-registro-p7-button-image:hover {
+      animation-play-state: paused;
+      height: 75px!important;
+      margin-top: 177.5%!important;
+      margin-left: 2%!important;
+      visibility: visible!important;
+     }
 
-#form-container img {
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
+ /* facebook-registro-p8 */
 
-input,
-button {
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 8px; /* Adjust the radius as needed for rounded corners */
-    border: 1px solid #a5a5a58c; /* Add your preferred border color */
+ .facebook-registro-p8 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro7.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
 }
-
-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-}
-
-button.create-account-btn {
-    background-color: #28a74600;
-    color: #007BFF;
-    border: 1px solid #007BFF;
-    position: absolute;
-    bottom: 40px;
-    max-width: 90%;
-}
-
-.forgot-password {
-    text-decoration: none;
-    color: #000000;
-    display: block;
-    margin-top: 8px;
+.facebook-registro-p8-button-image {
+  width: auto; /* Adjust the width as needed */
+  height: 68px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 101%;
+  margin-left: 2%;
+  position: absolute;
+  /*Animation*/
+  animation-name: buttonAnimationp8;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+ }
+ 
+ /* Define the keyframes for the animation */
+ @keyframes buttonAnimationp8 {
+  0%, 100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    height:  68px;
+    margin-top: 101%;
+    margin-left: 2%;
     
-}
-
-.meta {
-    position: absolute;
-    bottom: 0;
-}
-
-.meta i {
-    margin-right: 10px;
+  }
+ 
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    height: 90px;
+    margin-top: 97%;
+    margin-left: 8%;
     
-}
-.logoLogin{
-    margin-bottom: 28%;
-    margin-top: 28%;
-    max-width: 70px;
-}
+  }
+ }
+ 
+ /* Pause the animation when the cursor is over the button and revert to the initial state */
+ .facebook-registro-p8-button-image:hover {
+  animation-play-state: paused;
+  height: 68px!important;
+  margin-top: 101%!important;
+  margin-left: 2%!important;
+  visibility: visible!important;
+ }
+
+  /* facebook-registro-p9 */
+  .facebook-registro-p9 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+  .facebook-registro-p9-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 73px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 62%;
+    margin-left: 2%;
+    position: absolute;
+    /*Animation*/
+    animation-name: buttonAnimationp9;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp9 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  73px;
+      margin-top: 62%;
+      margin-left: 2%;
+      
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 90px;
+      margin-top: 58%;
+      margin-left: 5%;
+      
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .facebook-registro-p9-button-image:hover {
+    animation-play-state: paused;
+    height: 73px!important;
+    margin-top: 62%!important;
+    margin-left: 2%!important;
+   }
+
+   .facebook-registro-p9-input-part {
+    margin-top: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the inputs horizontally */
+    position: absolute;
+    margin-left: 2%; /* Adjust the left margin as needed */
+    margin-right: 1.9%; 
+  }
+  
+  .facebook-registro-p9-input-nombre,
+  .facebook-registro-p9-input-apellido {
+    margin: 0 1.5%; /* Adjust the value for horizontal spacing between inputs */
+    width: 194px;
+    height: 62px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+
+    animation-name: borderAnimationp9;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp9 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border: 2px solid red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+  

@@ -7,40 +7,22 @@ body {
   
   .phone-wrapper {
     width: 90vw; /* Use 90% of the viewport width for the phone */
-    max-width: 400px; /* Set a maximum width to avoid the phone becoming too wide */
+    max-width: 430px; /* Set a maximum width to avoid the phone becoming too wide */
     height: calc(90vw * 20 / 9); /* Calculate height based on width to maintain 20:9 aspect ratio */
     max-height: 900px; /* Set a maximum height to avoid the phone becoming too tall */
-    border: 16px solid #333; /* Marco del teléfono móvil */
+    border: 18px solid #333; /* Marco del teléfono móvil */
     border-radius: 36px; /* Bordes redondeados del teléfono móvil */
     margin: auto; /* Centra el teléfono en la página vertically */
     overflow: hidden; /* Oculta el contenido que excede el marco del teléfono */
     position: relative;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra del teléfono */
+    margin-right: 30%;
+    margin-top: 20px;
   }
-  .phone-header {
-    margin-left: 3%;
-    margin-right: 3%;
-    height: 20px;
-    background-color: rgb(243, 245, 247);
-    display: flex;
-    
-  }
-  .phone-footer {
-    height: 50px;
-    background-color: #333; /* Color de fondo del encabezado y pie de página */
-  }
-  .header-icons {
-    margin-left: auto; /* Move icons to the right */
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Adjust the spacing between icons */
-  }
-  
   .phone-screen {
-    height: calc(90vw * 20 / 9 - 10vw); /* Altura del área de la pantalla, use 90% of width and subtract header and footer height */
-   
-    overflow-y: auto; /* Agrega barras de desplazamiento si el contenido es más largo que la pantalla */
-    background-color: #ffffff; /* Color de fondo de la pantalla */
+    height: 100%; /* Set the height to 100% to fill the entire .phone-wrapper */
+    overflow-y: auto; /* Add scrollbars if the content is taller than the screen */
+    background-color: #ffffff; /* Background color of the phone screen */
     margin: 0;
     padding: 0;
-  }
+}

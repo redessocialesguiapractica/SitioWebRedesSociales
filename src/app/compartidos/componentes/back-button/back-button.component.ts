@@ -10,5 +10,6 @@ export class BackButtonComponent {
 
   goBack(): void {
     this.location.back();
+    
   }
 }

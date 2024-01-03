@@ -1,0 +1,47 @@
+.audio-instrucciones-box {
+    border: 2px solid #3498db;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added position relative for positioning the index */
+}
+
+.index {
+    position: absolute;
+    top: 10px; /* Adjust the top position */
+    left: 10px; /* Adjust the left position */
+    font-size: 16px; /* Adjust the font size */
+    color: #3498db; /* Match the border color */
+}
+
+.audio-instrucciones-box h1 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    color: #2980b9;
+}
+.audio-instrucciones-box p{
+    font-size: xx-large;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2cap;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #2980b9;
+}

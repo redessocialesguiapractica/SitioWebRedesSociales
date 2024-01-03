@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { ChangeDetectorRef } from '@angular/core';
-
+import { Component, OnInit, OnDestroy, ChangeDetectorRef } from '@angular/core';
+import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-registro-facebook-navegador',
   templateUrl: './registro-facebook-navegador.component.html',
@@ -9,7 +8,7 @@ import { ChangeDetectorRef } from '@angular/core';
 export class RegistroFacebookNavegadorComponent implements OnInit {
   constructor(private cdRef: ChangeDetectorRef) {}
   private nextInstructionTimer: any;
-
+  private audioSubscription: Subscription | undefined;
   ngOnInit(): void {
     this.repeatInstruction();
     this.setupNextInstructionTrigger();
@@ -126,6 +125,15 @@ export class RegistroFacebookNavegadorComponent implements OnInit {
     }
   }
 
+  ngOnDestroy() {
+    // Unsubscribe to prevent memory leaks
+    if (this.audioSubscription) {
+      this.audioSubscription.unsubscribe();
+    }
+
+    // Clear any existing triggers
+    this.clearNextInstructionTrigger();
+  }
 
   clearNextInstructionTrigger(): void {
     // Clear any existing triggers, such as timers or event listeners

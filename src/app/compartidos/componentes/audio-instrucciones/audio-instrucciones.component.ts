@@ -68,4 +68,17 @@ export class AudioInstruccionesComponent implements OnInit, OnChanges {
       }
     }
   }
+  ngOnDestroy() {
+    // Stop audio when the component is destroyed
+    this.stopAudio();
+  }
+
+  stopAudio() {
+    if (this.audio) {
+      this.audio.pause();
+      this.audio = undefined;
+    }
+  }
+  
+  
 }

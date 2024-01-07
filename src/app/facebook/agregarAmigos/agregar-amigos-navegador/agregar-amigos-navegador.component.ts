@@ -18,19 +18,19 @@ export class AgregarAmigosNavegadorComponent {
     {
       index: 1,
       content:
-        '¡Bienvenido a este tutorial guiado para instalar la aplicación de Facebook y crear una nueva cuenta! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
-      audio: '/assets/audio/facebook/registro/paso_1.mp3',
+        '¡Bienvenido a este tutorial guiado para agregar amigos en Facebook a través de su aplicación móvil! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_1.mp3',
     },
     {
       index: 2,
       content:
-        'En nuestra pantalla principal del teléfono, presionamos el botón que está siendo destacado, el cual es el botón de la Play Store o tienda de aplicaciones. Presiona el botón para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/registro/paso_2.mp3',
+        'En nuestra pantalla principal del teléfono, presionamos el botón que está siendo destacado, de nuestra aplicación de Facebook. Presiona el botón para continuar con el siguiente paso.',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_2.mp3',
     },
     {
       index: 3,
       content:
-        'Una vez abierta la Play Store o la tienda de aplicaciones, tendremos una pantalla similar a esta. En esta pantalla, presionaremos sobre la barra de búsqueda para continuar con el siguiente paso.',
+        'Una vez abierta la aplicación de Facebook, presionaremos el círculo pequeño con nuestra foto de perfil que se encuentra dentro del cuadro rojo. Presiona el círculo para continuar con el siguiente paso.',
       audio: '/assets/audio/facebook/registro/paso_3.mp3',
     },
     {

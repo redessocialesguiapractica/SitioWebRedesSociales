@@ -39,6 +39,33 @@ export class AgregarAmigosNavegadorComponent {
         'Al presionar el círculo, vamos a ver el menú que tenemos para nuestro perfil, y buscamos el botón Amigos señalado en el recuadro rojo. Presiona el botón para continuar con el siguiente paso.',
       audio: '/assets/audio/facebook/agregar_amigos/paso_4.mp3',
     },
+    {
+      index: 5,
+      content: 'Una vez realizada la búsqueda, se tendrá una pantalla similar a esta. Aquí localizaremos la aplicación que solamente tenga "Facebook" como nombre, sin ninguna palabra añadida, y que tenga "Meta Platforms Inc." debajo, la misma que se muestra dentro del cuadro rojo. Una vez localizado, pulsa el botón "Instalar".',
+      audio: '/assets/audio/facebook/registro/paso_5.mp3',
+    },
+    {
+      index: 6,
+      content: 'Facebook comenzará a instalarse. Sé paciente durante este proceso, ya que el tiempo dependerá de tu velocidad de conexión a internet y de la capacidad de tu celular. Una vez que la aplicación se haya instalado, te aparecerá un botón de "Abrir", como puedes ver en el recuadro rojo. Pulsa el botón para abrir la aplicación de Facebook.',
+      audio: '/assets/audio/facebook/registro/paso_6.mp3',
+    },
+    {
+      index: 7,
+      content: 'Al abrir la aplicación, puede tomar unos segundos en cargar. Espera pacientemente hasta que la aplicación se inicie. Una vez iniciada, tendrás una pantalla como esta, donde debes pulsar el botón "Crear nueva cuenta".',
+      audio: '/assets/audio/facebook/registro/paso_7.mp3',
+    },
+    {
+      index: 8,
+      content: 'Aquí encontrarás varios perfiles de personas con un nombre igual o similar al que escribiste, busca a tu amigo y al encontrarlo presiona el botón "Agregar a amigos".',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_8.mp3',
+    },
+    
+    {
+      index: 9,
+      content: 'Y listo, se enviará una solicitud de amistad a la persona que seleccionaste y deberás esperar a que la acepte.',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_9.mp3',
+    },
+
   ];
   currentIndex = 0;
 

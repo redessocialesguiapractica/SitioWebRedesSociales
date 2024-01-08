@@ -1,0 +1,16 @@
+/* facebook-agregarAmigos-p6 */
+
+.facebook-agregarAmigos-p6 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+  

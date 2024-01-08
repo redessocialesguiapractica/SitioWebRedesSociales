@@ -1,4 +1,14 @@
+<app-audio-instrucciones
+    [maxIndex]="audioInstruccionesData.length"
+    [index]="currentIndex"
+    [content]="audioInstruccionesData[currentIndex].content"
+    [audioSrc]="audioInstruccionesData[currentIndex].audio"
+    (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
+
+
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+    <body class="facebook-agregarAmigos-p6" *ngIf="currentIndex === 5">
+    </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

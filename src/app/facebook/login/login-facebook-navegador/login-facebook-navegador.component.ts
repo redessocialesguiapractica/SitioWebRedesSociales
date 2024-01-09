@@ -18,23 +18,23 @@ export class LoginFacebookNavegadorComponent implements OnInit {
   audioInstruccionesData = [
     {
       index: 1,
-      content: 'Hola esta es la primera ventana del login!',
-      audio: '/assets/audio/facebook/registro/paso_1.mp3',
+      content: 'Una vez instalada la aplicación en tu dispositivo, debes dar clic en el icono de Facebook que aparecerá en tu dispositivo, para poder acceder a la aplicación y proceder a registrarte!',
+      audio: '/assets/audio/facebook/IngresarFacebook.mp3',
     },
     {
       index: 2,
-      content: 'En nuestra pantalla principal del teléfono, presionamos el botón que está siendo destacado, el cual es el botón de la Play Store o tienda de aplicaciones. Presiona el botón para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/registro/paso_2.mp3',
+      content: 'Al abrir la aplicación, es necesario dirigirse al área de las casillas ubicadas debajo del ícono de la aplicación. Estas casillas facilitarán el ingreso a tu cuenta de Facebook. En la primera casilla, se debe ingresar el correo electrónico asociado a la cuenta de Facebook. Una vez completado este paso, procedemos a completar el segundo campo con la contraseña creada durante el proceso de creación de la cuenta. En caso de olvidar la contraseña, Facebook ofrece un enlace con la opción Olvidaste tu contraseña para restablecerla. Si este fuera tu caso, puedes hacer clic en el ícono de un ojo que aparecerá mientras ingreses tu contraseña para verificar la corrección de la misma. Después de verificar si tu correo y contraseña son las correctas, presiona el botón Iniciar sesión.',
+      audio: '/assets/audio/facebook/Iniciarsesionfacebook.mp3',
     },
     {
       index: 3,
-      content: 'Una vez abierta la Play Store o la tienda de aplicaciones, tendremos una pantalla similar a esta. En esta pantalla, presionaremos sobre la barra de búsqueda para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/registro/paso_3.mp3',
+      content: 'Después de iniciar sesión, es necesario aguardar brevemente, ya que la aplicación está en proceso de validar tus credenciales. Este procedimiento tiene como objetivo confirmar la autenticidad de tu correo electrónico y contraseña. En caso de que la información proporcionada no sea correcta, la aplicación mostrará un mensaje de alerta indicando que las credenciales ingresadas no son válidas.',
+      audio: '/assets/audio/facebook/quehacerdespuesdeiniciarsesion.mp3',
     },
     {
       index: 4,
-      content: 'Esta es la pantalla de búsqueda de la tienda de aplicaciones. En la parte superior del teléfono, tendremos una barra de búsqueda con el texto "Buscar apps y juegos". Por favor, escribe "Facebook" dentro del rectángulo rojo desde tu teclado para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/registro/paso_4.mp3',
+      content: 'En caso de que las credenciales sean válidas, la aplicación redirige al usuario a su área personal, permitiéndole disfrutar de contenido multimedia, como videos e imágenes, además de brindar la posibilidad de mantenerse informado acerca de noticias a nivel mundial.',
+      audio: '/assets/audio/facebook/Credencialesvalidas.mp3',
     },
     // Add more objects with different content as needed
   ];

@@ -1,4 +1,19 @@
+<app-audio-instrucciones
+  [maxIndex]="audioInstruccionesData.length"
+  [index]="currentIndex"
+  [content]="audioInstruccionesData[currentIndex].content"
+  [audioSrc]="audioInstruccionesData[currentIndex].audio"
+  (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
+
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+  <body class="facebook-agregarAmigos-p5" *ngIf="currentIndex === 4">
+    <img
+      src="/assets/images/imagesTutoriales/facebook/agregarAmigos/agregar-amigos-p5.png"
+      alt="Agregar amigos paso 5"
+      class="facebook-agregarAmigos-p5"
+      (click)="facebookAgregarAmigosClicked()"
+    />
+  </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

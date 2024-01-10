@@ -54,7 +54,7 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
     {
       index: 7,
       content:
-        'Te aparecerá una lupa con el nombre que escribiste, presionalá para continuar con el siguiente paso.',
+        'Te aparecerán varias opciones que coinciden con el nombre que ingresaste, escoge la que más se parece a la opción que buscas y presiónala, en nuestro ejemplo elegimos a luz. Presiona la opción indicada en el recuadro rojo para continuar con el siguiente paso.',
       audio: '/assets/audio/facebook/agregar_amigos/paso_7.mp3',
     },
     {

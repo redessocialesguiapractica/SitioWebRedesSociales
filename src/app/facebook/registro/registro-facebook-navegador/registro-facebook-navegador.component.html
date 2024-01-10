@@ -43,9 +43,54 @@
       </div>
       <img src="/assets/images/imagesTutoriales/facebook/registro/boton-siguiente-facebook-registro.png" alt="Playstore Icon" class="facebook-registro-p9-button-image" (click)="facebookRegistroClicked()">  
     </body>
-    <body class="facebook-registro-p10" *ngIf="currentIndex === 9"><p>4</p></body>
-    <body class="facebook-registro-p11" *ngIf="currentIndex === 10"><p>4</p></body>
-    <body class="facebook-registro-p12" *ngIf="currentIndex === 11"><p>4</p></body>
-    
+    <body class="facebook-registro-p10" *ngIf="currentIndex === 9">
+            <span class="facebook-registro-p10-button" (click)="facebookRegistroClicked()">DEFINIR</span>
+    </body>
+    <body class="facebook-registro-p11" *ngIf="currentIndex === 10">
+    <span class="facebook-registro-p11-red-square"></span>
+    <img src="/assets/images/imagesTutoriales/facebook/registro/boton-siguiente-facebook-registro.png" alt="Playstore Icon" class="facebook-registro-p11-button-image" (click)="facebookRegistroClicked()">  
+    </body>
+    <body class="facebook-registro-p12" *ngIf="currentIndex === 11">
+      <span class="facebook-registro-p12-red-square"></span>
+      <div class="facebook-registro-p12-radio-group">
+          <label class="facebook-registro-p12-radio-button">
+              <input type="radio" name="radioOption" class="facebook-registro-p12-radioOption1">
+          </label>
+          <label class="facebook-registro-p12-radio-button">
+              <input type="radio" name="radioOption" class="facebook-registro-p12-radioOption2">
+          </label>
+          <label class="facebook-registro-p12-radio-button">
+              <input type="radio" name="radioOption" class="facebook-registro-p12-radioOption3">
+          </label>
+      </div>
+      <img src="/assets/images/imagesTutoriales/facebook/registro/boton-siguiente-facebook-registro.png" alt="Playstore Icon" class="facebook-registro-p12-button-image" (click)="facebookRegistroClicked()">  
+  </body>
+    <body class="facebook-registro-p13" *ngIf="currentIndex === 12">
+      <input type="text" placeholder="Ingresa aqui to celular o correo electronico" class="facebook-registro-p13-input">
+      <img src="/assets/images/imagesTutoriales/facebook/registro/boton-siguiente-facebook-registro.png" alt="Playstore Icon" class="facebook-registro-p13-button-image" (click)="facebookRegistroClicked()">
+      <span class="facebook-registro-p13-blue-square"></span>
+    </body>
+    <body class="facebook-registro-p14" *ngIf="currentIndex === 13">
+      <input type="password" placeholder="Contraseña" class="facebook-registro-p14-input">
+      <img src="/assets/images/imagesTutoriales/facebook/registro/boton-siguiente-facebook-registro.png" alt="Playstore Icon" class="facebook-registro-p14-button-image" (click)="facebookRegistroClicked()">
+    </body>
+    <body class="facebook-registro-p15" *ngIf="currentIndex === 14">
+      <img src="/assets/images/imagesTutoriales/facebook/registro/guardar_facebook_boton.png" alt="Playstore Icon" class="facebook-registro-p15-button-image" (click)="facebookRegistroClicked()">
+    </body>
+    <body class="facebook-registro-p16" *ngIf="currentIndex === 15">
+      <img src="/assets/images/imagesTutoriales/facebook/registro/acepto_facebook_boton.png" alt="Playstore Icon" class="facebook-registro-p16-button-image" (click)="facebookRegistroClicked()">
+    </body>
+    <body class="facebook-registro-p17" *ngIf="currentIndex === 16">
+      <input type="text" placeholder="Código de confirmación" class="facebook-registro-p17-input">
+      <img src="/assets/images/imagesTutoriales/facebook/registro/boton-siguiente-facebook-registro.png" alt="Playstore Icon" class="facebook-registro-p17-button-image" (click)="facebookRegistroClicked()">
+    </body>
+    <body class="facebook-registro-p18" *ngIf="currentIndex === 17">
+      <span class="facebook-registro-p18-red-square" (click)="facebookRegistroClicked()"></span>
+    </body>
+    <body class="facebook-registro-p19" *ngIf="currentIndex === 18">
+      <span class="facebook-registro-p19-red-square" (click)="facebookRegistroClicked()"></span>
+    </body>
+    <body class="facebook-registro-p20" *ngIf="currentIndex === 19">
+    </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

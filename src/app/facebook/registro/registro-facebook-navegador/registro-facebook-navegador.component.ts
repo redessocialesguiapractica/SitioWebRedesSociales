@@ -13,6 +13,7 @@ export class RegistroFacebookNavegadorComponent implements OnInit {
     this.repeatInstruction();
     this.setupNextInstructionTrigger();
   }
+ 
   
   audioInstruccionesData = [
     {
@@ -57,18 +58,63 @@ export class RegistroFacebookNavegadorComponent implements OnInit {
     },
     {
       index: 9,
-      content: 'Aquí, Facebook te preguntará por tu nombre y apellido real, como puedes ver en los recuadros marcados con rojo. Dado que esto es una simulación, puedes escribir en los recuadros o dejarlos en blanco, pero recuerda que en la aplicación de tu celular tendrás que ingresar tu nombre y apellido. Una vez que lo hagas, por favor, pulsa "Siguiente" para continuar con el siguiente paso.',
+      content: 'Facebook te preguntará por tu nombre y apellido real, como puedes ver en los recuadros marcados con rojo. Dado que esto es una simulación, puedes escribir en los recuadros o dejarlos en blanco, pero recuerda que en la aplicación de tu celular tendrás que ingresar tu nombre y apellido. Una vez que lo hagas, por favor, pulsa "Siguiente" para continuar con el siguiente paso.',
       audio: '/assets/audio/facebook/registro/paso_9.mp3',
     },
     {
       index: 10,
-      content: 'Una vez realizada la busqueda se realizara sd sads asdas',
+      content: 'A continuación, se te presentará una pantalla similar a esta, donde deberás elegir tu fecha de nacimiento. Cuando lo hagas en tu celular, podrás utilizar la pantalla táctil. En este caso, ya se ha definido una fecha. Para avanzar, simplemente presiona el botón "DEFINIR" en el recuadro rojo para continuar.',
       audio: '/assets/audio/facebook/registro/paso_10.mp3',
     },
     {
       index: 11,
-      content: 'Una vez realizada la busqueda se realizara sd sads asdas',
+      content: 'Después de ingresar tu fecha de nacimiento, esta se mostrará en un recuadro junto con tu edad. Cuando lo hagas en tu celular, tendrás la opción de volver a ingresar tu fecha de nacimiento si pulsas en lo que se muestra en el cuadro rojo. Para continuar con el siguiente paso, por favor pulsa "Siguiente".',
       audio: '/assets/audio/facebook/registro/paso_11.mp3',
+    },
+    {
+      index: 12,
+      content: 'A continuación, Facebook te preguntará el género con el que te identificas. Como puedes ver en el recuadro rojo, tienes tres opciones. Elige la opción que más te convenga haciendo clic en los círculos y pulsa el botón "Siguiente" para continuar.',
+      audio: '/assets/audio/facebook/registro/paso_12.mp3',
+    },
+    {
+      index: 13,
+      content: 'Para este paso, puedes ingresar tu número de teléfono o tu correo electrónico en el cuadro rojo. En tu aplicación de celular, podrás cambiar entre estas opciones con el botón que se marca en azul. Pero para esta simulación, ingresa cualquier texto en la caja y pulsa el botón de "Siguiente" para ver el siguiente paso.',
+      audio: '/assets/audio/facebook/registro/paso_13.mp3',
+    },
+    {
+      index: 14,
+      content: 'Para la creación de la cuenta, es necesario crear una contraseña. En la aplicación móvil, tendrás un lugar para ingresar la contraseña, parecido a lo que está en el recuadro rojo. Recuerda ingresar una contraseña que recuerdes y que cumpla con tener al menos 6 letras o números. Una vez ingreses una contraseña, pulsa el botón "Siguiente".',
+      audio: '/assets/audio/facebook/registro/paso_14.mp3',
+    },
+    {
+      index: 15,
+      content: 'En esta pantalla, se te preguntará si quieres guardar tu información de inicio de sesión. Si estás realizando la creación de cuenta en tu celular personal, es recomendable que pulses el botón "Guardar". Presiona ese botón para continuar.',
+      audio: '/assets/audio/facebook/registro/paso_15.mp3',
+    },
+    {
+      index: 16,
+      content: 'A continuación, Facebook te pedirá que aceptes los términos y condiciones de uso de la aplicación. En este paso, pulsaremos el botón "Acepto" para continuar.',
+      audio: '/assets/audio/facebook/registro/paso_16.mp3',
+    },
+    {
+      index: 17,
+      content: 'El código de confirmación te llegará a tu correo electrónico o a tu celular, revisa tu correo electronico o mensajes de tu celular, según lo que hayas escogido al registrarte. Una vez que obtengas el código, deberás ingresarlo en el recuadro rojo y pulsar el botón "Siguiente". Para esta simulación, puedes ingresar cualquier número o dejarlo en blanco, pero pulsa el botón "Siguiente" para continuar.',
+      audio: '/assets/audio/facebook/registro/paso_17.mp3',
+    },
+    {
+      index: 18,
+      content: 'En esta pantalla, Facebook te dará la opción de agregar una foto de perfil. En tu aplicación de celular, podrás hacerlo pulsando el botón "Agregar foto", pero en este caso, para continuar con el siguiente paso, por favor, pulsa el botón "Omitir", que está marcado en un recuadro rojo.',
+      audio: '/assets/audio/facebook/registro/paso_18.mp3',
+    },
+    {
+      index: 19,
+      content: 'Facebook también te dará la opción de importar tus contactos que tengas registrados en tu celular. En tu aplicación en el celular, podrás hacerlo pulsando el botón "Activar", donde te aparecerán tus contactos guardados en el celular que también posean una cuenta de Facebook. Si no quieres agregarlos de esta forma o prefieres hacerlo después, puedes pulsar el botón marcado en rojo que dice "Ahora no". Pero para esta simulación, por favor, pulsa el botón "Ahora no" marcado en rojo para continuar.',
+      audio: '/assets/audio/facebook/registro/paso_19.mp3',
+    },
+    {
+      index: 20,
+      content: '¡Felicidades, has completado el tutorial de creación de cuenta en Facebook! Siguiendo este tutorial, ya puedes utilizar Facebook para comunicarte con tus familiares. Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
+      audio: '/assets/audio/facebook/registro/paso_20.mp3',
     },
     // Add more objects with different content as needed
   ];
@@ -164,6 +210,4 @@ export class RegistroFacebookNavegadorComponent implements OnInit {
       
     }
   }
-
-  
 }

@@ -31,7 +31,7 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
       index: 3,
       content:
         'Una vez abierta la aplicación de Facebook, presionaremos el círculo pequeño con nuestra foto de perfil que se encuentra dentro del cuadro rojo. Presiona el círculo para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/registro/paso_3.mp3',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_3.mp3',
     },
     {
       index: 4,
@@ -43,7 +43,7 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
       index: 5,
       content:
         'A continuación se abrirá la pantalla Amigos en la que vamos a ver una lupa en la parte superior del teléfono, esta lupa nos va a permitir buscar amigos, presionamos la lupa dentro del cuadro rojo para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/agregarAmigos/agregar-amigos-paso-5.mp3',
+      audio: '/assets/audio/facebook//agregar_amigos/paso_5.mp3',
     },
     {
       index: 6,
@@ -69,6 +69,18 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
       content:
         'Y listo, se enviará una solicitud de amistad a la persona que seleccionaste y deberás esperar a que la acepte.',
       audio: '/assets/audio/facebook/agregar_amigos/paso_9.mp3',
+    },
+    {
+      index: 10,
+      content:
+      'Si por alguna razón deseas cancelar la solicitud de amistad enviada, debes presionar el botón "Cancelar" señalado en el recuadro rojo.',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_10.mp3',
+    },
+    {
+      index: 11,
+      content:
+      'Te aparecerá un recuadro con la pregunta "¿Cancelar la solicitud de amistad?" con las opciones "CERRAR" y "CANCELAR SOLICITUD", presiona la opción "CANCELAR SOLICITUD" para que elimines la solicitud de amistad enviada a esa persona. ¡Y listo! Te esperamos en nuestro siguiente tutorial.',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_11.mp3',
     },
   ];
   currentIndex = 0;

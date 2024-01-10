@@ -7,9 +7,18 @@
 ></app-audio-instrucciones>
 
 <app-phone-interface>
-  <body class="facebook-agregarAmigos-p1" *ngIf="currentIndex === 0"><p>4</p></body>
-  <body class="facebook-agregarAmigos-p2" *ngIf="currentIndex === 1"><p>4</p></body>
-  <body class="facebook-agregarAmigos-p3" *ngIf="currentIndex === 2"><p>4</p></body>
+  <body class="facebook-agregarAmigos-p1" *ngIf="currentIndex === 0">
+    <p>4</p>
+  </body>
+  <body class="facebook-agregarAmigos-p2" *ngIf="currentIndex === 1">
+    <p>4</p>
+  </body>
+  <body class="facebook-agregarAmigos-p3" *ngIf="currentIndex === 2">
+    <div
+      class="facebook-agregarAmigos-p3-red-box"
+      (click)="agregarAmigosRegistroClicked()"
+    ></div>
+  </body>
   <body class="facebook-agregarAmigos-p4" *ngIf="currentIndex === 3">
     <img
       src="/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-opcionAmigos.png"
@@ -20,7 +29,7 @@
     <div class="facebook-agregarAmigos-p4-red-box"></div>
   </body>
   <body class="facebook-agregarAmigos-p5" *ngIf="currentIndex === 4">
-  <img
+    <img
       src="/assets/images/imagesTutoriales/facebook/agregarAmigos/agregar-amigos-p5.png"
       alt="Agregar amigos paso 5"
       class="facebook-agregarAmigos-p5"
@@ -38,5 +47,14 @@
     />
   </body>
   <body class="facebook-agregarAmigos-p9" *ngIf="currentIndex === 8"></body>
+  <body class="facebook-agregarAmigos-p10" *ngIf="currentIndex === 9">
+    <div
+      class="facebook-agregarAmigos-p10-red-box"
+      (click)="agregarAmigosRegistroClicked()"
+    ></div>
+  </body>
+  <body class="facebook-agregarAmigos-p11" *ngIf="currentIndex === 10">
+    <div class="facebook-agregarAmigos-p11-red-box"></div>
+  </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

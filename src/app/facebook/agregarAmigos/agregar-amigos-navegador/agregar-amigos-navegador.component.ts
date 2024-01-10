@@ -16,28 +16,22 @@ export class AgregarAmigosNavegadorComponent {
   }
   audioInstruccionesData = [
     {
-      index: 1,
-      content:
-        '¡Bienvenido a este tutorial guiado para instalar la aplicación de Facebook y crear una nueva cuenta! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
-      audio: '/assets/audio/facebook/registro/paso_1.mp3',
-    },
-    {
-      index: 2,
-      content:
-        'En nuestra pantalla principal del teléfono, presionamos el botón que está siendo destacado, el cual es el botón de la Play Store o tienda de aplicaciones. Presiona el botón para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/registro/paso_2.mp3',
-    },
-    {
-      index: 3,
+      index: 1, // Este es el paso 3
       content:
         'Una vez abierta la aplicación de Facebook, presionaremos el círculo pequeño con nuestra foto de perfil que se encuentra dentro del cuadro rojo. Presiona el círculo para continuar con el siguiente paso.',
       audio: '/assets/audio/facebook/agregar_amigos/paso_3.mp3',
     },
     {
-      index: 4,
+      index: 2, // Este es el paso 10
       content:
-        'Al presionar el círculo, vamos a ver el menú que tenemos para nuestro perfil, y buscamos el botón Amigos señalado en el recuadro rojo. Presiona el botón para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/agregar_amigos/paso_4.mp3',
+        'Si por alguna razón deseas cancelar la solicitud de amistad enviada, debes presionar el botón "Cancelar" señalado en el recuadro rojo.',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_10.mp3',
+    },
+    {
+      index: 3, // Este es el paso 11
+      content:
+        'Te aparecerá un recuadro con la pregunta "¿Cancelar la solicitud de amistad?" con las opciones "CERRAR" y "CANCELAR SOLICITUD", presiona la opción "CANCELAR SOLICITUD" para que elimines la solicitud de amistad enviada a esa persona. ¡Y listo! Te esperamos en nuestro siguiente tutorial.',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_11.mp3',
     },
   ];
   currentIndex = 0;

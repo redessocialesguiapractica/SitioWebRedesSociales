@@ -7,20 +7,19 @@
 ></app-audio-instrucciones>
 
 <app-phone-interface>
-  <body class="facebook-agregarAmigos-p1" *ngIf="currentIndex === 0"><p>4</p></body>
-  <body class="facebook-agregarAmigos-p2" *ngIf="currentIndex === 1"><p>4</p></body>
-  <body class="facebook-agregarAmigos-p3" *ngIf="currentIndex === 2">
+    <!--PASO 3-->
+  <body class="facebook-agregarAmigos-p3" *ngIf="currentIndex === 0">
       <div class="facebook-agregarAmigos-p3-red-box" (click)="agregarAmigosRegistroClicked()"></div>
-      (click)="agregarAmigosRegistroClicked()">
   </body>
-  <body class="facebook-agregarAmigos-p4" *ngIf="currentIndex === 3">
-    <img
-      src="/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-opcionAmigos.png"
-      alt="Playstore Icon"
-      class="facebook-agregarAmigos-p4-button-image"
-      (click)="agregarAmigosRegistroClicked()"
-    />
-    <div class="facebook-agregarAmigos-p4-red-box"></div>
+
+  <!--PASO 10-->
+  <body class="facebook-agregarAmigos-p10" *ngIf="currentIndex === 1">
+    <div class="facebook-agregarAmigos-p10-red-box" (click)="agregarAmigosRegistroClicked()"></div>
+  </body>
+    
+  <!--PASO 11-->
+  <body class="facebook-agregarAmigos-p11" *ngIf="currentIndex === 2">
+    <div class="facebook-agregarAmigos-p11-red-box"></div>
   </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

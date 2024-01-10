@@ -21,6 +21,7 @@
   border: 6px solid red;
   border-radius: 10px;
   margin-left: -86%;
+  cursor: pointer;
 
     /* Animation */
     animation-name: borderAnimationp3;

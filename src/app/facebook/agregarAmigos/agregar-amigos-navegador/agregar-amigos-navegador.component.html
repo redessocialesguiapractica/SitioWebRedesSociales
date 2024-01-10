@@ -7,12 +7,15 @@
 ></app-audio-instrucciones>
 
 <app-phone-interface>
-<<<<<<< HEAD
-    <p>Escribir el codigo</p>
-=======
   <body class="facebook-agregarAmigos-p1" *ngIf="currentIndex === 0"><p>4</p></body>
   <body class="facebook-agregarAmigos-p2" *ngIf="currentIndex === 1"><p>4</p></body>
-  <body class="facebook-agregarAmigos-p3" *ngIf="currentIndex === 2"><p>4</p></body>
+  <body class="facebook-agregarAmigos-p3" *ngIf="currentIndex === 2">
+    <img src="/assets/images/imagesTutoriales/facebook/registro/instalar_facebook_boton.png" 
+      alt="Playstore Icon" 
+      class="facebook-agregarAmigos-p3-button-image" 
+      (click)="agregarAmigosRegistroClicked()">
+    <div class="facebook-agregarAmigos-p3-red-box"></div>
+  </body>
   <body class="facebook-agregarAmigos-p4" *ngIf="currentIndex === 3">
     <img
       src="/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-opcionAmigos.png"
@@ -22,6 +25,5 @@
     />
     <div class="facebook-agregarAmigos-p4-red-box"></div>
   </body>
->>>>>>> 52b48a27033b475696a4447e3c8781ab955016e2
 </app-phone-interface>
 <app-back-button></app-back-button>

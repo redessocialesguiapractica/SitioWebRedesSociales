@@ -30,8 +30,8 @@ export class AgregarAmigosNavegadorComponent {
     {
       index: 3,
       content:
-        'Una vez abierta la Play Store o la tienda de aplicaciones, tendremos una pantalla similar a esta. En esta pantalla, presionaremos sobre la barra de búsqueda para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/registro/paso_3.mp3',
+        'Una vez abierta la aplicación de Facebook, presionaremos el círculo pequeño con nuestra foto de perfil que se encuentra dentro del cuadro rojo. Presiona el círculo para continuar con el siguiente paso.',
+      audio: '/assets/audio/facebook/agregar_amigos/paso_3.mp3',
     },
     {
       index: 4,

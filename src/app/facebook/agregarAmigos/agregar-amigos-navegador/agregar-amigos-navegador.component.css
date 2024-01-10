@@ -3,7 +3,7 @@
 /* facebook-agregarAmigos-p4 */
 
 .facebook-agregarAmigos-p4 {
-    background-image: url('src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-paso-4.jpg');
+    background-image: url('src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-paso-4.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,4 +58,72 @@
       transition: width 0.5s, margin-top 0.5s;
      }
 
+/* facebook-agregarAmigos-p8 */
+
+.facebook-agregarAmigos-p8 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-paso-8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 101%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+    .facebook-agregarAmigos-p8-button-image {
+      width: 300px; /* Adjust the width as needed */
+      height: 5px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 80%;
+      position: absolute;
+      /*Animation*/
+      animation-name: buttonAnimationp8;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
      
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+     }
+      @keyframes buttonAnimationp8 {
+  0%, 100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    height:  40px;
+    margin-top: 57%;
+    margin-left: 20%;
+  }
+ 
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    height: 45px;
+    margin-top: 58%;
+    margin-left: 21%;
+    
+  }
+ }
+ 
+ /* Pause the animation when the cursor is over the button and revert to the initial state */
+ .facebook-agregarAmigos-p8-button-image:hover {
+  animation-play-state: paused;
+  height: 40px!important;
+  margin-top: 57%!important;
+  margin-left: 20%!important;
+ }
+
+ /* facebook-agregarAmigos-p9 */
+
+.facebook-agregarAmigos-p9 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-paso-9.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 101%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}

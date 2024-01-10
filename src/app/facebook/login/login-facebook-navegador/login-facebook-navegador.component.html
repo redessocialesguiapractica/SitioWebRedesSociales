@@ -15,13 +15,14 @@
       <input type="text" placeholder="Contraseña" class="facebook-login-inicio-input-2" (input)="facebookRegistroP4InputChanged($event)">
       <img src="/assets/images/imagesTutoriales/facebook/registro/boton-siguiente-facebook-registro.png" alt="Playstore Icon" class="facebook-login-inicio-button" (click)="facebookRegistroClicked()">  
     </body>
-    <body class="facebook-registro-p8" *ngIf="currentIndex === 2">
-      <img src="/assets/images/imagesTutoriales/facebook/registro/empezar-boton-facebook-registro.png" alt="Playstore Icon" class="facebook-registro-p8-button-image" (click)="facebookRegistroClicked()">
+    <body class="facebook-login-carga" *ngIf="currentIndex === 2">
+      <img src="/assets/images/imagesTutoriales/facebook/registro/crear_cuenta_nueva.png" alt="Playstore Icon" class="imagen-evento" (load)="cambiarPantallaP3($event)">
     </body>
-    <body class="facebook-registro-p6" *ngIf="currentIndex === 3">
-      <img src="/assets/images/imagesTutoriales/facebook/registro/Abrir-facebook-boton.png" alt="Playstore Icon" class="facebook-registro-p6-button-image" (click)="facebookRegistroClicked()">
-        <div class="facebook-registro-p6-red-box">
-      </div>
+    <body class="facebook-login-guardar" *ngIf="currentIndex === 3">
+      <img src="/assets/images/imagesTutoriales/facebook/login/boton-guardar-login.png" alt="Playstore Icon" class="facebook-login-guardar-button" (click)="facebookRegistroClicked()">  
+    </body>
+    <body class="facebook-pantalla-inicio" *ngIf="currentIndex === 4">
+      <div></div>
     </body>
     
 </app-phone-interface>

@@ -36,6 +36,11 @@ export class LoginFacebookNavegadorComponent implements OnInit {
       content: 'En caso de que las credenciales sean válidas, la aplicación redirige al usuario a su área personal, permitiéndole disfrutar de contenido multimedia, como videos e imágenes, además de brindar la posibilidad de mantenerse informado acerca de noticias a nivel mundial.',
       audio: '/assets/audio/facebook/Credencialesvalidas.mp3',
     },
+    {
+      index: 5,
+      content: 'En caso de que las credenciales sean válidas, la aplicación redirige al usuario a su área personal, permitiéndole disfrutar de contenido multimedia, como videos e imágenes, además de brindar la posibilidad de mantenerse informado acerca de noticias a nivel mundial.',
+      audio: '',
+    },
     // Add more objects with different content as needed
   ];
   currentIndex = 0;
@@ -129,5 +134,11 @@ export class LoginFacebookNavegadorComponent implements OnInit {
       }, 2000);
       
     }
+  }
+
+  cambiarPantallaP3(event: Event): void {
+      this.nextInstructionTimer = setTimeout(() => {
+        this.nextInstruction();
+      }, 29000);
   }
 }

@@ -24,7 +24,7 @@ export class LoginFacebookNavegadorComponent implements OnInit {
     {
       index: 2,
       content: 'Al abrir la aplicación, es necesario dirigirse al área de las casillas ubicadas debajo del ícono de la aplicación, que estan siendo indicados de color rojo. En la primera casilla, se debe ingresar el correo electrónico asociado a la cuenta de Facebook. Una vez completado este paso, procedemos a completar el segundo campo con la contraseña creada durante el proceso de creación de la cuenta, después de verificar si tu correo y contraseña son las correctas, presiona el botón Siguiente, que esta siendo indicado en la pantalla.',
-      audio: '/assets/audio/facebook/.mp3',
+      audio: '/assets/audio/facebook/ComoIngresar.mp3',
     },
     {
       index: 3,
@@ -34,12 +34,12 @@ export class LoginFacebookNavegadorComponent implements OnInit {
     {
       index: 4,
       content: 'Una vez, realizada la autenticación por parte de Facebook, podrás observar la siguiente imagen, dándote a conocer que tus credenciales si son las correctas, y que ya puedes acceder a tu cuenta, para ello, debes dar clic en el botón Guardar que esta siendo indicado en la pantalla, para que todos tus datos se aguarden al momento de iniciar sesión.',
-      audio: '/assets/audio/facebook/.mp3',
+      audio: '/assets/audio/facebook/Verificacion.mp3',
     },
     {
       index: 5,
-      content: 'Ahora, ya puedes disfrutar de todas de las opciones la aplicación, permitiendote disfrutar de contenido multimedia, como videos e imágenes, además de brindar la posibilidad de mantenerte informado acerca de noticias a nivel mundial. Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
-      audio: '/assets/audio/facebook/.mp3',
+      content: 'Ahora, ya puedes disfrutar de todas las opciones de la aplicación, permitiendote disfrutar de contenido multimedia, como videos e imágenes, además de brindar la posibilidad de mantenerte informado acerca de noticias a nivel mundial. Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
+      audio: '/assets/audio/facebook/Final.mp3',
     },
     // Add more objects with different content as needed
   ];

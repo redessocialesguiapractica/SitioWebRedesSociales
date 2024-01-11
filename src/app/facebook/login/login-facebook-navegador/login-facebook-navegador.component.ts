@@ -18,13 +18,13 @@ export class LoginFacebookNavegadorComponent implements OnInit {
   audioInstruccionesData = [
     {
       index: 1,
-      content: 'Una vez instalada la aplicación en tu dispositivo, debes dar clic en el icono de Facebook que aparecerá en tu dispositivo, para poder acceder a la aplicación y proceder a registrarte!',
+      content: 'Una vez instalada la aplicación, debes dar clic en el icono de Facebook que aparecerá en tu dispositivo, para poder acceder a la aplicación y proceder a registrarte!',
       audio: '/assets/audio/facebook/IngresarFacebook.mp3',
     },
     {
       index: 2,
-      content: 'Al abrir la aplicación, es necesario dirigirse al área de las casillas ubicadas debajo del ícono de la aplicación. Estas casillas facilitarán el ingreso a tu cuenta de Facebook. En la primera casilla, se debe ingresar el correo electrónico asociado a la cuenta de Facebook. Una vez completado este paso, procedemos a completar el segundo campo con la contraseña creada durante el proceso de creación de la cuenta. En caso de olvidar la contraseña, Facebook ofrece un enlace con la opción Olvidaste tu contraseña para restablecerla. Si este fuera tu caso, puedes hacer clic en el ícono de un ojo que aparecerá mientras ingreses tu contraseña para verificar la corrección de la misma. Después de verificar si tu correo y contraseña son las correctas, presiona el botón Iniciar sesión.',
-      audio: '/assets/audio/facebook/Iniciarsesionfacebook.mp3',
+      content: 'Al abrir la aplicación, es necesario dirigirse al área de las casillas ubicadas debajo del ícono de la aplicación, que estan siendo indicados de color rojo. En la primera casilla, se debe ingresar el correo electrónico asociado a la cuenta de Facebook. Una vez completado este paso, procedemos a completar el segundo campo con la contraseña creada durante el proceso de creación de la cuenta, después de verificar si tu correo y contraseña son las correctas, presiona el botón Siguiente, que esta siendo indicado en la pantalla.',
+      audio: '/assets/audio/facebook/.mp3',
     },
     {
       index: 3,
@@ -33,13 +33,13 @@ export class LoginFacebookNavegadorComponent implements OnInit {
     },
     {
       index: 4,
-      content: 'En caso de que las credenciales sean válidas, la aplicación redirige al usuario a su área personal, permitiéndole disfrutar de contenido multimedia, como videos e imágenes, además de brindar la posibilidad de mantenerse informado acerca de noticias a nivel mundial.',
-      audio: '/assets/audio/facebook/Credencialesvalidas.mp3',
+      content: 'Una vez, realizada la autenticación por parte de Facebook, podrás observar la siguiente imagen, dándote a conocer que tus credenciales si son las correctas, y que ya puedes acceder a tu cuenta, para ello, debes dar clic en el botón Guardar que esta siendo indicado en la pantalla, para que todos tus datos se aguarden al momento de iniciar sesión.',
+      audio: '/assets/audio/facebook/.mp3',
     },
     {
       index: 5,
-      content: 'En caso de que las credenciales sean válidas, la aplicación redirige al usuario a su área personal, permitiéndole disfrutar de contenido multimedia, como videos e imágenes, además de brindar la posibilidad de mantenerse informado acerca de noticias a nivel mundial.',
-      audio: '',
+      content: 'Ahora, ya puedes disfrutar de todas de las opciones la aplicación, permitiendote disfrutar de contenido multimedia, como videos e imágenes, además de brindar la posibilidad de mantenerte informado acerca de noticias a nivel mundial. Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
+      audio: '/assets/audio/facebook/.mp3',
     },
     // Add more objects with different content as needed
   ];

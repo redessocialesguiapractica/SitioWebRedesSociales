@@ -199,6 +199,55 @@
   padding: 0; /* Remove default padding to ensure full coverage */
 }
 
+.facebook-agregarAmigos-p5-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 40px; /*Adjust the width as needed */
+  height: 45px; /* Adjust the height as needed */
+  margin-top: 32px;
+  border: 3px solid red;
+  border-radius: 10px;
+  margin-left: 89%;
+  cursor: pointer;
+  
+
+  /* Animation */
+  animation-name: borderAnimationp4;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp4 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+.facebook-agregarAmigos-p5-button-image {
+  width:auto; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 5%;
+  position:absolute;
+  margin-left:89%;
+  visibility: hidden;
+  
+  /*Animation*/
+  animation-name: buttonAnimationp5;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
 /* facebook-agregarAmigos-p6 */
 
 .facebook-agregarAmigos-p6 {

@@ -31,9 +31,32 @@ export class EnviarMensajesNavegadorComponent implements OnInit {
       index: 3,
       content:
         'Una vez abierta la aplicación de Facebook, vamos a presionar el ícono de mensaje señalado en el recuadro rojo. Presiona el ícono de mensaje para continuar.',
-      audio: '/assets/audio/facebook/enviar_mensajes/paso_2.mp3',
+      audio: '/assets/audio/facebook/enviar_mensajes/paso_3.mp3',
     },
-
+    {
+      index: 4,
+      content:
+        'Se nos abrirá nuestra ventana de Chats, en la que podemos visualizar una barra de búsqueda, la cual presionaremos para continuar con el siguente paso',
+      audio: '/assets/audio/facebook/enviar_mensajes/paso_4.mp3',
+    },
+    {
+      index: 5,
+      content:
+        'En la barra de busqueda escribe el nombre de tu amigo de facebook a quien deseas enviar un mensaje. Para nuestro ejemplo puedes escribir "itsqmet" desde tu teclado.',
+      audio: '/assets/audio/facebook/enviar_mensajes/paso_5.mp3',
+    },
+    {
+      index: 6,
+      content:
+        'Te apareceran las opciones relacionadas a tu búsqueda, busca a tu amigo y presiona su nombre. Para nuestro ejemplo elegimos a "Itsqmet Vinculación". Presiona la opción indicada en el rectángulo rojo. ',
+      audio: '/assets/audio/facebook/enviar_mensajes/paso_6.mp3',
+    },
+    {
+      index: 7,
+      content:
+        'Se abrirá la ventana de chat con tu amigo, en la que vamos a visualizar la barra de texto, señalada en el rectángulo rojo, para poder insertar el mensaje que deseamos enviar. Presiona la barra de texto para poder insertar tu mensaje.',
+      audio: '/assets/audio/facebook/enviar_mensajes/paso_7.mp3',
+    },
   ];
   currentIndex = 0;
 
@@ -113,4 +136,15 @@ export class EnviarMensajesNavegadorComponent implements OnInit {
     // Call the nextInstruction method or perform other actions specific to index 1
     this.nextInstruction();
   }
+
+  facebookEnviarMensajeP5InputChanged(event:Event): void{
+    const target=event.target as HTMLInputElement;
+    const searchText=target.value.toLowerCase();
+    if(searchText.includes('itsqmet')){
+      this.nextInstructionTimer = setTimeout(() => {
+        this.nextInstruction
+      }, 2000);
+    }
+  }
+
 }

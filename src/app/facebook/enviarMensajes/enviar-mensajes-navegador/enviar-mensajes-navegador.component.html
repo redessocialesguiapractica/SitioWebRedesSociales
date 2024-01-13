@@ -1,4 +1,43 @@
+<app-audio-instrucciones
+  [maxIndex]="audioInstruccionesData.length"
+  [index]="currentIndex"
+  [content]="audioInstruccionesData[currentIndex].content"
+  [audioSrc]="audioInstruccionesData[currentIndex].audio"
+  (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
+
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+  <body class="facebook-enviarMensajes-p8" *ngIf="currentIndex === 7">
+    <input type="text" placeholder="Escribe un mensaje..." class="facebook-enviarMensajes-p8-input" (click)="facebookEnviarMensajeP8InputChanged($event)">
+  </body>
+  <body class="facebook-enviarMensajes-p9" *ngIf="currentIndex === 8">
+    <img
+    src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso9-emoji.png"
+    alt="Playstore Icon"
+    class="facebook-enviarMensajes-p9-button-image"
+    (click)="enviarMensajesRegistroClicked()"
+    />
+  <div class="facebook-enviarMensajes-p9-red-box"></div>
+  </body>
+  <body class="facebook-enviarMensajes-p10" *ngIf="currentIndex === 9">
+    <img
+    src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso10-emoji.png"
+    alt="Playstore Icon"
+    class="facebook-enviarMensajes-p10-button-image"
+    (click)="enviarMensajesRegistroClicked()"
+    />
+    <div class="facebook-enviarMensajes-p10-red-box"></div>
+  </body>
+  <body class="facebook-enviarMensajes-p11" *ngIf="currentIndex === 10">
+    <img
+    src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso11-enviar.png"
+    alt="Playstore Icon"
+    class="facebook-enviarMensajes-p11-button-image"
+    (click)="enviarMensajesRegistroClicked()"
+    />
+    <div class="facebook-enviarMensajes-p11-red-box"></div>
+  </body>
+  <body class="facebook-enviarMensajes-p12" *ngIf="currentIndex === 11">
+    </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

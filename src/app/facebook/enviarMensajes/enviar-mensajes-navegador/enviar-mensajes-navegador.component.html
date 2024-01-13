@@ -1,4 +1,27 @@
-<app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+<app-audio-instrucciones
+  [maxIndex]="audioInstruccionesData.length"
+  [index]="currentIndex"
+  [content]="audioInstruccionesData[currentIndex].content"
+  [audioSrc]="audioInstruccionesData[currentIndex].audio"
+  (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones><app-phone-interface>
+    <body class="facebook-enviarMensajes-p1" *ngIf="currentIndex === 0"></body>
+    <body class="facebook-enviarMensajes-p2" *ngIf="currentIndex === 1">
+        <img
+          src="/assets/images/imagesTutoriales/facebook/agregarAmigos/facebook-icon.png"
+          alt="Facebook Icon"
+          class="facebook-enviarMensajes-p2-button-image"
+          (click)="enviarMensajesRegistroClicked()"
+        />
+    </body>
+    <body class="facebook-enviarMensajes-p3" *ngIf="currentIndex === 2">
+        <img
+          src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_3_boton_mensaje.png"
+          alt="Playstore Icon"
+          class="facebook-enviarMensajes-p3-button-image"
+          (click)="enviarMensajesRegistroClicked()"
+        />
+        <div class="facebook-enviarMensajes-p3-red-box"></div>
+      </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

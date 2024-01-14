@@ -1,4 +1,49 @@
+<app-audio-instrucciones
+    [maxIndex]="audioInstruccionesData.length"
+    [index]="currentIndex"
+    [content]="audioInstruccionesData[currentIndex].content"
+    [audioSrc]="audioInstruccionesData[currentIndex].audio"
+    (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
+
+
+
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+    <body class="whatsapp-registro-p1" *ngIf="currentIndex === 0">
+    </body>
+    <body class="whatsapp-registro-p2" *ngIf="currentIndex === 1">
+        <img src="/assets/images/imagesTutoriales/facebook/registro/playstore-icon.png" alt="Playstore Icon" class="whatsapp-registro-p2-button-image" (click)="whatsappRegistroClicked()">
+    </body>
+    <body class="whatsapp-registro-p3" *ngIf="currentIndex === 2">
+        <img src="/assets/images/imagesTutoriales/facebook/registro/buscar-playstore-icon.png" alt="Playstore Icon" class="whatsapp-registro-p3-button-image" (click)="whatsappRegistroClicked()">
+    </body>
+    <body class="whatsapp-registro-p4" *ngIf="currentIndex === 3">
+        <input type="text" placeholder="Buscar apps y juegos" class="facebook-registro-p4-input" (input)="whatsappRegistroP4InputChanged($event)">
+    </body>
+    <body class="whatsapp-registro-p5" *ngIf="currentIndex === 4">
+        <img src="/assets/images/imagesTutoriales/facebook/registro/instalar_facebook_boton.png" alt="Playstore Icon" class="whatsapp-registro-p5-button-image" (click)="whatsappRegistroClicked()">
+        <div class="whatsapp-registro-p5-red-box">
+          
+        </div>
+    </body>
+    <body class="whatsapp-registro-p6" *ngIf="currentIndex === 5">
+        <img src="/assets/images/imagesTutoriales/facebook/registro/Abrir-facebook-boton.png" alt="Playstore Icon" class="whatsapp-registro-p6-button-image" (click)="whatsappRegistroClicked()">
+        <div class="whatsapp-registro-p6-red-box">
+      </div>
+    </body>
+    <body class="whatsapp-registro-p7" *ngIf="currentIndex === 6">
+        <img src="/assets/images/imagesTutoriales/whatsapp/registro/flecha_siguiente_whatsapp.png" alt="Playstore Icon" class="whatsapp-registro-p7-button-image" (click)="whatsappRegistroClicked()">
+    </body>
+    <body class="whatsapp-registro-p8" *ngIf="currentIndex === 7">
+        <img src="/assets/images/imagesTutoriales/whatsapp/registro/aceptar_y_continuar_whatsapp.png" alt="Playstore Icon" class="whatsapp-registro-p8-button-image" (click)="whatsappRegistroClicked()">
+    </body>
+    <body class="whatsapp-registro-p9" *ngIf="currentIndex === 8">
+    </body>
+    <body class="whatsapp-registro-p10" *ngIf="currentIndex === 9">
+    </body>
+    <body class="whatsapp-registro-p11" *ngIf="currentIndex === 10">
+    </body>
+    <body class="whatsapp-registro-p12" *ngIf="currentIndex === 11">
+    </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

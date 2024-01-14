@@ -325,10 +325,10 @@
   transition: width 0.5s, margin-top 0.5s;
 }
 
- /* facebook-enviarMensajes-p8 */
+/* facebook-enviarMensajes-p8 */
 
- .facebook-enviarMensajes-p8 {
-  background-image: url('src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso8.png');
+.facebook-enviarMensajes-p8 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso8.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -355,21 +355,22 @@
 }
 /* Define the keyframes for the animation */
 @keyframes borderAnimationp8 {
-0%, 100% {
-  /* Initial and final keyframes - the border will be red */
-  border-color: red;
-}
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
 
-50% {
-  /* Midpoint keyframe - the border will be transparent (no border) */
-  border-color: transparent;
-}
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
 }
 
 /* facebook-enviarMensajes-p9 */
 
 .facebook-enviarMensajes-p9 {
-  background-image: url('src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso9.png');
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso9.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -425,7 +426,7 @@
 /* facebook-enviarMensajes-p10 */
 
 .facebook-enviarMensajes-p10 {
-  background-image: url('src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso10.png');
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso10.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

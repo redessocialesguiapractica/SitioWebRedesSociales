@@ -37,8 +37,8 @@
       type="text"
       placeholder="Buscar"
       class="facebook-enviarMensajes-p5-input"
-      (click)="facebookEnviarMensajeP5InputChanged($event)"
-    />
+      (input)="facebookEnviarMensajeP5InputChanged($event)"
+    >
   </body>
   <body class="facebook-enviarMensajes-p6" *ngIf="currentIndex === 5">
     <img
@@ -63,8 +63,8 @@
       type="text"
       placeholder="Escribe un mensaje..."
       class="facebook-enviarMensajes-p8-input"
-      (click)="facebookEnviarMensajeP8InputChanged($event)"
-    />
+      (input)="facebookEnviarMensajeP8InputChanged($event)"
+    >
   </body>
   <body class="facebook-enviarMensajes-p9" *ngIf="currentIndex === 8">
     <img

@@ -172,18 +172,18 @@ export class EnviarMensajesNavegadorComponent implements OnInit {
     const searchText = target.value.toLowerCase();
     if (searchText.includes('itsqmet')) {
       this.nextInstructionTimer = setTimeout(() => {
-        this.nextInstruction;
-      }, 2000);
+        this.nextInstruction();
+      }, 1000);
     }
   }
 
   facebookEnviarMensajeP8InputChanged(event: Event): void {
     const target = event.target as HTMLInputElement;
     const searchText = target.value.toLowerCase();
-    if (searchText.includes('Hola')) {
+    if (searchText.includes('hola')) {
       this.nextInstructionTimer = setTimeout(() => {
-        this.nextInstruction;
-      }, 2000);
+        this.nextInstruction();
+      }, 1000);
     }
   }
 }

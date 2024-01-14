@@ -6,53 +6,93 @@
   (buttonClick)="onAudioInstruccionesButtonClick($event)"
 ></app-audio-instrucciones>
 <app-phone-interface>
-    <body class="facebook-enviarMensajes-p1" *ngIf="currentIndex === 0"></body>
-    <body class="facebook-enviarMensajes-p2" *ngIf="currentIndex === 1">
-        <img
-          src="/assets/images/imagesTutoriales/facebook/agregarAmigos/facebook-icon.png"
-          alt="Facebook Icon"
-          class="facebook-enviarMensajes-p2-button-image"
-          (click)="enviarMensajesRegistroClicked()"
-        />
-    </body>
-    <body class="facebook-enviarMensajes-p3" *ngIf="currentIndex === 2">
-        <img
-          src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_3_boton_mensaje.png"
-          alt="Playstore Icon"
-          class="facebook-enviarMensajes-p3-button-image"
-          (click)="enviarMensajesRegistroClicked()"
-        />
-        <div class="facebook-enviarMensajes-p3-red-box"></div>
-      </body>
-      <body class="facebook-enviarMensajes-p4" *ngIf="currentIndex === 3">
-        <img
-          src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_4_botonBusqueda.png"
-          alt="Playstore Icon"
-          class="facebook-enviarMensajes-p4-button-image"
-          (click)="enviarMensajesRegistroClicked()"
-        />
-      </body>
-      <body class="facebook-enviarMensajes-p5" *ngIf="currentIndex === 4">
-        <input type="text" placeholder="Buscar" class="facebook-enviarMensajes-p5-input" (click)="facebookEnviarMensajeP5InputChanged($event)">
-      </body>
-      <body class="facebook-enviarMensajes-p6" *ngIf="currentIndex === 5">
-        <img
-          src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_6-seleccionarAmigo.png"
-          alt="Facebook Icon"
-          class="facebook-enviarMensajes-p6-button-image"
-          (click)="enviarMensajesRegistroClicked()"
-        />
-        <div class="facebook-enviarMensajes-p6-red-box"></div>
-    </body>
-    <body class="facebook-enviarMensajes-p7" *ngIf="currentIndex === 6">
-      <img
-        src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_7-escribirTexto.png"
-        alt="Facebook Icon"
-        class="facebook-enviarMensajes-p7-button-image"
-        (click)="enviarMensajesRegistroClicked()"
-      />
-      <div class="facebook-enviarMensajes-p7-red-box"></div>
+  <body class="facebook-enviarMensajes-p1" *ngIf="currentIndex === 0"></body>
+  <body class="facebook-enviarMensajes-p2" *ngIf="currentIndex === 1">
+    <img
+      src="/assets/images/imagesTutoriales/facebook/agregarAmigos/facebook-icon.png"
+      alt="Facebook Icon"
+      class="facebook-enviarMensajes-p2-button-image"
+      (click)="enviarMensajesRegistroClicked()"
+    />
   </body>
-
+  <body class="facebook-enviarMensajes-p3" *ngIf="currentIndex === 2">
+    <img
+      src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_3_boton_mensaje.png"
+      alt="Playstore Icon"
+      class="facebook-enviarMensajes-p3-button-image"
+      (click)="enviarMensajesRegistroClicked()"
+    />
+    <div class="facebook-enviarMensajes-p3-red-box"></div>
+  </body>
+  <body class="facebook-enviarMensajes-p4" *ngIf="currentIndex === 3">
+    <img
+      src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_4_botonBusqueda.png"
+      alt="Playstore Icon"
+      class="facebook-enviarMensajes-p4-button-image"
+      (click)="enviarMensajesRegistroClicked()"
+    />
+  </body>
+  <body class="facebook-enviarMensajes-p5" *ngIf="currentIndex === 4">
+    <input
+      type="text"
+      placeholder="Buscar"
+      class="facebook-enviarMensajes-p5-input"
+      (click)="facebookEnviarMensajeP5InputChanged($event)"
+    />
+  </body>
+  <body class="facebook-enviarMensajes-p6" *ngIf="currentIndex === 5">
+    <img
+      src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_6-seleccionarAmigo.png"
+      alt="Facebook Icon"
+      class="facebook-enviarMensajes-p6-button-image"
+      (click)="enviarMensajesRegistroClicked()"
+    />
+    <div class="facebook-enviarMensajes-p6-red-box"></div>
+  </body>
+  <body class="facebook-enviarMensajes-p7" *ngIf="currentIndex === 6">
+    <img
+      src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_7-escribirTexto.png"
+      alt="Facebook Icon"
+      class="facebook-enviarMensajes-p7-button-image"
+      (click)="enviarMensajesRegistroClicked()"
+    />
+    <div class="facebook-enviarMensajes-p7-red-box"></div>
+  </body>
+  <body class="facebook-enviarMensajes-p8" *ngIf="currentIndex === 7">
+    <input
+      type="text"
+      placeholder="Escribe un mensaje..."
+      class="facebook-enviarMensajes-p8-input"
+      (click)="facebookEnviarMensajeP8InputChanged($event)"
+    />
+  </body>
+  <body class="facebook-enviarMensajes-p9" *ngIf="currentIndex === 8">
+    <img
+      src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso9-emoji.png"
+      alt="Playstore Icon"
+      class="facebook-enviarMensajes-p9-button-image"
+      (click)="enviarMensajesRegistroClicked()"
+    />
+    <div class="facebook-enviarMensajes-p9-red-box"></div>
+  </body>
+  <body class="facebook-enviarMensajes-p10" *ngIf="currentIndex === 9">
+    <img
+      src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso10-emoji.png"
+      alt="Playstore Icon"
+      class="facebook-enviarMensajes-p10-button-image"
+      (click)="enviarMensajesRegistroClicked()"
+    />
+    <div class="facebook-enviarMensajes-p10-red-box"></div>
+  </body>
+  <body class="facebook-enviarMensajes-p11" *ngIf="currentIndex === 10">
+    <img
+      src="/assets/images/imagesTutoriales/facebook/enviarMensajes/paso11-enviar.png"
+      alt="Playstore Icon"
+      class="facebook-enviarMensajes-p11-button-image"
+      (click)="enviarMensajesRegistroClicked()"
+    />
+    <div class="facebook-enviarMensajes-p11-red-box"></div>
+  </body>
+  <body class="facebook-enviarMensajes-p12" *ngIf="currentIndex === 11"></body>
 </app-phone-interface>
 <app-back-button></app-back-button>

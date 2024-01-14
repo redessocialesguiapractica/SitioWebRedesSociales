@@ -4,7 +4,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-enviar-mensajes-navegador',
   templateUrl: './enviar-mensajes-navegador.component.html',
-  styleUrls: ['./enviar-mensajes-navegador.component.css']
+  styleUrls: ['./enviar-mensajes-navegador.component.css'],
 })
 export class EnviarMensajesNavegadorComponent implements OnInit {
   constructor(private cdRef: ChangeDetectorRef) {}
@@ -56,6 +56,36 @@ export class EnviarMensajesNavegadorComponent implements OnInit {
       content:
         'Se abrirá la ventana de chat con tu amigo, en la que vamos a visualizar la barra de texto, señalada en el rectángulo rojo, para poder insertar el mensaje que deseamos enviar. Presiona la barra de texto para poder insertar tu mensaje.',
       audio: '/assets/audio/facebook/enviar_mensajes/paso_7.mp3',
+    },
+    {
+      index: 8,
+      content:
+        'Te aparecerá una barra con el texto: "Escribe un mensaje", aquí vamos a escribir el mensaje que deseamos enviar a nuestro amigo. Para nuestro ejemplo escribe desde tu teclado, dentro del recuadro rojo, la palabra "Hola".',
+      audio: '/assets/audio/facebook/enviarMensajes/paso8.mp3',
+    },
+    {
+      index: 9,
+      content:
+        'Si deseas adjuntar un emoji puedes presionar el botón con la carita que está señalado en el recuadro rojo. Presiónala y se abrirá el cuadro de emojis.',
+      audio: '/assets/audio/facebook/enviarMensajes/paso9.mp3',
+    },
+    {
+      index: 10,
+      content:
+        'En el recuadro de emojis que te aparece a continuación puedes elegir el que mas te guste. Para nuestro ejemplo puedes presionar el emoji señalado en el recuadro.',
+      audio: '/assets/audio/facebook/enviarMensajes/paso10.mp3',
+    },
+    {
+      index: 11,
+      content:
+        'De esa manera se incluirá el emoji en tu mensaje. Al terminar de escribir el mensaje que deseas enviar, vamos a presionar el botón de "Enviar" señalado en el recuadro.',
+      audio: '/assets/audio/facebook/enviarMensajes/paso11.mp3',
+    },
+    {
+      index: 12,
+      content:
+        '¡Y listo! tu mensaje a sido enviado, ahora debes esperar a que tu amigo lo vea y te responda. Te esperamos en nuestro siguiente tutorial.',
+      audio: '/assets/audio/facebook/enviarMensajes/paso12.mp3',
     },
   ];
   currentIndex = 0;
@@ -137,14 +167,23 @@ export class EnviarMensajesNavegadorComponent implements OnInit {
     this.nextInstruction();
   }
 
-  facebookEnviarMensajeP5InputChanged(event:Event): void{
-    const target=event.target as HTMLInputElement;
-    const searchText=target.value.toLowerCase();
-    if(searchText.includes('itsqmet')){
+  facebookEnviarMensajeP5InputChanged(event: Event): void {
+    const target = event.target as HTMLInputElement;
+    const searchText = target.value.toLowerCase();
+    if (searchText.includes('itsqmet')) {
       this.nextInstructionTimer = setTimeout(() => {
-        this.nextInstruction
+        this.nextInstruction;
       }, 2000);
     }
   }
 
+  facebookEnviarMensajeP8InputChanged(event: Event): void {
+    const target = event.target as HTMLInputElement;
+    const searchText = target.value.toLowerCase();
+    if (searchText.includes('Hola')) {
+      this.nextInstructionTimer = setTimeout(() => {
+        this.nextInstruction;
+      }, 2000);
+    }
+  }
 }

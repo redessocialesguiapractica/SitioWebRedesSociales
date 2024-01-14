@@ -33,11 +33,18 @@
   </body>
   <body class="facebook-agregarAmigos-p5" *ngIf="currentIndex === 4">
     <div
-    class="facebook-agregarAmigos-p5-red-box"
-    (click)="agregarAmigosRegistroClicked()"
-  ></div>
+      class="facebook-agregarAmigos-p5-red-box"
+      (click)="agregarAmigosRegistroClicked()"
+    ></div>
   </body>
-  <body class="facebook-agregarAmigos-p6" *ngIf="currentIndex === 5"></body>
+  <body class="facebook-agregarAmigos-p6" *ngIf="currentIndex === 5">
+    <input
+      type="text"
+      placeholder="Buscar amigos"
+      class="facebook-agregarAmigos-p6-input"
+      (input)="facebookAgregarAmigosP6InputChanged($event)"
+    />
+  </body>
   <body class="facebook-agregarAmigos-p7" *ngIf="currentIndex === 6">
     <div
       class="facebook-agregarAmigos-p7-red-box"

@@ -21,12 +21,12 @@ export class TutorialesNavegadorComponent {
       {
         name: 'facebook',
         tutorials: [
-          { title: 'Registro en Facebook', description: 'Aprende a crear una cuenta en Facebook.', image: '/assets/images/imagesTutoriales/facebookLogin.png', type: 'registro'},
-          { title: 'Iniciar sesión en Facebook', description: 'Descubre cómo iniciar sesión en Facebook.', image: '/assets/images/imagesTutoriales/facebook/agregarAmigos/facebook-icon.png', type: 'login' },
-          { title: 'Agregar amigos en Facebook', description: 'Conoce cómo puedes agregar amigos en Facebook.', image: 'facebook_image_url', type: 'agregarAmigos' },
-          { title: 'Enviar mensajes a amigos en Facebook', description: 'Aprende a enviar mensajes a tus amigos en Facebook.', image: 'facebook_image_url', type: 'enviarMensajes' },
-          { title: 'Hacer llamadas en Facebook', description: 'Descubre cómo hacer llamadas en Facebook.', image: 'facebook_image_url', type: 'hacerLlamadas' },
-          { title: 'Publicar en el muro de Facebook', description: 'Aprende a publicar en tu muro de Facebook.', image: 'facebook_image_url', type: 'publicarEnMuro' },
+          { title: 'Registro en Facebook', description: 'Aprende a crear una cuenta en Facebook.', image: 'assets/images/imagesHome/imagenes_tutoriales/registro.png', type: 'registro'},
+          { title: 'Iniciar sesión en Facebook', description: 'Descubre cómo iniciar sesión en Facebook.', image: 'assets/images/imagesHome/imagenes_tutoriales/iniciar.png', type: 'login' },
+          { title: 'Agregar amigos en Facebook', description: 'Conoce cómo puedes agregar amigos en Facebook.', image: 'assets/images/imagesHome/imagenes_tutoriales/agregar.png', type: 'agregarAmigos' },
+          { title: 'Enviar mensajes en Facebook', description: 'Aprende a enviar mensajes a tus amigos en Facebook.', image: 'assets/images/imagesHome/imagenes_tutoriales/mensaje.png', type: 'enviarMensajes' },
+          { title: 'Hacer llamadas en Facebook', description: 'Descubre cómo hacer llamadas en Facebook.', image: 'assets/images/imagesHome/imagenes_tutoriales/llamada.png', type: 'hacerLlamadas' },
+          { title: 'Publicar en Facebook', description: 'Aprende a publicar en tu muro de Facebook.', image: 'assets/images/imagesHome/imagenes_tutoriales/publicar.png', type: 'publicarEnMuro' },
         ]
       },
       {

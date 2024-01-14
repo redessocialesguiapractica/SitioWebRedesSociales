@@ -48,7 +48,7 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
     {
       index: 6,
       content:
-        'Esta es la pantalla de búsqueda de amigos. En la parte superior del teléfono, tendremos una barra de búsqueda con el texto "Buscar amigos". Por favor, escribe el nombre de tu amigo dentro del rectángulo rojo desde tu teclado para continuar con el siguiente paso.',
+        'Esta es la pantalla de búsqueda de amigos. En la parte superior del teléfono, tendremos una barra de búsqueda con el texto "Buscar amigos". Escribe el nombre de tu amigo dentro del rectángulo rojo desde tu teclado para continuar con el siguiente paso. Para nuestro ejemplo puedes escribir "Luz".',
       audio: '/assets/audio/facebook/agregar_amigos/paso_6.mp3',
     },
     {
@@ -162,4 +162,15 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
     // Call the nextInstruction method or perform other actions specific to index 1
     this.nextInstruction();
   }
+
+  facebookAgregarAmigosP6InputChanged(event: Event): void {
+    const target = event.target as HTMLInputElement;
+    const searchText = target.value.toLowerCase();
+    if (searchText.includes('luz')) {
+      this.nextInstructionTimer = setTimeout(() => {
+        this.nextInstruction();
+      }, 1000);
+    }
+  }
+  
 }

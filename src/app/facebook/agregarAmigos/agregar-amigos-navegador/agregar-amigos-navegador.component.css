@@ -1,0 +1,180 @@
+  /*PASO 3*/
+/* facebook-agregarAmigos-p3 */
+.facebook-agregarAmigos-p3 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-paso-3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-agregarAmigos-p3-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 58px; /*Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  margin-top: 127px;
+  border: 6px solid red;
+  border-radius: 10px;
+  margin-left: -86%;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+  .facebook-agregarAmigos-p3-button-image {
+    width: 390px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 178%;
+    position: absolute;
+    visibility: hidden;
+    /*Animation*/
+    animation-name: buttonAnimationp3;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+
+  /*--------------------------------------------------------------------------------------*/
+
+  /*PASO 10*/
+.facebook-agregarAmigos-p10 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-paso-10.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-agregarAmigos-p10-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 300px; /*Adjust the width as needed */
+  height: 55px; /* Adjust the height as needed */
+  margin-top: 208px;
+  border: 4px solid red;
+  border-radius: 10px;
+  margin-left: 20%;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp10;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp10 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+  .facebook-agregarAmigos-p10-button-image {
+    width: 390px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 178%;
+    position: absolute;
+    visibility: hidden;
+    /*Animation*/
+    animation-name: borderAnimationp10;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+
+  /*--------------------------------------------------------------------------------------*/
+
+  /*PASO 11*/
+  .facebook-agregarAmigos-p11 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-paso-11.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .facebook-agregarAmigos-p11-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 180px; /*Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-top: 415px;
+    border: 6px solid red;
+    border-radius: 10px;
+    margin-left: 38%;
+  
+      /* Animation */
+      animation-name: borderAnimationp11;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp11 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+    .facebook-agregarAmigos-p11-button-image {
+      width: 390px; /* Adjust the width as needed */
+      height: 60px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 178%;
+      position: absolute;
+      visibility: hidden;
+      /*Animation*/
+      animation-name: borderAnimationp11;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+     
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }

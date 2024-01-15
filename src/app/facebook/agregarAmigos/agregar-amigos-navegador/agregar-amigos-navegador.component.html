@@ -1,4 +1,25 @@
+<app-audio-instrucciones
+  [maxIndex]="audioInstruccionesData.length"
+  [index]="currentIndex"
+  [content]="audioInstruccionesData[currentIndex].content"
+  [audioSrc]="audioInstruccionesData[currentIndex].audio"
+  (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
+
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+    <!--PASO 3-->
+  <body class="facebook-agregarAmigos-p3" *ngIf="currentIndex === 0">
+      <div class="facebook-agregarAmigos-p3-red-box" (click)="agregarAmigosRegistroClicked()"></div>
+  </body>
+
+  <!--PASO 10-->
+  <body class="facebook-agregarAmigos-p10" *ngIf="currentIndex === 1">
+    <div class="facebook-agregarAmigos-p10-red-box" (click)="agregarAmigosRegistroClicked()"></div>
+  </body>
+    
+  <!--PASO 11-->
+  <body class="facebook-agregarAmigos-p11" *ngIf="currentIndex === 2">
+    <div class="facebook-agregarAmigos-p11-red-box"></div>
+  </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

@@ -16,19 +16,19 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
   }
   audioInstruccionesData = [
     {
-      index: 1,
+      index: 1, // Este es el paso 3
       content:
         '¡Bienvenido a este tutorial guiado para agregar amigos en Facebook a través de su aplicación móvil! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
       audio: '/assets/audio/facebook/agregar_amigos/paso_1.mp3',
     },
     {
-      index: 2,
+      index: 2, // Este es el paso 10
       content:
         'En nuestra pantalla principal del teléfono, presionamos el botón que está siendo destacado, de nuestra aplicación de Facebook. Presiona el botón para continuar con el siguiente paso.',
       audio: '/assets/audio/facebook/agregar_amigos/paso_2.mp3',
     },
     {
-      index: 3,
+      index: 3, // Este es el paso 11
       content:
         'Una vez abierta la aplicación de Facebook, presionaremos el círculo pequeño con nuestra foto de perfil que se encuentra dentro del cuadro rojo. Presiona el círculo para continuar con el siguiente paso.',
       audio: '/assets/audio/facebook/agregar_amigos/paso_3.mp3',

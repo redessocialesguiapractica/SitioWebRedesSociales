@@ -1,4 +1,31 @@
+<app-audio-instrucciones
+  [maxIndex]="audioInstruccionesData.length"
+  [index]="currentIndex"
+  [content]="audioInstruccionesData[currentIndex].content"
+  [audioSrc]="audioInstruccionesData[currentIndex].audio"
+  (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
+
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+    <!--PASO 7-->
+    <body class="facebook-hacer-llamadas-p7" *ngIf="currentIndex === 0">
+    <div class="facebook-hacer-llamadas-p7-red-box" (click)="facebookLlamadasClicked()"></div>
+    </body>
+
+    <!--PASO 8-->
+    <body class="facebook-hacer-llamadas-p8" *ngIf="currentIndex === 1">
+    <div class="facebook-hacer-llamadas-p8-red-box" (click)="facebookLlamadasClicked()"></div>
+    </body>
+    
+    <!--PASO 9-->
+    <body class="facebook-hacer-llamadas-p9" *ngIf="currentIndex === 2">
+        <img src="/assets/images/imagesTutoriales/facebook/hacer_llamadas/colgar.png" alt="Colgar Icon" class="facebook-hacer-llamadas-p9-button-image" (click)="facebookLlamadasClicked()">
+    <div class="facebook-hacer-llamadas-p9-red-box"></div>
+    </body>
+
+    <!--PASO 10-->
+    <body class="facebook-hacer-llamadas-p10" *ngIf="currentIndex === 3">
+        <div class="facebook-hacer-llamadas-p10-red-box"></div>
+        </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

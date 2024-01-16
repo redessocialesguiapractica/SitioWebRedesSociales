@@ -160,3 +160,130 @@
       /* Add a transition to smoothly revert to the initial state on hover */
       transition: width 0.5s, margin-top 0.5s;
     }
+
+/* facebook-p4-publiMuro*/
+.facebook-p4-publiMuro{
+  background-image: url('src/assets/images/imagesTutoriales/facebook/publicarMuro/paso_4_PM.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-p4-publiMuro-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 392px; /*Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  margin-top: 195px;
+  border: 6px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/* facebook-p5-publiMuro*/
+.facebook-p5-publiMuro{
+  background-image: url('src/assets/images/imagesTutoriales/facebook/publicarMuro/paso_5_PM.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-p5-publiMuro-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 392px; /*Adjust the width as needed */
+  height: 325px; /* Adjust the height as needed */
+  margin-top: 488px;
+  border: 6px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/* facebook-p6-publiMuro*/
+.facebook-p6-publiMuro{
+  background-image: url('src/assets/images/imagesTutoriales/facebook/publicarMuro/paso_6_PM.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-p6-publiMuro-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 102px; /*Adjust the width as needed */
+  height: 42px; /* Adjust the height as needed */
+  margin-top: 33px;
+  margin-right: -74%;
+  border: 3px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }

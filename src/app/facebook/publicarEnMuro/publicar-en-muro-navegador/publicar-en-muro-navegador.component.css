@@ -120,7 +120,7 @@
     .facebook-sonapublicacion-red-box {
       background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
       width: 382px; /*Adjust the width as needed */
-      height: 80px; /* Adjust the height as needed */
+      height: 121px; /* Adjust the height as needed */
       margin-top: 700px;
       border: 2px solid red;
       border-radius: 10px;
@@ -147,7 +147,7 @@
     }
     .facebook-sonapublicacion-button-image {
       width: 375px; /* Adjust the width as needed */
-      height: 55px; /* Adjust the height as needed */
+      height: 110px; /* Adjust the height as needed */
       border: none; /* Remove default button border */
       cursor: pointer; /* Add a pointer cursor on hover */
       margin-top: 180%;

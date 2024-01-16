@@ -1,0 +1,551 @@
+/* facebook-enviarMensajes-p1 */
+
+.facebook-enviarMensajes-p1 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-paso-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-enviarMensajes-p2 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/agregarAmigos/agregarAmigos-paso-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+.facebook-enviarMensajes-p2-button-image {
+  /* Add styling for the image */
+  width: 64px; /* Initial width */
+  height: auto; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 101.5%;
+  margin-left: 0.5%;
+
+  /* Animation */
+  animation-name: buttonAnimation2;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimation2 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    width: 64px;
+    margin-top: 101.5%;
+  }
+
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    width: 100px;
+    margin-top: 101.5%;
+  }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.facebook-enviarMensajes-p2-button-image:hover {
+  animation-play-state: paused;
+  width: 64px !important;
+  margin-top: 101.5% !important;
+}
+
+/* facebook-enviarMensajes-p3*/
+
+.facebook-enviarMensajes-p3 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-enviarMensajes-p3-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 50px; /*Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  margin-top: 10px;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-left: 86%;
+
+  /* Animation */
+  animation-name: borderAnimationp3;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp3 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+.facebook-enviarMensajes-p3-button-image {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 10%;
+  margin-left: 87%;
+  position: absolute;
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* facebook-enviarMensajes-p4 */
+
+.facebook-enviarMensajes-p4 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+.facebook-enviarMensajes-p4-button-image {
+  /* Add styling for the image */
+  width: 100px; /* Initial width */
+  height: 45px; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 40px;
+  margin-left: 10px;
+
+  /* Animation */
+  animation-name: buttonAnimation4;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimation4 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    width: 370px;
+    margin-top: 22%;
+  }
+
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    width: 380px;
+    margin-top: 25%;
+  }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.facebook-enviarMensajes-p4-button-image:hover {
+  animation-play-state: paused;
+  width: 370px !important;
+  margin-top: 22% !important;
+}
+
+/* facebook-enviarMensajes-p5 */
+.facebook-enviarMensajes-p5 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+.facebook-enviarMensajes-p5-input {
+  border: 2px solid red; /* Initial border color */
+  margin-top: 15%;
+  font-size: 19px;
+  margin-right: 10%;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+
+  /* Animation */
+  animation-name: borderAnimationp5;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp5 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/* facebook-enviarMensajes-p6 */
+
+.facebook-enviarMensajes-p6 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-enviarMensajes-p6-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 310px; /*Adjust the width as needed */
+  height: 70px; /* Adjust the height as needed */
+  margin-top: 42%;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-right: 20%;
+
+  /* Animation */
+  animation-name: borderAnimationp6;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp6 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+.facebook-enviarMensajes-p6-button-image {
+  width: 300px; /* Adjust the width as needed */
+  height: 45px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 45%;
+  margin-right: 20%;
+  position: absolute;
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* facebook-enviarMensajes-p7 */
+
+.facebook-enviarMensajes-p7 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso_7-enviarMensajes.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-enviarMensajes-p7-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 205px; /*Adjust the width as needed */
+  height: 65px; /* Adjust the height as needed */
+  margin-top: 191%;
+  margin-left: 32%;
+  border: 2px solid red;
+  border-radius: 10px;
+
+  /* Animation */
+  animation-name: borderAnimationp7;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp7 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+.facebook-enviarMensajes-p7-button-image {
+  width: 175px; /* Adjust the width as needed */
+  height: 45px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 194%;
+  margin-left: 30%;
+  position: absolute;
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* facebook-enviarMensajes-p8 */
+
+.facebook-enviarMensajes-p8 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+.facebook-enviarMensajes-p8-input {
+  border: 3px solid red; /* Initial border color */
+  margin-top: 128%;
+  font-size: 19px;
+  margin-right: 10%;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+
+  /* Animation */
+  animation-name: borderAnimationp8;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp8 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/* facebook-enviarMensajes-p9 */
+
+.facebook-enviarMensajes-p9 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-enviarMensajes-p9-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 45px; /*Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  border: 3px solid red;
+  border-radius: 10px;
+  margin-top: 127%;
+  margin-left: 70%;
+
+  /* Animation */
+  animation-name: borderAnimationp9;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp9 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+.facebook-enviarMensajes-p9-button-image {
+  width: 40px; /* Adjust the width as needed */
+  height: 35px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 129%;
+  margin-left: 70%;
+  position: absolute;
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* facebook-enviarMensajes-p10 */
+
+.facebook-enviarMensajes-p10 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-enviarMensajes-p10-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 50px; /*Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  border: 3px solid red;
+  border-radius: 10px;
+  margin-top: 133%;
+  margin-left: -89%;
+
+  /* Animation */
+  animation-name: borderAnimationp10;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp10 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+.facebook-enviarMensajes-p10-button-image {
+  width: 32px; /* Adjust the width as needed */
+  height: 32px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 135%;
+  margin-left: -89%;
+  position: absolute;
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* facebook-enviarMensajes-p11 */
+
+.facebook-enviarMensajes-p11 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-enviarMensajes-p11-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 50px; /*Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  border: 3px solid red;
+  border-radius: 10px;
+  margin-top: 106%;
+  margin-left: 87%;
+
+  /* Animation */
+  animation-name: borderAnimationp11;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp11 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+.facebook-enviarMensajes-p11-button-image {
+  width: 28px; /* Adjust the width as needed */
+  height: 28px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 109%;
+  margin-left: 89%;
+  position: absolute;
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* facebook-enviarMensajes-p12 */
+
+.facebook-enviarMensajes-p12 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/enviarMensajes/paso12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}

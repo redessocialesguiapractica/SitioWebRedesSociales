@@ -16,30 +16,62 @@ export class HacerLlamadasNavegadorComponent implements OnInit {
   }
   
   audioInstruccionesData = [
-    //PASO 7
     {
       index: 1,
+      content: '¡Bienvenido a este tutorial guiado para hacer llamadas en Facebook! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces comencemos.',
+      audio: '/assets/audio/facebook/llamadas/paso_1.mp3',
+    },
+    {
+      index: 2,
+      content: 'En tu celular abre la aplicación de Facebook y asegurate de haber iniciado sesión, para poder visualizar la pantalla principal, en la cual vamos a presionar el ícono de mensaje señalado en el recuadro rojo. Presiona el ícono de mensaje.',
+      audio: '/assets/audio/facebook/llamadas/paso_2.mp3',
+    },
+    {
+      index: 3,
+      content: 'Se abrirá la ventana de "Chats" en la que podemos visualizar una barra de búsqueda con el texto "Buscar". Por favor, escribe el nombre de tu amigo de facebook a quien deseas llamar dentro del recuadro señalado. Para nuestro ejemplo puedes escribir "Eli" desde tu teclado.',
+      audio: '/assets/audio/facebook/llamadas/paso_3.mp3',
+    },
+    {
+      index: 4,
+      content: 'Te aparecerán las opciones relacionadas a tu búsqueda, busca a tu amigo y presiona su nombre. Para nuestro ejemplo elegimos a "Eli Alarcón". Presiona la opción indicada en el rectángulo rojo.',
+      audio: '/assets/audio/facebook/llamadas/paso_4.mp3',
+    },
+    {
+      index: 5,
+      content: 'Se abrirá la ventana de chat con tu amigo, en la que vamos a visualizar el botón de teléfono señalado con el rectángulo rojo. Presiona el boton de teléfono para poder llamar a tu amigo.',
+      audio: '/assets/audio/facebook/llamadas/paso_5.mp3',
+    },
+    {
+      index: 6,
       content: 'De igual manera al ser la primera llamada, te aparecerá un recuadro con la pregunta: ¿Permitir que Facebook grabe audio?, en el cual presionaremos la opción "Solo si la aplicación está en uso" señalado en el rectángulo rojo.',
       audio: '/assets/audio/facebook/hacer_llamadas/paso_7.mp3',
     },
-    //PASO 8
     {
-      index: 2,
+      index: 7,
       content: 'Una vez confirmados todos los permisos de la aplicación, iniciará la llamada, espera a que la otra persona acepte la llamada. ',
       audio: '/assets/audio/facebook/hacer_llamadas/paso_8.mp3',
     },
-    //PASO 9
     {
-      index: 3,
+      index: 8,
       content: 'Para finalizar la llamada pulsa el botón rojo que está siendo destacado.',
       audio: '/assets/audio/facebook/hacer_llamadas/paso_9.mp3',
     },
-    //PASO 10
     {
-      index: 4,
+      index: 9,
       content: 'La aplicación te va a pedir calificar la calidad de la llamada si deseas hacerlo pulsa "Buena" o "Deficiente", caso contrario pulsa la opción "Cerrar" señalada en el recuadro rojo. ¡Y listo! Te esperamos en nuestro siguiente tutorial.',
       audio: '/assets/audio/facebook/hacer_llamadas/paso_10.mp3',
     },
+    {
+      index: 10,
+      content: '',
+      audio: '',
+    },
+    {
+      index: 11,
+      content: '',
+      audio: '',
+    },
+    // Add more objects with different content as needed
   ];
   currentIndex = 0;
 

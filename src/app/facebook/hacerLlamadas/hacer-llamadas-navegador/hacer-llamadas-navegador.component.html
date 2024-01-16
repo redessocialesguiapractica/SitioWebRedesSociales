@@ -7,6 +7,32 @@
 ></app-audio-instrucciones>
 
 <app-phone-interface>
+  <body class="facebook-llamadas-p1" *ngIf="currentIndex === 0"></body>
+  <body class="facebook-llamadas-p2" *ngIf="currentIndex === 1">
+    <div
+      class="facebook-llamadas-p2-red-box"
+      (click)="facebookLlamadasClicked()"
+    ></div>
+  </body>
+  <body class="facebook-llamadas-p3" *ngIf="currentIndex === 2">
+    <input
+      type="text"
+      placeholder="Buscar"
+      class="facebook-registro-p4-input"
+    />
+  </body>
+  <body class="facebook-llamadas-p4" *ngIf="currentIndex === 3">
+    <div
+      class="facebook-llamadas-p4-red-box"
+      (click)="facebookLlamadasClicked()"
+    ></div>
+  </body>
+  <body class="facebook-llamadas-p5" *ngIf="currentIndex === 4">
+    <div
+      class="facebook-llamadas-p5-red-box"
+      (click)="facebookLlamadasClicked()"
+    ></div>
+  </body>
     <!--PASO 7-->
     <body class="facebook-hacer-llamadas-p7" *ngIf="currentIndex === 0">
     <div class="facebook-hacer-llamadas-p7-red-box" (click)="facebookLlamadasClicked()"></div>

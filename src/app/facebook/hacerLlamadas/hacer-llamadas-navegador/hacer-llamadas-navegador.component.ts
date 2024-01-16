@@ -61,16 +61,6 @@ export class HacerLlamadasNavegadorComponent implements OnInit {
       content: 'La aplicación te va a pedir calificar la calidad de la llamada si deseas hacerlo pulsa "Buena" o "Deficiente", caso contrario pulsa la opción "Cerrar" señalada en el recuadro rojo. ¡Y listo! Te esperamos en nuestro siguiente tutorial.',
       audio: '/assets/audio/facebook/hacer_llamadas/paso_10.mp3',
     },
-    {
-      index: 10,
-      content: '',
-      audio: '',
-    },
-    {
-      index: 11,
-      content: '',
-      audio: '',
-    },
     // Add more objects with different content as needed
   ];
   currentIndex = 0;

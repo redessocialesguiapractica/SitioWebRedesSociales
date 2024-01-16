@@ -1,4 +1,20 @@
+<app-audio-instrucciones
+    [maxIndex]="audioInstruccionesData.length"
+    [index]="currentIndex"
+    [content]="audioInstruccionesData[currentIndex].content"
+    [audioSrc]="audioInstruccionesData[currentIndex].audio"
+    (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+    <body class="facebook-login" *ngIf="currentIndex === 0">
+        <img src="/assets/images/imagesHome/Facebook_logo_home.png" alt="Facebook Icon" class="facebook-login-button-image" (click)="facebookRegistroClicked()">
+      </body>
+      <body class="facebook-pantalla-inicio" *ngIf="currentIndex === 1">
+        <div
+          class="facebook-pantalla-inicio-red-box"
+          (click)="facebookRegistroClicked()"
+        ></div>
+      </body>
+
 </app-phone-interface>
 <app-back-button></app-back-button>

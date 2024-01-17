@@ -167,7 +167,7 @@ export class RegistroFacebookNavegadorComponent implements OnInit {
           this.nextInstruction();
         }, 30000);
         break;
-      // Add more cases for other steps
+      
     }
   }
 

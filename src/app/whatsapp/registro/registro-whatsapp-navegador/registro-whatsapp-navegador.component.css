@@ -1,0 +1,1026 @@
+/* whatsapp-registro-p1 */
+
+.whatsapp-registro-p1 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  /* whatsapp-registro-p2 */
+
+.whatsapp-registro-p2 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+.whatsapp-registro-p2-button-image {
+  /* Add styling for the image */
+  width: 64px; /* Initial width */
+  height: auto; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 162.5%;
+  margin-left: 0.5%;
+
+  /* Animation */
+  animation-name: buttonAnimation;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimation {
+  0%, 100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    width: 64px;
+    margin-top: 162.5%;
+  }
+
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    width: 128px;
+    margin-top: 155.5%;
+  }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.whatsapp-registro-p2-button-image:hover {
+  animation-play-state: paused;
+  width: 64px!important;
+  margin-top: 162.5%!important;
+}
+
+
+/* whatsapp-registro-p3 */
+.whatsapp-registro-p3 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro2whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-registro-p3-button-image {
+    /* Add styling for the image */
+    width: 270px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 7%;
+    margin-right: 26%;
+  
+   /* Animation */
+   animation-name: buttonAnimationp3;
+   animation-duration: 2s; /* Total duration of the animation */
+   animation-iteration-count: infinite; /* Infinite loop */
+  
+   /* Add a transition to smoothly revert to the initial state on hover */
+   transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimationp3 {
+   0%, 100% {
+     /* Initial and final keyframes - the button will be at its original size */
+     width: 270px;
+     margin-top: 7%;
+     margin-right: 26%;
+   }
+  
+   50% {
+     /* Midpoint keyframe - the button will be twice its original size */
+     width: 350px;
+     margin-top: 4%;
+     margin-right: 20%;
+     
+   }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .whatsapp-registro-p3-button-image:hover {
+   animation-play-state: paused;
+   width: 270px!important;
+   margin-top: 7%!important;
+  margin-right: 26%!important;
+  }
+  
+  /* facebook-registro-p4 */
+
+.facebook-registro-p4 {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-registro-p4-input {
+  border: 2px solid red; /* Initial border color */
+  margin-top: 10%;
+  font-size: 17px;
+  margin-right: 10%;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+
+  /* Animation */
+  animation-name: borderAnimationp4;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp4 {
+  0%, 100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/* facebook-registro-p4 */
+
+.whatsapp-registro-p4 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro3whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .whatsapp-registro-p4-input {
+    border: 2px solid red; /* Initial border color */
+    margin-top: 10%;
+    font-size: 17px;
+    margin-right: 10%;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+  
+    /* Animation */
+    animation-name: borderAnimationp4;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp4 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+  
+  /* whatsapp-registro-p5 */
+.whatsapp-registro-p5 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro4whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .whatsapp-registro-p5-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 393px; /* Adjust the width as needed */
+    height: 380px; /* Adjust the height as needed */
+    margin-top:22%;
+    border: 2px solid red;
+    border-radius: 10px;
+  
+      /* Animation */
+      animation-name: borderAnimationp5;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp5 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+  
+  
+  .whatsapp-registro-p5-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 76px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 25%;
+    margin-left: 62%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp5;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp5 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  77px;
+      margin-top: 25%;
+      margin-left: 62%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 100px;
+      margin-top: 23%;
+      margin-left: 70%;
+      
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .whatsapp-registro-p5-button-image:hover {
+    animation-play-state: paused;
+    height: 77px!important;
+    margin-top: 25%!important;
+    margin-left: 62%!important;
+   }
+  
+  /* facebook-registro-p6 */
+ .whatsapp-registro-p6 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro5-4whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  
+    animation-name: whatsapp-registro-p6-background;
+    animation-duration: 8s; /* Total duration of the animation */
+   }
+    @keyframes whatsapp-registro-p6-background {
+      0%{
+        /* Initial keyframes */
+        background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro5-1whatsapp.png');
+      }
+     
+      50% {
+        /* Midpoint keyframe */
+        background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro5-2whatsapp.png');
+        
+      }
+      100% {
+        /* final keyframe */
+        background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro5-3whatsapp.png');
+      }
+  
+     }
+     
+     .whatsapp-registro-p6-red-box {
+      background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+      width: 393px; /* Adjust the width as needed */
+      height: 450px; /* Adjust the height as needed */
+      margin-top: 23%;
+      border-color: transparent;
+      border-radius: 10px;
+    
+      /* Animation */
+      animation-name: borderAnimationp6;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+      animation-delay: 9s; /* Delay start by 5 seconds */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp6 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border: 2px solid red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+    .whatsapp-registro-p6-button-image {
+      width: auto; /* Adjust the width as needed */
+      height: 50px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 28%;
+      margin-left: 74%;
+      position: absolute;
+      visibility: hidden;
+      /*Animation*/
+      animation-name: buttonAnimationp6;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+      animation-delay: 10s;
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+     }
+     
+     /* Define the keyframes for the animation */
+     @keyframes buttonAnimationp6 {
+      0%, 100% {
+        /* Initial and final keyframes - the button will be at its original size */
+        height:  50px;
+        margin-top: 28%;
+        margin-left: 74%;
+        visibility:visible;
+      }
+     
+      50% {
+        /* Midpoint keyframe - the button will be twice its original size */
+        height: 70px;
+        margin-top: 25%;
+        margin-left: 70%;
+        visibility:visible;
+      }
+     }
+     
+     /* Pause the animation when the cursor is over the button and revert to the initial state */
+     .whatsapp-registro-p6-button-image:hover {
+      animation-play-state: paused;
+      height: 50px!important;
+      margin-top: 28%!important;
+      margin-left: 74%!important;
+      visibility: visible!important;
+     }
+
+  /* whatsapp-registro-p7 */
+  .whatsapp-registro-p7 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro6whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+  .whatsapp-registro-p7-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 67px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 187%;
+    margin-left: 81%;
+    position: absolute;
+    visibility: hidden;
+    /*Animation*/
+    animation-name: buttonAnimationp7;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp7 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  67px;
+      margin-top: 187%;
+      margin-left: 81%;
+      visibility:visible;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 90px;
+      margin-top: 185%;
+      margin-left: 80%;
+      visibility:visible;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .whatsapp-registro-p7-button-image:hover {
+    animation-play-state: paused;
+    height: 67px!important;
+    margin-top: 187%!important;
+    margin-left: 81%!important;
+    visibility: visible!important;
+   }
+
+     /* whatsapp-registro-p8 */
+  .whatsapp-registro-p8 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro7whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+  .whatsapp-registro-p8-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 57px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 192%;
+    margin-left: 0%;
+    position: absolute;
+    visibility: hidden;
+    /*Animation*/
+    animation-name: buttonAnimationp8;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp8 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  57px;
+      margin-top: 192%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 65px;
+      margin-top: 190%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .whatsapp-registro-p8-button-image:hover {
+    animation-play-state: paused;
+    height: 57px!important;
+    margin-top: 192%!important;
+    margin-left: 0%!important;
+    visibility: visible!important;
+   }
+
+        /* whatsapp-registro-p9 */
+  .whatsapp-registro-p9 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro8whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+
+  
+  .whatsapp-registro-p9-input-telefono{
+    margin: 0 1.5%; /* Adjust the value for horizontal spacing between inputs */
+    width: 194px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 48%;
+    margin-left: 23%;
+
+
+    animation-name: borderAnimationp9;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp9 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border: 2px solid red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+  .whatsapp-registro-p9-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 57px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 185%;
+    margin-left: 0%;
+    position: absolute;
+    visibility: hidden;
+    /*Animation*/
+    animation-name: buttonAnimationp9;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp9 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  57px;
+      margin-top: 185%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 69px;
+      margin-top: 183%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .whatsapp-registro-p9-button-image:hover {
+    animation-play-state: paused;
+    height: 57px!important;
+    margin-top: 185%!important;
+    margin-left: 0%!important;
+    visibility: visible!important;
+   }
+
+           /* whatsapp-registro-p10 */
+  .whatsapp-registro-p10 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro9whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-registro-p10-red-square {
+    /* Your default button styles here */
+    margin-top: 113%;
+    margin-left: 67%;
+    height: 46px;
+    width: 46px;
+    position: absolute;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #ffffff00;
+    text-decoration: none;
+    border-radius: 5px;
+    animation-name: borderAnimationp10;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp10 {
+  0%, 100% {
+    /* Initial and final keyframes - the border will be red */
+    border: 2px solid red;
+  }
+  
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+  }
+
+    /* whatsapp-registro-p11 */
+  .whatsapp-registro-p11 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro10whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-registro-p11-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 57px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 155%;
+    margin-left: 0%;
+    position: absolute;
+    visibility: hidden;
+    /*Animation*/
+    animation-name: buttonAnimationp11;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp11 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  57px;
+      margin-top: 155%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 69px;
+      margin-top: 153%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .whatsapp-registro-p11-button-image:hover {
+    animation-play-state: paused;
+    height: 57px!important;
+    margin-top: 155%!important;
+    margin-left: 0%!important;
+    visibility: visible!important;
+   }
+
+       /* whatsapp-registro-p12 */
+  .whatsapp-registro-p12 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro11whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-registro-p12-red-square {
+    /* Your default button styles here */
+    margin-top: 113%;
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #ffffff00;
+    text-decoration: none;
+    border-radius: 5px;
+    animation-name: borderAnimationp12;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp12 {
+  0%, 100% {
+    /* Initial and final keyframes - the border will be red */
+    border: 2px solid red;
+  }
+  
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+  }
+
+         /* whatsapp-registro-p13 */
+         .whatsapp-registro-p13 {
+            background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro12whatsapp.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0; /* Remove default margin to ensure full coverage */
+            padding: 0; /* Remove default padding to ensure full coverage */
+          }
+
+                 /* whatsapp-registro-p14 */
+         .whatsapp-registro-p14 {
+            background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro13whatsapp.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0; /* Remove default margin to ensure full coverage */
+            padding: 0; /* Remove default padding to ensure full coverage */
+          }
+
+  .whatsapp-registro-p14-red-square {
+    /* Your default button styles here */
+    margin-top: 142%;
+    margin-left: 40%;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #ffffff00;
+    text-decoration: none;
+    border-radius: 5px;
+    animation-name: borderAnimationp14;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp14 {
+  0%, 100% {
+    /* Initial and final keyframes - the border will be red */
+    border: 2px solid red;
+  }
+  
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+  }
+
+ /* whatsapp-registro-p15 */
+ .whatsapp-registro-p15 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro14whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+/* whatsapp-registro-p16 */
+  .whatsapp-registro-p16 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro15whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+/* whatsapp-registro-p17 */
+  .whatsapp-registro-p17 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro16whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-registro-p17-input-nombre{
+    margin: 0 1.5%; /* Adjust the value for horizontal spacing between inputs */
+    width: 320px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 80%;
+    margin-right: 10%;
+
+
+    animation-name: borderAnimationp9;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  .whatsapp-registro-p17-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 57px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 190%;
+    margin-left: 0%;
+    position: absolute;
+    visibility: hidden;
+    /*Animation*/
+    animation-name: buttonAnimationp17;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp17 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  57px;
+      margin-top: 190%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 69px;
+      margin-top: 188%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .whatsapp-registro-p17-button-image:hover {
+    animation-play-state: paused;
+    height: 57px!important;
+    margin-top: 190%!important;
+    margin-left: 0%!important;
+    visibility: visible!important;
+   }
+
+/* whatsapp-registro-p18 */
+.whatsapp-registro-p18 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro17whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+  .whatsapp-registro-p18-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 57px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 170%;
+    margin-left: 0%;
+    position: absolute;
+    visibility: hidden;
+    /*Animation*/
+    animation-name: buttonAnimationp18;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp18 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  57px;
+      margin-top: 170%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 69px;
+      margin-top: 168%;
+      margin-left: 0%;
+      visibility:visible;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .whatsapp-registro-p18-button-image:hover {
+    animation-play-state: paused;
+    height: 57px!important;
+    margin-top: 170%!important;
+    margin-left: 0%!important;
+    visibility: visible!important;
+   }
+
+   .whatsapp-registro-p18-input-correo{
+    margin: 0 1.5%; /* Adjust the value for horizontal spacing between inputs */
+    width: 320px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 43%;
+    margin-right: 10%;
+
+
+    animation-name: borderAnimationp9;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+
+  .whatsapp-registro-p18-red-square {
+    /* Your default button styles here */
+    margin-top: 187%;
+    margin-left: 0%;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #ffffff00;
+    text-decoration: none;
+    border-radius: 5px;
+    animation-name: borderAnimationp18;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp18 {
+  0%, 100% {
+    /* Initial and final keyframes - the border will be red */
+    border: 2px solid red;
+  }
+  
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+  }
+
+/* whatsapp-registro-p19 */
+.whatsapp-registro-p19 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/registro/registro18whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }

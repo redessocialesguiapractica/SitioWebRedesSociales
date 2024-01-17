@@ -103,63 +103,48 @@
       transition: width 0.5s, margin-top 0.5s;
     }
 
-    /* Zona de publicación en muro*/
-    .facebook-sonapublicacion {
-      background-image: url("src/assets/images/imagesTutoriales/facebook/registro/sonapublicacion.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 101%; /* Set height to 100% to fill the entire .phone-screen */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0; /* Remove default margin to ensure full coverage */
-      padding: 0; /* Remove default padding to ensure full coverage */
+/* facebook-p3-publiMuro*/
+.facebook-p3-publiMuro{
+  background-image: url('src/assets/images/imagesTutoriales/facebook/publicarMuro/paso_3_PM.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-p3-publiMuro-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 270px; /*Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-top: 380px;
+  margin-left: -7%;
+  border: 6px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
     }
-    
-    .facebook-sonapublicacion-red-box {
-      background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
-      width: 382px; /*Adjust the width as needed */
-      height: 121px; /* Adjust the height as needed */
-      margin-top: 700px;
-      border: 2px solid red;
-      border-radius: 10px;
-      margin-left: 0%;
-    
-      /* Animation */
-      animation-name: borderAnimationp4;
-      animation-duration: 2s; /* Total duration of the animation */
-      animation-iteration-count: infinite; /* Infinite loop */
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
     }
-    
-    /* Define the keyframes for the animation */
-    @keyframes borderAnimationp4 {
-      0%,
-      100% {
-        /* Initial and final keyframes - the border will be red */
-        border-color: red;
-      }
-    
-      50% {
-        /* Midpoint keyframe - the border will be transparent (no border) */
-        border-color: transparent;
-      }
-    }
-    .facebook-sonapublicacion-button-image {
-      width: 375px; /* Adjust the width as needed */
-      height: 110px; /* Adjust the height as needed */
-      border: none; /* Remove default button border */
-      cursor: pointer; /* Add a pointer cursor on hover */
-      margin-top: 180%;
-      position: absolute;
-      /*Animation*/
-      animation-name: buttonAnimationp4;
-      animation-duration: 2s; /* Total duration of the animation */
-      animation-iteration-count: infinite; /* Infinite loop */
-    
-      /* Add a transition to smoothly revert to the initial state on hover */
-      transition: width 0.5s, margin-top 0.5s;
-    }
+  }
 
 /* facebook-p4-publiMuro*/
 .facebook-p4-publiMuro{

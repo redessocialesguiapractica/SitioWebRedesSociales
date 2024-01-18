@@ -210,4 +210,5 @@ export class RegistroFacebookNavegadorComponent implements OnInit {
       
     }
   }
+  
 }

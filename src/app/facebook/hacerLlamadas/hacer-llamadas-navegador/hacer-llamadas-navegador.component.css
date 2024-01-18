@@ -1,0 +1,412 @@
+.facebook-llamadas-p1 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/llamadas/llamadas1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-llamadas-p2 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/llamadas/llamadas2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-llamadas-p2-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 50px; /*Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-top: 30px;
+  border: 6px solid red;
+  border-radius: 10px;
+  margin-left: 88%;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp2;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp2 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+.facebook-llamadas-p3 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/llamadas/llamadas3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-registro-p4-input {
+  border: 2px solid red; /* Initial border color */
+  background-color: #f0f2f5;
+  margin-top: 94px;
+  font-size: 17px;
+  width: 382px;
+  height: 38px;
+  border-radius: 19px;
+
+  /* Animation */
+  animation-name: borderAnimationp4;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp4 {
+  0%, 100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+.facebook-llamadas-p4 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/llamadas/llamadas4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-llamadas-p4-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 98%; /*Adjust the width as needed */
+  height: 58px; /* Adjust the height as needed */
+  margin-top: 129px;
+  border: 4px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp4;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp4 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+.facebook-llamadas-p5 {
+  background-image: url("src/assets/images/imagesTutoriales/facebook/llamadas/llamadas5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-llamadas-p5-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 50px; /*Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-top: 35px;
+  border: 6px solid red;
+  border-radius: 10px;
+  margin-left: 61%;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp5;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp5 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+  /*PASO 7*/
+.facebook-hacer-llamadas-p7 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/hacer_llamadas/paso_7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .facebook-hacer-llamadas-p7-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 320px; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 399px;
+    border: 6px solid red;
+    border-radius: 10px;
+    margin-left: 0%;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp7;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp7 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+    .facebook-hacer-llamadas-p7-button-image {
+      width: 390px; /* Adjust the width as needed */
+      height: 60px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 178%;
+      position: absolute;
+      visibility: hidden;
+      /*Animation*/
+      animation-name: buttonAnimationp7;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+     
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+  
+    /*--------------------------------------------------------------------------------------*/
+  
+    /*PASO 8*/
+  .facebook-hacer-llamadas-p8 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/hacer_llamadas/paso_8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .facebook-hacer-llamadas-p8-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 200px; /*Adjust the width as needed */
+    height: 215px; /* Adjust the height as needed */
+    margin-top: 168px;
+    border: 4px solid red;
+    border-radius: 10px;
+    margin-left: 0%;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp8;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp8 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+    .facebook-hacer-llamadas-p8-button-image {
+      width: 390px; /* Adjust the width as needed */
+      height: 60px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 178%;
+      position: absolute;
+      visibility: hidden;
+      /*Animation*/
+      animation-name: borderAnimationp8;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+     
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+  
+    /*--------------------------------------------------------------------------------------*/
+  
+    /*PASO 9*/
+    .facebook-hacer-llamadas-p9 {
+        background-image: url('/assets/images/imagesTutoriales/facebook/hacer_llamadas/paso_9.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .facebook-hacer-llamadas-p9-button-image {
+        width: 64px;
+        height: auto;
+        cursor: pointer;
+        margin-top: 162.5%;
+        margin-left: 0.5%;
+      
+        animation-name: buttonAnimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      
+        transition: width 0.5s, margin-top 0.5s, margin-left 0.5s;
+      }
+      
+      @keyframes buttonAnimation {
+        0%, 100% {
+          width: 50px;
+          margin-top: 191%;
+          margin-left: 73%;
+        }
+      
+        50% {
+          width: 82px;
+          margin-top: 188%;
+        }
+      }
+      
+      .facebook-hacer-llamadas-p9-button-image:hover {
+        animation-play-state: paused;
+        width: 50px !important;
+        margin-top: 191.05% !important; 
+        transform: translateX(10%);
+      }
+      
+
+/*--------------------------------------------------------------------------------------*/
+  
+    /*PASO 10*/
+    .facebook-hacer-llamadas-p10 {
+        background-image: url('src/assets/images/imagesTutoriales/facebook/hacer_llamadas/paso_10.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0; /* Remove default margin to ensure full coverage */
+        padding: 0; /* Remove default padding to ensure full coverage */
+      }
+      
+      .facebook-hacer-llamadas-p10-red-box {
+        background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+        width: 150px; /*Adjust the width as needed */
+        height: 120px; /* Adjust the height as needed */
+        margin-top: 665px;
+        border: 4px solid red;
+        border-radius: 10px;
+        margin-left: 0%;
+        cursor: pointer;
+      
+          /* Animation */
+          animation-name: borderAnimationp10;
+          animation-duration: 3s; /* Total duration of the animation */
+          animation-iteration-count: infinite; /* Infinite loop */
+        }
+        
+        /* Define the keyframes for the animation */
+        @keyframes borderAnimationp10 {
+          0%, 100% {
+            /* Initial and final keyframes - the border will be red */
+            border-color: red;
+          }
+        
+          50% {
+            /* Midpoint keyframe - the border will be transparent (no border) */
+            border-color: transparent;
+          }
+        }
+        .facebook-hacer-llamadas-p10-button-image {
+          width: 390px; /* Adjust the width as needed */
+          height: 60px; /* Adjust the height as needed */
+          border: none; /* Remove default button border */
+          cursor: pointer; /* Add a pointer cursor on hover */
+          margin-top: 178%;
+          position: absolute;
+          visibility: hidden;
+          /*Animation*/
+          animation-name: borderAnimationp10;
+          animation-duration: 2s; /* Total duration of the animation */
+          animation-iteration-count: infinite; /* Infinite loop */
+         
+          /* Add a transition to smoothly revert to the initial state on hover */
+          transition: width 0.5s, margin-top 0.5s;
+        }

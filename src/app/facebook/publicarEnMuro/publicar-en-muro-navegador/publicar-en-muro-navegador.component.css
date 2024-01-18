@@ -1,0 +1,274 @@
+  /* facebook-login-inicio */
+  
+  .facebook-login {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .facebook-login-button-image {
+    /* Add styling for the image */
+    width: 64px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-left: 20px;
+  
+    /* Animation */
+    animation-name: buttonAnimation;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 60px;
+      margin-top: 102.5%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 120px;
+      margin-top: 95.5%;
+    }
+  }
+
+  
+
+/* facebook-pantalla-inicio*/
+.facebook-pantalla-inicio{
+    background-image: url('src/assets/images/imagesTutoriales/facebook/registro/paginaInicio.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .facebook-pantalla-inicio-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 58px; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 127px;
+    border: 6px solid red;
+    border-radius: 10px;
+    margin-left: -86%;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+    .facebook-pantalla-inicio-button-image {
+      width: 390px; /* Adjust the width as needed */
+      height: 60px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 178%;
+      position: absolute;
+      visibility: hidden;
+      /*Animation*/
+      animation-name: buttonAnimationp3;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+     
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+
+/* facebook-p3-publiMuro*/
+.facebook-p3-publiMuro{
+  background-image: url('src/assets/images/imagesTutoriales/facebook/publicarMuro/paso_3_PM.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-p3-publiMuro-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 270px; /*Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-top: 380px;
+  margin-left: -7%;
+  border: 6px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/* facebook-p4-publiMuro*/
+.facebook-p4-publiMuro{
+  background-image: url('src/assets/images/imagesTutoriales/facebook/publicarMuro/paso_4_PM.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-p4-publiMuro-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 392px; /*Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  margin-top: 195px;
+  border: 6px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/* facebook-p5-publiMuro*/
+.facebook-p5-publiMuro{
+  background-image: url('src/assets/images/imagesTutoriales/facebook/publicarMuro/paso_5_PM.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-p5-publiMuro-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 392px; /*Adjust the width as needed */
+  height: 325px; /* Adjust the height as needed */
+  margin-top: 488px;
+  border: 6px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/* facebook-p6-publiMuro*/
+.facebook-p6-publiMuro{
+  background-image: url('src/assets/images/imagesTutoriales/facebook/publicarMuro/paso_6_PM.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-p6-publiMuro-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 102px; /*Adjust the width as needed */
+  height: 42px; /* Adjust the height as needed */
+  margin-top: 33px;
+  margin-right: -74%;
+  border: 3px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 3s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }

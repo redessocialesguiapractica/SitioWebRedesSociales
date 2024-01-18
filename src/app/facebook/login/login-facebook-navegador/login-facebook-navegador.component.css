@@ -1,0 +1,231 @@
+  /* facebook-login-inicio */
+  
+  .facebook-login {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .facebook-login-button-image {
+    /* Add styling for the image */
+    width: 64px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-left: 20px;
+  
+    /* Animation */
+    animation-name: buttonAnimation;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 60px;
+      margin-top: 102.5%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 120px;
+      margin-top: 95.5%;
+    }
+  }
+
+  /* facebook-login-inicio */
+  .facebook-login-inicio {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro6-3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .facebook-login-inicio-input {
+    border: 2px solid red; /* Initial border color */
+    margin-top: 79%;
+    font-size: 17px;
+    width: 374px;
+    height: 60px;
+    border-radius: 10px;
+  
+    /* Animation */
+    animation-name: borderAnimationp4;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+
+  .facebook-login-inicio-input-2 {
+    border: 2px solid red; /* Initial border color */
+    margin-top: 3.7%;
+    font-size: 17px;
+    width: 374px;
+    height: 60px;
+    border-radius: 10px;
+  
+    /* Animation */
+    animation-name: borderAnimationp4;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp4 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+  .facebook-login-inicio-button {
+    width: auto; /* Adjust the width as needed */
+    height: 73px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-left: 2%;
+    position: absolute;
+    /*Animation*/
+    animation-name: buttonAnimationini;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+     
+     /* Define the keyframes for the animation */
+     @keyframes buttonAnimationini {
+      0%, 100% {
+        /* Initial and final keyframes - the button will be at its original size */
+        height:  73px;
+        margin-top: 113%;
+        margin-left: 2%;
+        
+      }
+     
+      50% {
+        /* Midpoint keyframe - the button will be twice its original size */
+        height: 90px;
+        margin-top: 110%;
+        margin-left: 5%;
+        
+      }
+     }
+
+/* facebook-login-carga */
+.facebook-login-carga {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro6-3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+
+  animation-name: facebook-registro-p7-background;
+  animation-duration: 29s; /* Total duration of the animation */
+ }
+  @keyframes facebook-registro-p7-background {
+    0%{
+      /* Initial keyframes */
+      background-image: url('src/assets/images/imagesTutoriales/facebook/login/carga-inicio.png');
+    }
+    25% {
+      /* final keyframe */
+      background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro6-1.png');
+    }
+    75%{
+      /* Initial keyframes */
+      background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro6-2.png');
+    }
+    100% {
+      /* final keyframe */
+      background-image: url('src/assets/images/imagesTutoriales/facebook/login/carga-final.png');
+    }
+
+   }
+
+.imagen-evento{
+  width: 0px;
+  height: 0px;
+}
+
+/* facebook-login-guardar */
+.facebook-login-guardar {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/login/guardar-informacion.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.facebook-login-guardar-button {
+  width: auto; /* Adjust the width as needed */
+  height: 73px; /* Adjust the height as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  position: absolute;
+  /*Animation*/
+  animation-name: buttonAnimationSave;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+ }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationSave {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  51px;
+      margin-top: 172%;
+      
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 64px;
+      margin-top: 171.7%;
+    }
+   }
+
+/* facebook-pantalla-inicio */
+.facebook-pantalla-inicio {
+  background-image: url('src/assets/images/imagesTutoriales/facebook/login/inicio-login.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}

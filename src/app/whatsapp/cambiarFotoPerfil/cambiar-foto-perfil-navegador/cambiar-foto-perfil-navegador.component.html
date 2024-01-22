@@ -1,4 +1,37 @@
+<app-audio-instrucciones
+    [maxIndex]="audioInstruccionesData.length"
+    [index]="currentIndex"
+    [content]="audioInstruccionesData[currentIndex].content"
+    [audioSrc]="audioInstruccionesData[currentIndex].audio"
+    (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+    <body class="whatsapp-p1" *ngIf="currentIndex === 0">
+    </body>
+    <body class="whatsapp-p2" *ngIf="currentIndex === 1">
+        <img src="/assets/images/imagesTutoriales/whatsapp/img_frecuente/logo_whatsapp.png" alt="Whatsapp Icon" class="whatsapp-p2-button-image" (click)="whatsappRegistroClicked()">
+    </body>
+    <body class="whatsapp-p3" *ngIf="currentIndex === 2">                                
+    </body>
+    <body class="whatsapp-p4" *ngIf="currentIndex === 3">
+        
+    </body>
+    <body class="whatsapp-p5" *ngIf="currentIndex === 4">
+        
+    </body>
+    <body class="whatsapp-p6" *ngIf="currentIndex === 5">
+        
+    </body>
+    <body class="whatsapp-p7" *ngIf="currentIndex === 6">
+        
+    </body>
+    <body class="whatsapp-p8" *ngIf="currentIndex === 7">
+        
+    </body>
+    <body class="whatsapp-p9" *ngIf="currentIndex === 8">
+        
+    </body>
+    <body class="whatsapp-p10" *ngIf="currentIndex === 9">
+    </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

@@ -1,0 +1,231 @@
+
+/*whatsapp-enviarMensajes-p16*/
+.whatsapp-enviarMensajes-p16 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso16.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-enviarMensajes-p16-button-image {
+    /* Add styling for the image */
+    width: 55px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 180%;
+    margin-left: 83%;
+  
+    /* Animation */
+    animation-name: buttonAnimation16;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation16 {
+    0%, 
+    100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 55px;
+      margin-top: 195%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 70px;
+      margin-top: 190%;
+    }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .whatsapp-enviarMensajes-p16-button-image:hover {
+    animation-play-state: paused;
+    width: 55px!important;
+    margin-top: 195%!important;
+  }
+
+  /*whatsapp-enviarMensajes-p17*/
+.whatsapp-enviarMensajes-p17 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso17.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-enviarMensajes-p17-button-image {
+    /* Add styling for the image */
+    width: 55px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 180%;
+    margin-left: 83%;
+  
+    /* Animation */
+    animation-name: buttonAnimation17;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation17 {
+    0%, 
+    100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 45px;
+      margin-top: 193%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 70px;
+      margin-top: 190%;
+    }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .whatsapp-enviarMensajes-p17-button-image:hover {
+    animation-play-state: paused;
+    width: 45px!important;
+    margin-top: 193%!important;
+  }
+
+
+  /*whatsapp-enviarMensajes-p18*/
+
+  .whatsapp-enviarMensajes-p18 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso18.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .whatsapp-enviarMensajes-p18-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 50px; /*Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-top: 197%;
+    margin-right: 84%;
+    border: 2px solid red;
+    border-radius: 10px;
+  
+      /* Animation */
+      animation-name: borderAnimationW18;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationW18 {
+      0%, 
+      100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+    .whatsapp-enviarMensajes-p18-button-image {
+      width: 30px; /* Adjust the width as needed */
+      height: 30px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 199%;
+      margin-right: 84%;
+      position: absolute;
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+
+    /*whatsapp-enviarMensajes-p19*/
+
+  .whatsapp-enviarMensajes-p19 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso19.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .whatsapp-enviarMensajes-p19-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 50px; /*Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-top: 144%;
+    margin-left: 36%;
+    border: 2px solid red;
+    border-radius: 10px;
+  
+      /* Animation */
+      animation-name: borderAnimationW19;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationW19 {
+      0%, 
+      100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+    .whatsapp-enviarMensajes-p19-button-image {
+      width: 45px; /* Adjust the width as needed */
+      height: 25px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 146.5%;
+      margin-left: 36%;
+      position: absolute;
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+
+    /*whatsapp-enviarMensajes-p20*/
+    .whatsapp-enviarMensajes-p20 {
+      background-image: url('src/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso20.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0; /* Remove default margin to ensure full coverage */
+      padding: 0; /* Remove default padding to ensure full coverage */
+    }

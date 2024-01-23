@@ -19,31 +19,43 @@ export class BloqueoNumerosDesconocidosNavegadorComponent implements OnInit {
       index: 1, 
       content:
         '¡Bienvenido a este tutorial guiado para Bloquear números desconocidos en Whatsapp! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
-      audio: '/assets/audio/facebook/enviar_mensajes/paso_1.mp3',
+      audio: '/assets/audio/whatsapp/BloquearNumeros/Paso1_bloquear.mp3',
     },
     {
       index: 2,
       content:
         'En nuestra pantalla principal del teléfono, presionamos el botón que está siendo destacado de nuestra aplicación de Whatsapp para continuar con el siguiente paso.',
-      audio: '/assets/audio/facebook/enviar_mensajes/paso_2.mp3',
+      audio: '/assets/audio/whatsapp/BloquearNumeros/Paso2_bloquear.mp3',
     },
     {
       index: 3,
       content:
         'Una vez abierta la aplicación de Whatsapp, vas a visualizar la ventana de la pestaña “Chats”, busca el chat del número que deseas bloquear y pulsa sobre él. Presiona el chat señalado en el recuadro rojo.',
-      audio: '/assets/audio/facebook/enviar_mensajes/paso_3.mp3',
+      audio: '/assets/audio/whatsapp/BloquearNumeros/Paso3_bloquear.mp3',
     },
     {
       index: 4,
       content:
         'Al ingresar al chat seleccionado, dependiendo de la versión de Whatsapp que tengas, vas a poder visualizar que, en la parte superior del chat bajo la franja verde, aparecen dos botones de “Bloquear” y “Añadir”. En el caso que no tengas estos botones vamos a presionar los tres puntos señalados en el recuadro rojo.',
-      audio: '/assets/audio/facebook/enviar_mensajes/paso_4.mp3',
+      audio: '/assets/audio/whatsapp/BloquearNumeros/Paso4_bloquear.mp3',
     },
     {
       index: 5,
       content:
         'Vas a poder visualizar un pequeño menú que se abrió al presionar los tres puntos. Presiona la opción “Bloquear” señalado en el rectángulo rojo.',
-      audio: '/assets/audio/facebook/enviar_mensajes/paso_5.mp3',
+      audio: '/assets/audio/whatsapp/BloquearNumeros/Paso5_bloquear.mp3',
+    },
+    {
+      index: 6,
+      content:
+        'Te aparecerá una ventana con los motivos por los que deseas bloquear el número seleccionado, selecciona la opción que más se adapte a ti. Para nuestro ejemplo vamos a presionar la opción señalada con el rectángulo rojo.',
+      audio: '/assets/audio/whatsapp/BloquearNumeros/Paso6_bloquear.mp3',
+    },
+    {
+      index: 7,
+      content:
+        'Una vez seleccionado el Motivo del bloqueo, se activará el botón de “Bloquear” para poder continuar. Presiona el botón “Bloquear” que está siendo destacado.',
+      audio: '/assets/audio/whatsapp/BloquearNumeros/Paso7_bloquear.mp3',
     },
   ];
   currentIndex = 0;

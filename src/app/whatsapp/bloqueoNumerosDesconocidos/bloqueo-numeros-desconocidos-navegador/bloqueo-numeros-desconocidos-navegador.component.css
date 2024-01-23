@@ -231,3 +231,112 @@
         /* Add a transition to smoothly revert to the initial state on hover */
         transition: width 0.5s, margin-top 0.5s;
       }
+
+          /*whatsapp-bloquearContactos-p6*/
+
+    .whatsapp-bloquearContactos-p6 {
+      background-image: url('src/assets/images/imagesTutoriales/whatsapp/bloqueoNumero/bloquearNumero_paso6.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0; /* Remove default margin to ensure full coverage */
+      padding: 0; /* Remove default padding to ensure full coverage */
+    }
+    
+    .whatsapp-bloquearContactos-p6-red-box {
+      background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+      width: 240px; /*Adjust the width as needed */
+      height: 40px; /* Adjust the height as needed */
+      margin-top: 56%;
+      margin-left: -32%;
+      border: 2px solid red;
+      border-radius: 10px;
+    
+        /* Animation */
+        animation-name: borderAnimationW6;
+        animation-duration: 3s; /* Total duration of the animation */
+        animation-iteration-count: infinite; /* Infinite loop */
+      }
+      
+      /* Define the keyframes for the animation */
+      @keyframes borderAnimationW6 {
+        0%, 
+        100% {
+          /* Initial and final keyframes - the border will be red */
+          border-color: red;
+        }
+      
+        50% {
+          /* Midpoint keyframe - the border will be transparent (no border) */
+          border-color: transparent;
+        }
+      }
+      .whatsapp-bloquearContactos-p6-button-image {
+        width: 220px; /* Adjust the width as needed */
+        height: 30px; /* Adjust the height as needed */
+        border: none; /* Remove default button border */
+        cursor: pointer; /* Add a pointer cursor on hover */
+        margin-top: 57%;
+        margin-left: -30%;
+        position: absolute;
+        /* Add a transition to smoothly revert to the initial state on hover */
+        transition: width 0.5s, margin-top 0.5s;
+      }
+
+  /* whatsapp-bloquearContactos-p7*/
+
+  .whatsapp-bloquearContactos-p7 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/bloqueoNumero/bloquearNumero_paso7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-bloquearContactos-p7-button-image {
+    /* Add styling for the image */
+    width: 140px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 160%;
+    margin-left: 60%;
+  
+    /* Animation */
+    animation-name: buttonAnimation7;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation7 {
+    0%, 
+    100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 140px;
+      margin-top: 188%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 170px;
+      margin-top: 184%;
+    }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .whatsapp-bloquearContactos-p7-button-image:hover {
+    animation-play-state: paused;
+    width: 140px!important;
+    margin-top: 188%!important;
+  }

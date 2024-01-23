@@ -1,4 +1,47 @@
+<app-audio-instrucciones
+  [maxIndex]="audioInstruccionesData.length"
+  [index]="currentIndex"
+  [content]="audioInstruccionesData[currentIndex].content"
+  [audioSrc]="audioInstruccionesData[currentIndex].audio"
+  (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+    <body class="whatsapp-bloquearContactos-p1" *ngIf="currentIndex === 0"></body>
+    <body class="whatsapp-bloquearContactos-p2" *ngIf="currentIndex === 1">
+        <img
+          src="/assets/images/imagesTutoriales/whatsapp/img_frecuente/logo_whatsapp.png"
+          alt="Whatsapp Icon"
+          class="whatsapp-bloquearContactos-p2-button-image"
+          (click)="bloquearNumerosRegistroClicked()"
+        />
+    </body>
+    <body class="whatsapp-bloquearContactos-p3" *ngIf="currentIndex === 2">
+        <img
+          src="/assets/images/imagesTutoriales/whatsapp/bloqueoNumero/bloquearNumero_contacto.png"
+          alt="Whatsapp Icon"
+          class="whatsapp-bloquearContactos-p3-button-image"
+          (click)="bloquearNumerosRegistroClicked()"
+        />
+        <div class="whatsapp-bloquearContactos-p3-red-box"></div>
+    </body>
+    <body class="whatsapp-bloquearContactos-p4" *ngIf="currentIndex === 3">
+      <img
+        src="/assets/images/imagesTutoriales/whatsapp/bloqueoNumero/bloquearNumero_paso4_opciones.png"
+        alt="Whatsapp Icon"
+        class="whatsapp-bloquearContactos-p4-button-image"
+        (click)="bloquearNumerosRegistroClicked()"
+      />
+      <div class="whatsapp-bloquearContactos-p4-red-box"></div>
+  </body>
+  <body class="whatsapp-bloquearContactos-p5" *ngIf="currentIndex === 4">
+    <img
+      src="/assets/images/imagesTutoriales/whatsapp/bloqueoNumero/bloquearNumero_paso5_bloquear.png"
+      alt="Whatsapp Icon"
+      class="whatsapp-bloquearContactos-p5-button-image"
+      (click)="bloquearNumerosRegistroClicked()"
+    />
+    <div class="whatsapp-bloquearContactos-p5-red-box"></div>
+</body>
+
 </app-phone-interface>
 <app-back-button></app-back-button>

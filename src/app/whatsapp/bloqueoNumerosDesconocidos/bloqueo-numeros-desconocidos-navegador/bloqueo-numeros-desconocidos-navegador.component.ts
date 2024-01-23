@@ -57,6 +57,18 @@ export class BloqueoNumerosDesconocidosNavegadorComponent implements OnInit {
         'Una vez seleccionado el Motivo del bloqueo, se activará el botón de “Bloquear” para poder continuar. Presiona el botón “Bloquear” que está siendo destacado.',
       audio: '/assets/audio/whatsapp/BloquearNumeros/Paso7_bloquear.mp3',
     },
+    {
+      index: 8,
+      content:
+        'Regresarás al chat del número que se bloque y podrás visualizar que al final del chat aparece un mensaje indicando: “Bloqueaste este contacto. Toca para desbloquearlo” o “Bloqueaste esta empresa. Toca para desbloquearla”. Sal del chat con el botón de navegación de tu celular. Presiona el botón señalado en el recuadro rojo.',
+      audio: '/assets/audio/whatsapp/BloquearNumeros/Paso8_bloquear.mp3',
+    },
+    {
+      index: 9,
+      content:
+        'Al regresar a la pestaña de Chats podrás visualizar que el chat del número que fue bloqueado y ya no se encuentra en la ventana, por lo tanto, este contacto ya no podrá enviarte mensajes ni realizarte ninguna llamada por whatsapp. ¡Felicidades, has completado el tutorial! Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
+      audio: '/assets/audio/whatsapp/BloquearNumeros/Paso9_bloquear.mp3',
+    },
   ];
   currentIndex = 0;
 

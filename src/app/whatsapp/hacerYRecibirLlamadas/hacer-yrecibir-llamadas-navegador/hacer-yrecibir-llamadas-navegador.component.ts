@@ -19,7 +19,7 @@ export class HacerYRecibirLlamadasNavegadorComponent implements OnInit {
 audioInstruccionesData = [
   {
     index: 1,
-    content: '¡Bienvenido a este tutorial guiado para Bloquear números desconocidos en Whatsapp! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
+    content: '¡Bienvenido a este tutorial guiado para hacer y recibir llamadas y videollamadas en Whatsapp! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
     audio: '/assets/audio/whatsapp/recibirLlamada/paso1.mp3',
   },
   {

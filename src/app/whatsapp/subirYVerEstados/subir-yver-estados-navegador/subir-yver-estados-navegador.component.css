@@ -1,0 +1,674 @@
+/*PASO 1*/
+.whatsapp-estados-p1 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+/*PASO 2*/
+  .whatsapp-estados-p2 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-estados-p2-button-image {
+    /* Add styling for the image */
+    width: 64px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 162.5%;
+    margin-left: 0.5%;
+  
+    /* Animation */
+    animation-name: buttonAnimation;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 64px;
+      margin-top: 102.5%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 90px;
+      margin-top: 98.5%;
+    }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .whatsapp-estados-p2-button-image:hover {
+    animation-play-state: paused;
+    width: 64px!important;
+    margin-top: 102.5%!important;
+  }
+
+/*PASO 3*/
+.whatsapp-estados-p3 {
+  background-image: url("src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.whatsapp-estados-p3-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 28%; /*Adjust the width as needed */
+  height: 58px; /* Adjust the height as needed */
+  margin-top: 89px;
+  margin-left: 43px;
+  border: 4px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp3;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp3 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/*PASO 4*/
+.whatsapp-estados-p4 {
+  background-image: url("src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.whatsapp-estados-p4-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 98%; /*Adjust the width as needed */
+  height: 85px; /* Adjust the height as needed */
+  margin-top: 300px;
+  border: 4px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp4;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp4 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/*PASO 5*/
+.whatsapp-estados-p5 {
+  background-image: url("src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso5.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.whatsapp-estados-p5-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 18%; /*Adjust the width as needed */
+  height: 85px; /* Adjust the height as needed */
+  margin-top: 613px;
+  margin-right: 320px;
+  border: 4px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp5;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp5 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/*PASO 6*/
+.whatsapp-estados-p6 {
+  background-image: url("src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.whatsapp-estados-p6-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 34%; /*Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  margin-top: 257px;
+  margin-left: 258px;
+  border: 4px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp6;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp6 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/*PASO 7*/
+.whatsapp-estados-p7 {
+  background-image: url("src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.whatsapp-estados-p7-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 98%; /*Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  margin-top: 685px;
+  border: 4px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp7;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp7 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/* PASO 8 */
+.whatsapp-estados-p8 {
+  background-image: url('src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso8.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.whatsapp-estados-p8-input {
+  border: 2px solid red;
+  background-color: #1f2c34;
+  margin-top: 107.5%;
+  font-size: 18px;
+  margin-right: 4%;
+  width: 270px;
+  height: 40px;
+  border-radius: 10px;
+  color: white; /* Color del texto */
+  caret-color: white; /* Color del cursor */
+  /* Animation */
+  animation-name: borderAnimationp8;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp8 {
+  0%, 100% {
+    border-color: red;
+  }
+
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Estilos para el marcador de posición */
+.whatsapp-estados-p8-input::placeholder {
+  color: white;
+}
+
+/* Estilos para el texto cuando está enfocado */
+.whatsapp-estados-p8-input:focus {
+  color: white;
+}
+
+/* Estilos para el texto cuando no está enfocado */
+.whatsapp-estados-p8-input:not(:focus) {
+  color: white;
+}
+
+/*PASO 9*/
+.whatsapp-estados-p9 {
+  background-image: url('src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso9.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+.whatsapp-estados-p9-button-image {
+  /* Add styling for the image */
+  width: 62px; /* Initial width */
+  height: auto; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 162.5%;
+  margin-left: 81%;
+
+  /* Animation */
+  animation-name: buttonAnimation9;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimation9 {
+  0%, 100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    width: 62px;
+    margin-top: 122.8%;
+  }
+
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    width: 75px;
+    margin-top: 120.8%;
+  }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.whatsapp-estados-p9-button-image:hover {
+  animation-play-state: paused;
+  width: 62px!important;
+  margin-top: 122.8%!important;
+}
+
+/*PASO 10*/
+.whatsapp-estados-p10 {
+  background-image: url("src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.whatsapp-estados-p10-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 98%; /*Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  margin-top: 327px;
+  border: 4px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp10;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp10 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/*PASO 11*/
+.whatsapp-estados-p11 {
+  background-image: url("src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.whatsapp-estados-p11-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 25%; /*Adjust the width as needed */
+  height: 70px; /* Adjust the height as needed */
+  margin-top: 810px;
+  margin-right: 52%;
+  border: 4px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp11;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp11 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/*PASO 12*/
+.whatsapp-estados-p12 {
+  background-image: url("src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.whatsapp-estados-p12-red-box {
+  background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+  width: 18%; /*Adjust the width as needed */
+  height: 70px; /* Adjust the height as needed */
+  margin-top: 630px;
+  margin-left: 78%;
+  border: 4px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Animation */
+  animation-name: borderAnimationp12;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp12 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/* PASO 13 */
+.whatsapp-estados-p13 {
+  background-image: url('src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso13.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.whatsapp-estados-p13-input {
+  border: 2px solid red;
+  background-color: #5697ff;
+  margin-top: 68%;
+  font-size: 34px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  color: white; /* Color del texto */
+  caret-color: white; /* Color del cursor */
+  /* Animation */
+  animation-name: borderAnimationp13;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp13 {
+  0%, 100% {
+    border-color: red;
+  }
+
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Estilos para el marcador de posición */
+.whatsapp-estados-p13-input::placeholder {
+  color: white;
+}
+
+/* Estilos para el texto cuando está enfocado */
+.whatsapp-estados-p13-input:focus {
+  color: white;
+}
+
+/* Estilos para el texto cuando no está enfocado */
+.whatsapp-estados-p13-input:not(:focus) {
+  color: white;
+}
+
+/*PASO 14*/
+.whatsapp-estados-p14 {
+  background-image: url('src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso14.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+.whatsapp-estados-p14-button-image {
+  /* Add styling for the image */
+  width: 62px; /* Initial width */
+  height: auto; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 162.5%;
+  margin-left: 81%;
+
+  /* Animation */
+  animation-name: buttonAnimation14;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimation14 {
+  0%, 100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    width: 62px;
+    margin-top: 122.8%;
+  }
+
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    width: 75px;
+    margin-top: 120.8%;
+  }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.whatsapp-estados-p14-button-image:hover {
+  animation-play-state: paused;
+  width: 62px!important;
+  margin-top: 122.8%!important;
+}
+
+.whatsapp-estados-p14-blue-box {
+  background-color: rgba(255, 0, 0, 0); /* Blue with 50% opacity */
+  width: 16%; /*Adjust the width as needed */
+  height: 70px; /* Adjust the height as needed */
+  margin-top: -518px;
+  margin-left: 82%;
+  border: 4px solid blue;
+  border-radius: 10px;
+
+  /* Animation */
+  animation-name: borderAnimationp14;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp14 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be blue */
+    border-color: blue;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/*PASO 15*/
+.whatsapp-estados-p15 {
+  background-image: url('src/assets/images/imagesTutoriales/whatsapp/subirEstado/subirEstado_paso15.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}

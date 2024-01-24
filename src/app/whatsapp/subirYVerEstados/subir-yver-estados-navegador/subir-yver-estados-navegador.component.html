@@ -1,4 +1,55 @@
+<app-audio-instrucciones
+    [maxIndex]="audioInstruccionesData.length"
+    [index]="currentIndex"
+    [content]="audioInstruccionesData[currentIndex].content"
+    [audioSrc]="audioInstruccionesData[currentIndex].audio"
+    (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
+
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+    <body class="whatsapp-estados-p1" *ngIf="currentIndex === 0">
+    </body>
+    <body class="whatsapp-estados-p2" *ngIf="currentIndex === 1">
+        <img src="/assets/images/imagesTutoriales/whatsapp/subirEstado/logo_whatsapp.png" alt="whatsapp Icon" class="whatsapp-estados-p2-button-image" (click)="whatsappEstadosClicked()">
+    </body>
+    <body class="whatsapp-estados-p3" *ngIf="currentIndex === 2">
+        <div class="whatsapp-estados-p3-red-box" (click)="whatsappEstadosClicked()"></div>
+    </body>
+    <body class="whatsapp-estados-p4" *ngIf="currentIndex === 3">
+        <div class="whatsapp-estados-p4-red-box" (click)="whatsappEstadosClicked()"></div>
+    </body>
+    <body class="whatsapp-estados-p5" *ngIf="currentIndex === 4">
+        <div class="whatsapp-estados-p5-red-box" (click)="whatsappEstadosClicked()"></div>
+    </body>
+    <body class="whatsapp-estados-p6" *ngIf="currentIndex === 5">
+        <div class="whatsapp-estados-p6-red-box" (click)="whatsappEstadosClicked()"></div>
+    </body>
+    <body class="whatsapp-estados-p7" *ngIf="currentIndex === 6">
+        <div class="whatsapp-estados-p7-red-box" (click)="whatsappEstadosClicked()"></div>
+    </body>
+    <body class="whatsapp-estados-p8" *ngIf="currentIndex === 7">
+        <input type="text" placeholder="Añade un comentario..." class="whatsapp-estados-p8-input" (input)="whatsappEstadosP8InputChanged($event)">
+    </body>
+    <body class="whatsapp-estados-p9" *ngIf="currentIndex === 8">
+        <img src="/assets/images/imagesTutoriales/whatsapp/subirEstado/envioEstado.png" alt="envio icon" class="whatsapp-estados-p9-button-image" (click)="whatsappEstadosClicked()">
+    </body>
+    <body class="whatsapp-estados-p10" *ngIf="currentIndex === 9">
+        <div class="whatsapp-estados-p10-red-box" (click)="whatsappEstadosClicked()"></div>
+    </body>
+    <body class="whatsapp-estados-p11" *ngIf="currentIndex === 10">
+        <div class="whatsapp-estados-p11-red-box" (click)="whatsappEstadosClicked()"></div>
+    </body>
+    <body class="whatsapp-estados-p12" *ngIf="currentIndex === 11">
+        <div class="whatsapp-estados-p12-red-box" (click)="whatsappEstadosClicked()"></div>
+    </body>
+    <body class="whatsapp-estados-p13" *ngIf="currentIndex === 12">
+        <input type="text" placeholder="Escribe un estado." class="whatsapp-estados-p13-input" (input)="whatsappEstadosP8InputChanged($event)">
+    </body>
+    <body class="whatsapp-estados-p14" *ngIf="currentIndex === 13">
+        <img src="/assets/images/imagesTutoriales/whatsapp/subirEstado/envioEstado.png" alt="envio icon" class="whatsapp-estados-p14-button-image" (click)="whatsappEstadosClicked()">
+        <div class="whatsapp-estados-p14-blue-box"></div>
+    </body>
+    <body class="whatsapp-estados-p15" *ngIf="currentIndex === 14">
+    </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

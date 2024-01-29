@@ -1,0 +1,359 @@
+/* whatsapp-p1 */  
+.whatsapp-p1 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/img_frecuente/whatsapp_paso1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+
+/* whatsapp-p2 */
+.whatsapp-p2 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+.whatsapp-p2-button-image {
+    /* Add styling for the image */
+    width: 64px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-left: 20px;
+  
+    /* Animation */
+    animation-name: buttonAnimation;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 60px;
+      margin-top: 102.5%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 120px;
+      margin-top: 95.5%;
+    }
+  }
+
+  /* whatsapp-p3 */
+  .whatsapp-p3{
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/img_frecuente/menu_principal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .whatsapp-p3-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 58px; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 30px;
+    margin-left: 90%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+  
+  /* whatsapp-p4 */
+  .whatsapp-p4 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/fotoPerfil/perfil_paso4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-p4-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 270px; /*Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-top: 340px;
+    margin-left: 40%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* whatsapp-p5 */
+  .whatsapp-p5 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/fotoPerfil/perfil_paso5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-p5-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 80px; /*Adjust the width as needed */
+    height: 85px; /* Adjust the height as needed */
+    margin-top: 110px;
+    margin-left: 2%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* whatsapp-p6 */
+  .whatsapp-p6 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/fotoPerfil/perfil_paso6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-p6-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 65px; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 260px;
+    margin-left: 58%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* whatsapp-p7 */
+  .whatsapp-p7 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/fotoPerfil/perfil_paso7.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-p7-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 62px; /*Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    margin-top: 720px;
+    margin-left: 42%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* whatsapp-p8 */
+  .whatsapp-p8 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/fotoPerfil/perfil_paso8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-p8-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 138px; /*Adjust the width as needed */
+    height: 140px; /* Adjust the height as needed */
+    margin-top: 275px;
+    margin-left: 66%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* whatsapp-p9 */
+  .whatsapp-p9 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/fotoPerfil/perfil_paso9.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .whatsapp-p9-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 58px; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 770px;
+    margin-left: 76%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* whatsapp-p10 */
+  .whatsapp-p10 {
+    background-image: url('src/assets/images/imagesTutoriales/whatsapp/fotoPerfil/perfil_paso10.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  

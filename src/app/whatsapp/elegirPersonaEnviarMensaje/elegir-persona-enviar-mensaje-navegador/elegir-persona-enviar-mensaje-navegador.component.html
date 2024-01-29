@@ -1,4 +1,45 @@
+<app-audio-instrucciones
+  [maxIndex]="audioInstruccionesData.length"
+  [index]="currentIndex"
+  [content]="audioInstruccionesData[currentIndex].content"
+  [audioSrc]="audioInstruccionesData[currentIndex].audio"
+  (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface</p>
+    <body class="whatsapp-enviarMensajes-p16" *ngIf="currentIndex === 15">
+        <img
+          src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso16_voz.jpeg"
+          alt="Whatsapp Icon"
+          class="whatsapp-enviarMensajes-p16-button-image"
+          (click)="bloquearNumerosRegistroClicked()"
+        />
+    </body>
+    <body class="whatsapp-enviarMensajes-p17" *ngIf="currentIndex === 16">
+        <img
+          src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso17_enviar.jpeg"
+          alt="Whatsapp Icon"
+          class="whatsapp-enviarMensajes-p17-button-image"
+          (click)="bloquearNumerosRegistroClicked()"
+        />
+    </body>
+    <body class="whatsapp-enviarMensajes-p18" *ngIf="currentIndex === 17">
+      <img
+        src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso18_emoji.jpeg"
+        alt="Whatsapp Icon"
+        class="whatsapp-enviarMensajes-p18-button-image"
+        (click)="bloquearNumerosRegistroClicked()"
+      />
+      <div class="whatsapp-enviarMensajes-p18-red-box"></div>
+  </body>
+  <body class="whatsapp-enviarMensajes-p19" *ngIf="currentIndex === 18">
+    <img
+      src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso19_sticker.jpeg"
+      alt="Whatsapp Icon"
+      class="whatsapp-enviarMensajes-p19-button-image"
+      (click)="bloquearNumerosRegistroClicked()"
+    />
+    <div class="whatsapp-enviarMensajes-p19-red-box"></div>    
+</body>
+<body class="whatsapp-enviarMensajes-p20" *ngIf="currentIndex === 19"></body>
 </app-phone-interface>
 <app-back-button></app-back-button>

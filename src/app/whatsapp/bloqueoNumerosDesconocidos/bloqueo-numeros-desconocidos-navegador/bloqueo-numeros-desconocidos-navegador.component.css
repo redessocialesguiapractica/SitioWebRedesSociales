@@ -329,8 +329,8 @@
   
     50% {
       /* Midpoint keyframe - the button will be twice its original size */
-      width: 170px;
-      margin-top: 184%;
+      width: 156px;
+      margin-top: 185%;
     }
   }
   

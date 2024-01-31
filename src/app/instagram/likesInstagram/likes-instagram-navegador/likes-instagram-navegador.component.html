@@ -1,4 +1,46 @@
+<app-audio-instrucciones
+  [maxIndex]="audioInstruccionesData.length"
+  [index]="currentIndex"
+  [content]="audioInstruccionesData[currentIndex].content"
+  [audioSrc]="audioInstruccionesData[currentIndex].audio"
+  (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface likes</p>
+    <body class="instagram-likes-p1" *ngIf="currentIndex === 0"></body>
+    <body class="instagram-likes-p2" *ngIf="currentIndex === 1">
+        <img
+          src="/assets/images/imagesTutoriales/instagram/imgInstFrecuente/logo_instagram.png"
+          alt="Instagram Icon"
+          class="instagram-likes-p2-button-image"
+          (click)="instagramLikesClicked()"
+        />
+    </body>
+    <body class="instagram-likes-p3" *ngIf="currentIndex === 2">
+        <img
+          src="/assets/images/imagesTutoriales/instagram/likeInstagram/likeIns_paso3_like.png"
+          alt="Instagram Icon"
+          class="instagram-likes-p3-button-image"
+          (click)="instagramLikesClicked()"
+        />
+        <div class="instagram-likes-p3-red-box"></div>
+    </body>
+    <body class="instagram-likes-p4" *ngIf="currentIndex === 3">
+        <img
+          src="/assets/images/imagesTutoriales/instagram/likeInstagram/likeIns_paso4_perfil.png"
+          alt="Instagram Icon"
+          class="instagram-likes-p4-button-image"
+          (click)="instagramLikesClicked()"
+        />
+        <div class="instagram-likes-p4-red-box"></div>
+    </body>
+    <body class="instagram-likes-p5" *ngIf="currentIndex === 4">
+        <img
+          src="/assets/images/imagesTutoriales/instagram/likeInstagram/likeIns_paso4_perfil.png"
+          alt="Instagram Icon"
+          class="instagram-likes-p5-button-image"
+          (click)="instagramLikesClicked()"
+        />
+        <div class="instagram-likes-p5-red-box"></div>
+    </body>
 </app-phone-interface>
 <app-back-button></app-back-button>

@@ -46,7 +46,7 @@ export class TutorialesNavegadorComponent {
           { title: 'Registro en Instagram', description: 'Aprende a crear una cuenta en Instagram.', image: 'instagram_image_url', type: 'registro'},
           { title: 'Iniciar sesión en Instagram', description: 'Descubre cómo iniciar sesión en Instagram.', image: 'instagram_image_url', type: 'login' },
           { title: 'Búsqueda en Instagram', description: 'Explora cómo realizar búsquedas en Instagram.', image: 'instagram_image_url', type: 'busqueda' },
-          { title: 'Barra de navegación en Instagram', description: 'Conoce la barra de navegación de Instagram.', image: 'instagram_image_url', type: 'barraNavegacion' },
+          { title: 'Barra de navegación de Instagram', description: 'Conoce la barra de navegación de Instagram.', image: 'instagram_image_url', type: 'barraNavegacion' },
           { title: 'Historias en Instagram', description: 'Aprende a utilizar las historias en Instagram.', image: 'instagram_image_url', type: 'historias' },
           { title: 'Likes en Instagram', description: 'Descubre cómo dar likes en Instagram.', image: 'instagram_image_url', type: 'likes' },
         ]

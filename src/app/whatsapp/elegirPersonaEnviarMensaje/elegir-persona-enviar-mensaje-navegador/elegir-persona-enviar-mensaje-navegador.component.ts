@@ -18,7 +18,7 @@ export class ElegirPersonaEnviarMensajeNavegadorComponent implements OnInit {
     {
       index: 1,
       content:
-        '¡Bienvenido <br>a este tutorial guiado para enviar mensajes por Whatsapp! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
+        '¡Bienvenido a este tutorial guiado para enviar mensajes por Whatsapp! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
         audio: '/assets/audio/whatsapp/enviarMensajes/w-paso1.mp3',
     },
     {

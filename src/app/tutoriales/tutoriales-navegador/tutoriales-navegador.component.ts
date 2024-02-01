@@ -32,7 +32,7 @@ export class TutorialesNavegadorComponent {
       {
         name: 'whatsapp',
         tutorials: [
-          { title: 'Registro en WhatsApp', description: 'Aprende a crear una cuenta en WhatsApp.', image: 'whatsapp_image_url', type: 'registro'},
+          { title: 'Registro en WhatsApp', description: 'Aprende a crear una cuenta en WhatsApp.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_whatsapp/registro_whatsapp.png', type: 'registro'},
           { title: 'Enviar mensajes en WhatsApp', description: 'Aprende a enviar mensajes, usar emoticones y stickers, adjuntar archivos e imágenes. Grabar audios.', image: 'whatsapp_image_url', type: 'elegirPersonaEnviarMensaje' },
           { title: 'Subir y ver estados en WhatsApp', description: 'Descubre cómo subir y ver estados en WhatsApp.', image: 'whatsapp_image_url', type: 'subirYVerEstados' },
           { title: 'Hacer y recibir llamadas/videollamadas en WhatsApp', description: 'Aprende a hacer y recibir llamadas y videollamadas en WhatsApp.', image: 'whatsapp_image_url', type: 'hacerYRecibirLlamadas' },

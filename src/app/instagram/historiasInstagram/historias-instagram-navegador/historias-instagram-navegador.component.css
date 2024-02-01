@@ -1,0 +1,524 @@
+/*PASO 1*/
+.historias-instagram-p1 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+/*PASO 2*/
+.historias-instagram-p2 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .historias-instagram-p2-button-image {
+    /* Add styling for the image */
+    width: 64px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 162.5%;
+    margin-left: 0.5%;
+  
+    /* Animation */
+    animation-name: buttonAnimation;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 64px;
+      margin-top: 102.5%;
+      margin-left: 148px;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 90px;
+      margin-top: 98.5%;
+    }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .historias-instagram-p2-button-image:hover {
+    animation-play-state: paused;
+    width: 64px!important;
+    margin-top: 102.5%!important;
+  }
+
+/*PASO 3*/
+.historias-instagram-p3 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .historias-instagram-p3-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 20%; /*Adjust the width as needed */
+    height: 58px; /* Adjust the height as needed */
+    margin-top: 760px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp3;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp3 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 4*/
+.historias-instagram-p4 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .historias-instagram-p4-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 25%; /*Adjust the width as needed */
+    height: 58px; /* Adjust the height as needed */
+    margin-top: 753px;
+    margin-left: 237px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp4;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp4 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 5*/
+.historias-instagram-p5 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .historias-instagram-p5-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 15%; /*Adjust the width as needed */
+    height: 58px; /* Adjust the height as needed */
+    margin-top: 750px;
+    margin-right: 335px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp5;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp5 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 6*/
+.historias-instagram-p6 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .historias-instagram-p6-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 40%; /*Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+    margin-top: 130px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp6;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp6 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 7*/
+.historias-instagram-p7 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso7.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .historias-instagram-p7-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 15%; /*Adjust the width as needed */
+    height: 58px; /* Adjust the height as needed */
+    margin-top: 32px;
+    margin-left: 36px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp7;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp7 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 8*/
+.historias-instagram-p8 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .historias-instagram-p8-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 25%; /*Adjust the width as needed */
+    height: 90px; /* Adjust the height as needed */
+    margin-top: 630px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp8;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp8 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 9*/
+.historias-instagram-p9 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .historias-instagram-p9-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 40%; /*Adjust the width as needed */
+    height: 58px; /* Adjust the height as needed */
+    margin-top: 753px;
+    margin-right: 215px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp9;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp9 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 10*/
+.historias-instagram-p10 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso10.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .historias-instagram-p10-button-image {
+    /* Add styling for the image */
+    width: 100px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 162.5%;
+    margin-left: 0.5%;
+  
+    /* Animation */
+    animation-name: buttonAnimation10;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation10 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 70px;
+      margin-top: 193.5%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 90px;
+      margin-top: 191.5%;
+    }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .historias-instagram-p10-button-image:hover {
+    animation-play-state: paused;
+    width: 70px!important;
+    margin-top: 193.5%!important;
+  }
+
+/*PASO 11*/
+.historias-instagram-p11 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso11.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .historias-instagram-p11-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 30%; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 550px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp11;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp11 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 12*/
+.historias-instagram-p12 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso12.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .historias-instagram-p12-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 25%; /*Adjust the width as needed */
+    height: 125px; /* Adjust the height as needed */
+    margin-top: 85px;
+    margin-right: 296px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp12;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp12 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 13*/
+.historias-instagram-p13 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/historiaInstagram/historiaIns_paso13.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+}

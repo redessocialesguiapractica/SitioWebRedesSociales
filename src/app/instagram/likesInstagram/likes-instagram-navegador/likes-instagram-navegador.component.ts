@@ -19,42 +19,42 @@ export class LikesInstagramNavegadorComponent implements OnInit{
       index: 1,
       content:
         '¡Bienvenido a este tutorial guiado en el que aprenderás como dar likes en las publicaciones de Instagram! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
-        audio: '/assets/audio/whatsapp/enviarMensajes/w-paso1.mp3',
+        audio: '',
     },
     {
       index: 2,
       content: 'En nuestra pantalla principal del teléfono, presionamos el botón que está siendo destacado de nuestra aplicación de Instagram.',
-      audio: '/assets/audio/whatsapp/enviarMensajes/w-paso2.mp3',
+      audio: '',
     },
     {
       index: 3,
       content: 'Una vez que la aplicación se haya cargado, estarás en la página de inicio de Instagram, donde verás las publicaciones de las cuentas a las que sigues. Desliza hacia arriba para desplazarte por las publicaciones y encuentra la que te gustaría dar like. Presiona el ícono de corazón señalado en el cuadro rojo.',
-      audio: '/assets/audio/whatsapp/enviarMensajes/w-paso3.mp3',
+      audio: '',
     },
     {
       index: 4,
       content: 'Verás que el corazón se vuelve rojo para indicar que has dado like a la publicación. Para ver las publicaciones a las que les has dado like recientemente, toca tu foto de perfil en la esquina inferior derecha, señalada con el cuadro rojo, para acceder a tu perfil.',
-      audio: '/assets/audio/whatsapp/enviarMensajes/w-paso4.mp3',
+      audio: '',
     },
     {
       index: 5,
       content: 'Luego, toca el ícono de tres líneas horizontales en la esquina superior derecha, señalado con el cuadro rojo.',
-      audio: '/assets/audio/whatsapp/enviarMensajes/w-paso5.mp3',
+      audio: '',
     },
     {
       index: 6,
-      content: 'Para nuestro ejemplo en la barra de “Mensaje” escribe “Hola” desde tu teclado en el rectángulo rojo.',
-      audio: '/assets/audio/whatsapp/enviarMensajes/w-paso6.mp3',
+      content: 'En el recuadro de menú que se muestra en pantalla, presiona la opción "Tu actividad" señalada con el rectángulo rojo',
+      audio: '',
     },
     {
       index: 7,
-      content: 'Una vez escrito tu mensaje presiona el botón de “Enviar” que está señalado por el cuadro rojo.',
-      audio: '/assets/audio/whatsapp/enviarMensajes/w-paso7.mp3',
+      content: 'Se abrirá la ventana “Tu actividad” en la cual podrás ver tus actividades recientes, incluidos tus likes. Presiona la opción “Me gusta” señalada con el rectángulo rojo.',
+      audio: '',
     },
     {
       index: 8,
-      content: 'Y se habrá enviado el mensaje a tu contacto. En la barra de mensajes también puedes ver el ícono de un clip, junto al ícono de la cámara. Presiona el clip que está siendo señalado por el recuadro rojo.',
-      audio: '/assets/audio/whatsapp/enviarMensajes/w-paso8.mp3',
+      content: 'Podrás visualizar la ventana “Me gusta” en la que estarán todas las publicaciones a las que diste like. ¡Felicidades, has completado el tutorial en el que has aprendido como dar likes en las publicaciones de Instagram! Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
+      audio: '',
     },
   ];
   currentIndex = 0;

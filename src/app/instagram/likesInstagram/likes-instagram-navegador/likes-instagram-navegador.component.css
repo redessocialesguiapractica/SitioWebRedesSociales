@@ -1,0 +1,303 @@
+
+/*instagram-likes-p1*/
+
+.instagram-likes-p1 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pantalla_principal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+  /* instagram-likes-p2*/
+
+  .instagram-likes-p2 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pantalla_principal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .instagram-likes-p2-button-image {
+    /* Add styling for the image */
+    width: 64px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 101.5%;
+    margin-left: 37%;
+  
+    /* Animation */
+    animation-name: buttonAnimation2;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation2 {
+    0%, 
+    100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 64px;
+      margin-top: 101.5%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 100px;
+      margin-top: 101.5%;
+    }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .instagram-likes-p2-button-image:hover {
+    animation-play-state: paused;
+    width: 64px!important;
+    margin-top: 101.5%!important;
+  }
+
+   /* instagram-likes-p3*/
+
+   .instagram-likes-p3 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/likeInstagram/likeIns_paso3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-likes-p3-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 50px; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 166%;
+    border: 3px solid red;
+    border-radius: 10px;
+    margin-right: 87%;
+  
+      /* Animation */
+      animation-name: borderAnimationI3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    
+    .instagram-likes-p3-button-image {
+      width: 28px; /* Adjust the width as needed */
+      height: 28px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 171%;
+      margin-right: 89%;
+      position: absolute;
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+    
+    /* instagram-likes-p4*/
+
+   .instagram-likes-p4 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/likeInstagram/likeIns_paso4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-likes-p4-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 60px; /*Adjust the width as needed */
+    height: 70px; /* Adjust the height as needed */
+    margin-top: 190%;
+    border: 3px solid red;
+    border-radius: 10px;
+    margin-left: 83%;
+  
+      /* Animation */
+      animation-name: borderAnimationI3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    .instagram-likes-p4-button-image {
+      width: 38px; /* Adjust the width as needed */
+      height: 38px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 194%;
+      margin-left: 83%;
+      position: absolute;
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+
+    /* instagram-likes-p5*/
+
+   .instagram-likes-p5 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pantalla_perfil.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-likes-p5-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 60px; /*Adjust the width as needed */
+    height: 75px; /* Adjust the height as needed */
+    margin-top: 7%;
+    border: 3px solid red;
+    border-radius: 10px;
+    margin-left: 85%;
+  
+      /* Animation */
+      animation-name: borderAnimationI3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    .instagram-likes-p5-button-image {
+      width: 28px; /* Adjust the width as needed */
+      height: 28px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 12%;
+      margin-left: 86%;
+      position: absolute;
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+
+    /* instagram-likes-p6*/
+
+   .instagram-likes-p6 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/likeInstagram/likeIns_paso6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-likes-p6-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 220px; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 180%;
+    border: 3px solid red;
+    border-radius: 10px;
+    margin-right: 43%;
+  
+      /* Animation */
+      animation-name: borderAnimationI3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    .instagram-likes-p6-button-image {
+      width: 160px; /* Adjust the width as needed */
+      height: 25px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 184.5%;
+      margin-right: 55%;
+      position: absolute;
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+
+    /* instagram-likes-p7*/
+
+   .instagram-likes-p7 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/likeInstagram/likeIns_paso7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-likes-p7-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 388px; /*Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    margin-top: 69%;
+    border: 3px solid red;
+    border-radius: 10px;
+  
+      /* Animation */
+      animation-name: borderAnimationI3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    .instagram-likes-p7-button-image {
+      width: 378px; /* Adjust the width as needed */
+      height: 48px; /* Adjust the height as needed */
+      border: none; /* Remove default button border */
+      cursor: pointer; /* Add a pointer cursor on hover */
+      margin-top: 73%;
+      position: absolute;
+      /* Add a transition to smoothly revert to the initial state on hover */
+      transition: width 0.5s, margin-top 0.5s;
+    }
+
+    /*instagram-likes-p8*/
+
+.instagram-likes-p8 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/likeInstagram/likeIns_paso8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationI3 {
+        0%, 
+        100% {
+          /* Initial and final keyframes - the border will be red */
+          border-color: red;
+        }
+      
+        50% {
+          /* Midpoint keyframe - the border will be transparent (no border) */
+          border-color: transparent;
+        }
+      }

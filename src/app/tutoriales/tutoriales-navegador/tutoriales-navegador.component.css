@@ -45,3 +45,13 @@
 .body {
   background-color: #f0f0f0;
 }
+
+.footer-tutoriales{
+  text-align: center;
+  box-shadow: 6px 6px 12px #556b66;
+  font-size: small;
+}
+
+.footer-tutoriales a {
+  color: #899690;
+}

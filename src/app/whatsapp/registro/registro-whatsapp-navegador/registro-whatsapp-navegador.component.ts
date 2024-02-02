@@ -65,51 +65,51 @@ audioInstruccionesData = [
   {
     index: 10,
     content: 'Te aparecerá una ventana como esta para que puedas comprobar nuevamente tu número de celular ingresado. Una vez que compruebes que está correcto, presionarás en "Sí". Si cometiste algún error, presionarás "Editar". Pero en este caso, para continuar con el tutorial, por favor, pulsa el recuadro rojo.',
-    audio: '/assets/audio/whatsapp/registro/paso_10.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso10whatsappregistro.mp3',
   },
   {
     index: 11,
     content: 'WhatsApp ahora te pedirá varios permisos sobre tu teléfono para facilitar el registro. Es importante que en esta pantalla presiones el botón "Continuar". Cuando lo hagas en tu celular, asegúrate de pulsar el mismo botón. Para continuar con el siguiente paso, por favor, pulsa ese mismo botón.',
-    audio: '/assets/audio/whatsapp/registro/paso_11.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso11whatsappregistro.mp3',
   },
   {
     index: 12,
     content: 'Pulsa "Permitir" para que WhatsApp pueda acceder a tus registros de llamadas.',
-    audio: '/assets/audio/whatsapp/registro/paso_12.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso12whatsappregistro.mp3',
   },
   {
     index: 13,
     content: 'Pulsa "Permitir" para que WhatsApp administre tus llamadas.',
-    audio: '/assets/audio/whatsapp/registro/paso_13.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso13whatsappregistro.mp3',
   },
   {
     index: 14,
     content: 'Presiona "Continuar" para permitir que WhatsApp acceda a tus contactos en tu celular y a tus archivos multimedia.',
-    audio: '/assets/audio/whatsapp/registro/paso_14.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso14whatsappregistro.mp3',
   },
   {
     index: 15,
     content: 'Presiona "Permitir" para que WhatsApp pueda acceder a tus contactos de tu celular.',
-    audio: '/assets/audio/whatsapp/registro/paso_15.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso15whatsappregistro.mp3',
   },
   {
     index: 16,
     content: 'Pulsa "Permitir" para que WhatsApp acceda a tus fotos y contenidos multimedia de tu dispositivo.',
-    audio: '/assets/audio/whatsapp/registro/paso_16.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso16whatsappregistro.mp3',
   }, {
     index: 17,
     content: 'Aquí deberás ingresar tu nombre en la parte que se marca con el recuadro rojo. Una vez ingresado tu nombre, pulsa el botón "Sig."" que está siendo destacado, para continuar.',
-    audio: '/assets/audio/whatsapp/registro/paso_17.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso17whatsappregistro.mp3',
   }, 
   {
     index: 18,
     content: 'WhatsApp también te da la opción de ingresar tu correo electrónico para asociarlo con tu cuenta. El correo electrónico es opcional. Si no quieres ingresar tu correo electrónico o no tienes uno, deberás pulsar lo que se marca en el recuadro rojo, el texto que dice "Ahora no". Si deseas ingresar tu correo electrónico, lo harás en la parte marcada con el recuadro rojo de arriba que dice "Correo electrónico" y pulsarás "Siguiente" a continuación. En este caso, para continuar con el tutorial, puedes presionar cualquiera de esos botones.',
-    audio: '/assets/audio/whatsapp/registro/paso_18.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso18whatsappregistro.mp3',
   },
   {
     index: 19,
     content: '¡Felicidades, has completado el tutorial de registro de en WhatsApp!. Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
-    audio: '/assets/audio/whatsapp/registro/paso_19.mp3',
+    audio: '/assets/audio/whatsapp/registro/paso19whatsappregistro.mp3',
   }
   
 ]

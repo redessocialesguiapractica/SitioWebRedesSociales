@@ -19,7 +19,7 @@ export class SubirYVerEstadosNavegadorComponent implements OnInit {
 audioInstruccionesData = [
   {
     index: 1,
-    content: '¡Bienvenido a este tutorial guiado para enviar mensajes por Whatsapp! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
+    content: '¡Bienvenido a este tutorial guiado para subir y ver estados en Whatsapp! Además de las instrucciones habladas, también puedes ver las instrucciones escritas en la parte izquierda, en la caja de instrucciones, donde encontrarás varios botones para navegar entre los diferentes pasos. Muy bien, entonces empecemos con el primer paso.',
     audio: '/assets/audio/whatsapp/subirYverEstados/Paso1_estados.mp3',
   },
   {
@@ -69,7 +69,7 @@ audioInstruccionesData = [
   },
   {
     index: 11,
-    content: 'Se abrirá una ventana en la que puedes visualizar todos los estados publicados por el contacto que seleccionaste. Si visualizas tus estados verás que en la parte inferior se encuentra un ícono de un ojo con el número de personas que han visto tu estado. Para poder salir de los estados de tu contacto pulsa el botón de regrese de tu barra de navegación. Presiona el botón de retroceso señalado con el recuadro rojo.',
+    content: 'Se abrirá una ventana en la que puedes visualizar todos los estados publicados por el contacto que seleccionaste. Si visualizas tus estados verás que en la parte inferior se encuentra un ícono de un ojo con el número de personas que han visto tu estado. Para poder salir de los estados de tu contacto pulsa el botón de regreso de tu barra de navegación. Presiona el botón de retroceso señalado con el recuadro rojo.',
     audio: '/assets/audio/whatsapp/subirYverEstados/Paso11_estados.mp3',
   },
   {
@@ -79,7 +79,7 @@ audioInstruccionesData = [
   },
   {
     index: 13,
-    content: 'Escribe el texto que deseas publicar en el recuadro que indica “Escribe un estado”. ',
+    content: 'Escribe el texto que deseas publicar en el recuadro que indica “Escribe un estado”. Una vez escrito tu estado pulsa el botón "Siguiente" del recuadro de instrucciones.',
     audio: '/assets/audio/whatsapp/subirYverEstados/Paso13_estados.mp3',
   },
   {
@@ -175,7 +175,7 @@ clearNextInstructionTrigger(): void {
   whatsappEstadosP8InputChanged(event: Event): void {
     const target = event.target as HTMLInputElement;
     const searchText = target.value.toLowerCase(); // Convert to lowercase for case-insensitive comparison
-    if (searchText.includes('whatsapp')) {
+    if (searchText.includes('gallo de la catedral')) {
       this.nextInstructionTimer = setTimeout(() => {
         this.nextInstruction();
       }, 2000);

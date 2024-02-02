@@ -169,7 +169,7 @@ whatsappLlamadaClicked(): void {
  whatsappLlamadaP5InputChanged(event: Event): void {
   const target = event.target as HTMLInputElement;
   const searchText = target.value.toLowerCase(); // Convert to lowercase for case-insensitive comparison
-  if (searchText.includes('Eli')) {
+  if (searchText.includes('eli')) {
     this.nextInstructionTimer = setTimeout(() => {
       this.nextInstruction();
     }, 2000);

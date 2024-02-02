@@ -33,22 +33,22 @@ export class TutorialesNavegadorComponent {
         name: 'whatsapp',
         tutorials: [
           { title: 'Registro en WhatsApp', description: 'Aprende a crear una cuenta en WhatsApp.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_whatsapp/registro_whatsapp.png', type: 'registro'},
-          { title: 'Enviar mensajes en WhatsApp', description: 'Aprende a enviar mensajes, usar emoticones y stickers, adjuntar archivos e imágenes. Grabar audios.', image: 'whatsapp_image_url', type: 'elegirPersonaEnviarMensaje' },
-          { title: 'Subir y ver estados en WhatsApp', description: 'Descubre cómo subir y ver estados en WhatsApp.', image: 'whatsapp_image_url', type: 'subirYVerEstados' },
-          { title: 'Hacer y recibir llamadas/videollamadas en WhatsApp', description: 'Aprende a hacer y recibir llamadas y videollamadas en WhatsApp.', image: 'whatsapp_image_url', type: 'hacerYRecibirLlamadas' },
-          { title: 'Bloqueo de números desconocidos en WhatsApp', description: 'Descubre cómo bloquear números desconocidos en WhatsApp.', image: 'whatsapp_image_url', type: 'bloqueoNumerosDesconocidos' },
-          { title: 'Cambiar foto de perfil en WhatsApp', description: 'Aprende a cambiar tu foto de perfil en WhatsApp.', image: 'whatsapp_image_url', type: 'cambiarFotoPerfil' },
+          { title: 'Enviar mensajes en WhatsApp', description: 'Aprende a enviar mensajes, usar emoticones y stickers, adjuntar archivos e imágenes. Grabar audios.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_whatsapp/mensajes_whatsapp.png', type: 'elegirPersonaEnviarMensaje' },
+          { title: 'Subir y ver estados en WhatsApp', description: 'Descubre cómo subir y ver estados en WhatsApp.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_whatsapp/estados_whatsapp.png', type: 'subirYVerEstados' },
+          { title: 'Hacer y recibir llamadas/videollamadas en WhatsApp', description: 'Aprende a hacer y recibir llamadas y videollamadas en WhatsApp.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_whatsapp/llamadas_whatsapp.png', type: 'hacerYRecibirLlamadas' },
+          { title: 'Bloqueo de números desconocidos en WhatsApp', description: 'Descubre cómo bloquear números desconocidos en WhatsApp.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_whatsapp/bloquear_whatsapp.png', type: 'bloqueoNumerosDesconocidos' },
+          { title: 'Cambiar foto de perfil en WhatsApp', description: 'Aprende a cambiar tu foto de perfil en WhatsApp.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_whatsapp/foto_whatsapp.png', type: 'cambiarFotoPerfil' },
         ]
       },
       {
         name: 'instagram',
         tutorials: [
-          { title: 'Registro en Instagram', description: 'Aprende a crear una cuenta en Instagram.', image: 'instagram_image_url', type: 'registro'},
-          { title: 'Iniciar sesión en Instagram', description: 'Descubre cómo iniciar sesión en Instagram.', image: 'instagram_image_url', type: 'login' },
-          { title: 'Búsqueda en Instagram', description: 'Explora cómo realizar búsquedas en Instagram.', image: 'instagram_image_url', type: 'busqueda' },
-          { title: 'Barra de navegación de Instagram', description: 'Conoce la barra de navegación de Instagram.', image: 'instagram_image_url', type: 'barraNavegacion' },
-          { title: 'Historias en Instagram', description: 'Aprende a utilizar las historias en Instagram.', image: 'instagram_image_url', type: 'historias' },
-          { title: 'Likes en Instagram', description: 'Descubre cómo dar likes en Instagram.', image: 'instagram_image_url', type: 'likes' },
+          { title: 'Registro en Instagram', description: 'Aprende a crear una cuenta en Instagram.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_instagram/registroInstagram.png', type: 'registro'},
+          { title: 'Iniciar sesión en Instagram', description: 'Descubre cómo iniciar sesión en Instagram.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_instagram/sesionInstagram.png', type: 'login' },
+          { title: 'Búsqueda en Instagram', description: 'Explora cómo realizar búsquedas en Instagram.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_instagram/buscarInstagram.png', type: 'busqueda' },
+          { title: 'Barra de navegación de Instagram', description: 'Conoce la barra de navegación de Instagram.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_instagram/navegacionInstagram.png', type: 'barraNavegacion' },
+          { title: 'Historias en Instagram', description: 'Aprende a publicar historias en Instagram.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_instagram/historiasInstragram.png', type: 'historias' },
+          { title: 'Likes en Instagram', description: 'Descubre cómo dar likes en Instagram.', image: 'assets/images/imagesHome/imagenes_tutoriales/tutoriales_instagram/likesInstragram.png', type: 'likes' },
         ]
       },
       {

@@ -1,0 +1,269 @@
+/* instagram-login-p1 */
+
+.instagram-login-p1 {
+  background-image: url("src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pantalla_principal.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+/* instagram-login-p2 */
+
+.instagram-login-p2 {
+  background-image: url("src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pantalla_principal.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.instagram-login-p2-button-image {
+  /* Add styling for the image */
+  width: 64px; /* Initial width */
+  height: auto; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 101.5%;
+  margin-left: 38.5%;
+
+  /* Animation */
+  animation-name: buttonAnimationp2;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimationp2 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    width: 64px;
+    margin-top: 101.5%;
+  }
+
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    width: 128px;
+    margin-top: 94.5%;
+  }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.instagram-login-p2-button-image:hover {
+  animation-play-state: paused;
+  width: 64px !important;
+  margin-top: 101.5% !important;
+}
+
+/* instagram-login-p3 */
+
+.instagram-login-p3 {
+  background-image: url("src/assets/images/imagesTutoriales/instagram/iniciarSesionInstagram/iniciarSesionIns_paso3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.instagram-login-p3-button-image {
+  /* Add styling for the image */
+  width: 385px; /* Initial width */
+  height: auto; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 154.5%;
+  margin-left: 0%;
+  position: absolute;
+
+  /* Animation */
+  animation-name: buttonAnimationp3;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimationp3 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    width: 385px;
+    margin-top: 154.5%;
+  }
+
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    width: 770px;
+    margin-top: 147.5%;
+  }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.instagram-login-p3-button-image:hover {
+  animation-play-state: paused;
+  width: 385px !important;
+  margin-top: 154.5% !important;
+}
+
+/* instagram-login-p4 */
+
+.instagram-login-p4 {
+  background-image: url("src/assets/images/imagesTutoriales/instagram/iniciarSesionInstagram/iniciarSesionIns_paso4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.instagram-login-p4-input1 {
+  border: 2px solid red; /* Initial border color */
+  margin-top: 85.4%;
+  font-size: 17px;
+  margin-left: 0.2%;
+  width: 374px;
+  height: 60px;
+  border-radius: 13px;
+
+  /* Animation */
+  animation-name: borderAnimationp4-1;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp4-1 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+.instagram-login-p4-input2 {
+  border: 2px solid red; /* Initial border color */
+  margin-top: 3.5%;
+  font-size: 17px;
+  margin-left: 0.2%;
+  width: 374px;
+  height: 60px;
+  border-radius: 13px;
+
+  /* Animation */
+  animation-name: borderAnimationp4-2;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+}
+
+/* Define the keyframes for the animation */
+@keyframes borderAnimationp4-2 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the border will be red */
+    border-color: red;
+  }
+
+  50% {
+    /* Midpoint keyframe - the border will be transparent (no border) */
+    border-color: transparent;
+  }
+}
+
+/* instagram-login-p5 */
+
+.instagram-login-p5 {
+  background-image: url("src/assets/images/imagesTutoriales/instagram/iniciarSesionInstagram/iniciarSesionIns_paso5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}
+
+.instagram-login-p5-button-image {
+  /* Add styling for the image */
+  width: 373px; /* Initial width */
+  height: auto; /* Maintain the aspect ratio */
+  cursor: pointer; /* Set the cursor to a hand */
+  margin-top: 185.7%;
+  margin-left: 0%;
+  position: absolute;
+
+  /* Animation */
+  animation-name: buttonAnimationp5;
+  animation-duration: 2s; /* Total duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+
+  /* Add a transition to smoothly revert to the initial state on hover */
+  transition: width 0.5s, margin-top 0.5s;
+}
+
+/* Define the keyframes for the animation */
+@keyframes buttonAnimationp5 {
+  0%,
+  100% {
+    /* Initial and final keyframes - the button will be at its original size */
+    width: 373px;
+    margin-top: 185.7%;
+  }
+
+  50% {
+    /* Midpoint keyframe - the button will be twice its original size */
+    width: 746px;
+    margin-top: 178.7%;
+  }
+}
+
+/* Pause the animation when the cursor is over the button and revert to the initial state */
+.instagram-login-p5-button-image:hover {
+  animation-play-state: paused;
+  width: 373px !important;
+  margin-top: 185.7% !important;
+}
+
+/* instagram-login-p6 */
+
+.instagram-login-p6 {
+  background-image: url("src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pagina_inicio.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding to ensure full coverage */
+}

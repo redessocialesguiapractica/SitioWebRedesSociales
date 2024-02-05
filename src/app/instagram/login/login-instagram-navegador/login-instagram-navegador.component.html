@@ -1,4 +1,41 @@
+<app-audio-instrucciones
+  [maxIndex]="audioInstruccionesData.length"
+  [index]="currentIndex"
+  [content]="audioInstruccionesData[currentIndex].content"
+  [audioSrc]="audioInstruccionesData[currentIndex].audio"
+  (buttonClick)="onAudioInstruccionesButtonClick($event)"
+></app-audio-instrucciones>
+
 <app-phone-interface>
-    <p>Escribir el codigo html entre los app-phone-interface inciar sesion instagram</p>
+  <body class="instagram-login-p1" *ngIf="currentIndex === 0"></body>
+  <body class="instagram-login-p2" *ngIf="currentIndex === 1">
+    <img
+      src="/assets/images/imagesTutoriales/instagram/imgInstFrecuente/logo_instagram.png"
+      alt="Instagram Icon"
+      class="instagram-login-p2-button-image"
+      (click)="instagramLoginClicked()"
+    />
+  </body>
+  <body class="instagram-login-p3" *ngIf="currentIndex === 2">
+    <img
+      src="assets/images/imagesTutoriales/instagram/iniciarSesionInstagram/otraCuentaBtn.png"
+      alt="button Icon"
+      class="instagram-login-p3-button-image"
+      (click)="instagramLoginClicked()"
+    />
+  </body>
+  <body class="instagram-login-p4" *ngIf="currentIndex === 3">
+    <input type="text" placeholder="Nombre de usuario, correo o celular" class="instagram-login-p4-input1" (input)="instagramLoginP41InputChanged($event)">
+    <input type="password" placeholder="Contraseña" class="instagram-login-p4-input2" (input)="instagramLoginP42InputChanged($event)">
+  </body>
+  <body class="instagram-login-p5" *ngIf="currentIndex === 4">
+    <img
+      src="assets/images/imagesTutoriales/instagram/iniciarSesionInstagram/ahoraNoBtn.png"
+      alt="button Icon"
+      class="instagram-login-p5-button-image"
+      (click)="instagramLoginClicked()"
+    />
+  </body>
+  <body class="instagram-login-p6" *ngIf="currentIndex === 5"></body>
 </app-phone-interface>
 <app-back-button></app-back-button>

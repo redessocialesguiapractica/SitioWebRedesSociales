@@ -1,0 +1,821 @@
+/*PASO 1*/
+.instagram-registro-p1 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pantalla_principal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+/*PASO 2*/
+.instagram-registro-p2 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pantalla_principal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .instagram-registro-p2-button-image {
+    /* Add styling for the image */
+    width: 64px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 162.5%;
+    margin-left: 0.5%;
+  
+    /* Animation */
+    animation-name: buttonAnimation2;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimation2 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      width: 64px;
+      margin-top: 162.5%;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      width: 128px;
+      margin-top: 155.5%;
+    }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .instagram-registro-p2-button-image:hover {
+    animation-play-state: paused;
+    width: 64px!important;
+    margin-top: 162.5%!important;
+  }
+
+/*PASO 3*/
+.instagram-registro-p3 {
+    background-image: url('src/assets/images/imagesTutoriales/facebook/registro/registro2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .instagram-registro-p3-button-image {
+    /* Add styling for the image */
+    width: 270px; /* Initial width */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Set the cursor to a hand */
+    margin-top: 7%;
+    margin-right: 26%;
+  
+   /* Animation */
+   animation-name: buttonAnimationp3;
+   animation-duration: 2s; /* Total duration of the animation */
+   animation-iteration-count: infinite; /* Infinite loop */
+  
+   /* Add a transition to smoothly revert to the initial state on hover */
+   transition: width 0.5s, margin-top 0.5s;
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes buttonAnimationp3 {
+   0%, 100% {
+     /* Initial and final keyframes - the button will be at its original size */
+     width: 270px;
+     margin-top: 7%;
+     margin-right: 26%;
+   }
+  
+   50% {
+     /* Midpoint keyframe - the button will be twice its original size */
+     width: 350px;
+     margin-top: 4%;
+     margin-right: 20%;
+     
+   }
+  }
+  
+  /* Pause the animation when the cursor is over the button and revert to the initial state */
+  .instagram-registro-p3-button-image:hover {
+   animation-play-state: paused;
+   width: 270px!important;
+   margin-top: 7%!important;
+  margin-right: 26%!important;
+  }
+
+/*PASO 4*/
+.instagram-registro-p4 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p4-input {
+    border: 2px solid red; /* Initial border color */
+    margin-top: 10%;
+    font-size: 17px;
+    margin-right: 10%;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+  
+    /* Animation */
+    animation-name: borderAnimationp4;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp4 {
+    0%, 100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 5*/
+.instagram-registro-p5 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p5-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 393px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    margin-top: 20%;
+    border: 2px solid red;
+    border-radius: 10px;
+  
+      /* Animation */
+      animation-name: borderAnimationp5;
+      animation-duration: 2s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp5 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+  
+  .instagram-registro-p5-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 76px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 10%;
+    margin-left: 62%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp5;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp5 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  77px;
+      margin-top: 23.8%;
+      margin-left: 62%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 90px;
+      margin-top: 23%;
+      margin-left: 62%;
+      
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .instagram-registro-p5-button-image:hover {
+    animation-play-state: paused;
+    height: 77px!important;
+    margin-top: 23.8%!important;
+    margin-left: 62%!important;
+   }
+
+/*PASO 6*/
+.instagram-registro-p6 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p6-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 76px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 10%;
+    margin-left: 62%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp6;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp6 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  77px;
+      margin-top: 24.8%;
+      margin-left: 74%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 94px;
+      margin-top: 23%;
+      margin-left: 74%;
+      
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .instagram-registro-p6-button-image:hover {
+    animation-play-state: paused;
+    height: 77px!important;
+    margin-top: 24.8%!important;
+    margin-left: 74%!important;
+   }
+
+/*PASO 7*/
+.instagram-registro-p7 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso7.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p7-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 98%; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 710px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp7;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp7 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 8*/
+.instagram-registro-p8 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p8-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 98%; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 371px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp8;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp8 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 9*/
+.instagram-registro-p9 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p9-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 73.5px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 9%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp9;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp9 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  73.5px;
+      margin-top: 66.5%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 90px;
+      margin-top: 66.5%;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .instagram-registro-p9-button-image:hover {
+    animation-play-state: paused;
+    height: 73.5px!important;
+    margin-top: 66.5%!important;
+   }
+
+/*PASO 10*/
+.instagram-registro-p10 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso10.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p10-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 73.5px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 9%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp10;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp10 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  73.5px;
+      margin-top: 66.5%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 90px;
+      margin-top: 66.5%;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .instagram-registro-p10-button-image:hover {
+    animation-play-state: paused;
+    height: 73.5px!important;
+    margin-top: 66.5%!important;
+   }
+
+/*PASO 11*/
+.instagram-registro-p11 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso11.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p11-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 70.5px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 9%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp11;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp11 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  70.5px;
+      margin-top: 58%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 80px;
+      margin-top: 58%;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .instagram-registro-p11-button-image:hover {
+    animation-play-state: paused;
+    height: 70.5px!important;
+    margin-top: 58%!important;
+   }
+
+/*PASO 12*/
+.instagram-registro-p12 {
+    background-image: url("src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso12.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p12-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 20%; /*Adjust the width as needed */
+    height: 45px; /* Adjust the height as needed */
+    margin-top: 535px;
+    margin-left: 155px;
+    border: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    /* Animation */
+    animation-name: borderAnimationp12;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp12 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+/*PASO 13*/
+.instagram-registro-p13 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso13.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p13-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 73.5px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 9%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp13;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp13 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  73.5px;
+      margin-top: 77.5%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 83px;
+      margin-top: 77.5%;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .instagram-registro-p13-button-image:hover {
+    animation-play-state: paused;
+    height: 73.5px!important;
+    margin-top: 77.5%!important;
+   }
+
+/*PASO 14*/
+.instagram-registro-p14 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso14.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p14-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 73px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 7%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp14;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp14 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  73.5px;
+      margin-top: 53.5%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 90px;
+      margin-top: 53.5%;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .instagram-registro-p14-button-image:hover {
+    animation-play-state: paused;
+    height: 73.5px!important;
+    margin-top: 53.5%!important;
+   }
+
+/*PASO 15*/
+.instagram-registro-p15 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso15.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p15-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 73.5px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 9%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp15;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp15 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  73.5px;
+      margin-top: 68.5%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 90px;
+      margin-top: 68.5%;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .instagram-registro-p15-button-image:hover {
+    animation-play-state: paused;
+    height: 73.5px!important;
+    margin-top: 68.5%!important;
+   }
+
+/*PASO 16*/
+.instagram-registro-p16 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/registroInstagram/registroIns_paso16.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-registro-p16-button-image {
+    width: auto; /* Adjust the width as needed */
+    height: 87.5px; /* Adjust the height as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-top: 9%;
+    position: absolute;
+  
+    /*Animation*/
+    animation-name: buttonAnimationp16;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+   
+    /* Add a transition to smoothly revert to the initial state on hover */
+    transition: width 0.5s, margin-top 0.5s;
+   }
+   
+   /* Define the keyframes for the animation */
+   @keyframes buttonAnimationp16 {
+    0%, 100% {
+      /* Initial and final keyframes - the button will be at its original size */
+      height:  87.5px;
+      margin-top: 111%;
+    }
+   
+    50% {
+      /* Midpoint keyframe - the button will be twice its original size */
+      height: 100px;
+      margin-top: 111%;
+    }
+   }
+   
+   /* Pause the animation when the cursor is over the button and revert to the initial state */
+   .instagram-registro-p16-button-image:hover {
+    animation-play-state: paused;
+    height: 87.5px!important;
+    margin-top: 111%!important;
+   }
+
+/*PASO 17*/
+.instagram-registro-p17 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pagina_inicio.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }

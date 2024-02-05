@@ -1,0 +1,316 @@
+/* instagram-p1 */  
+.instagram-p1 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pantalla_principal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+
+
+/* instagram-p2 */
+.instagram-p2 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pantalla_principal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+.instagram-p2-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 59px; /*Adjust the width as needed */
+    height: 90px; /* Adjust the height as needed */
+    margin-top: 400px;
+    margin-left: 62%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* instagram-p3 */
+  .instagram-p3{
+    background-image: url('src/assets/images/imagesTutoriales/instagram/imgInstFrecuente/pagina_inicio.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+  .instagram-p3-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 58px; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 755px;
+    margin-left: -40%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+  
+  /* instagram-p4 */
+  .instagram-p4 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/busquedaInstagram/busquedaIns_paso4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .instagram-p4-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 335px; /*Adjust the width as needed */
+    height: 47px; /* Adjust the height as needed */
+    margin-top: 40px;
+    margin-left: 0%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* instagram-p5 */
+  .instagram-p5 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/busquedaInstagram/busquedaIns_paso5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .instagram-p5-input {
+    border: 2px solid red; /* Initial border color */
+    margin-top: 10%;
+    font-size: 19px;
+    margin-left: 10%;
+    width: 343px;
+    height: 38px;
+    border-radius: 20px;
+    background-color: rgb(239, 242, 248);
+  
+    /* Animation */
+    animation-name: borderAnimationp5;
+    animation-duration: 2s; /* Total duration of the animation */
+    animation-iteration-count: infinite; /* Infinite loop */
+  }
+  /* Define the keyframes for the animation */
+  @keyframes borderAnimationp5 {
+    0%,
+    100% {
+      /* Initial and final keyframes - the border will be red */
+      border-color: red;
+    }
+  
+    50% {
+      /* Midpoint keyframe - the border will be transparent (no border) */
+      border-color: transparent;
+    }
+  }
+
+  /* instagram-p6 */
+  .instagram-p6 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/busquedaInstagram/busquedaIns_paso6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .instagram-p6-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 380px; /*Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-top: 105px;
+    margin-left: 2%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* instagram-p7 */
+  .instagram-p7 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/busquedaInstagram/busquedaIns_paso7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .instagram-p7-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 132px; /*Adjust the width as needed */
+    height: 279px; /* Adjust the height as needed */
+    margin-top: 130px;
+    margin-left: 67%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* instagram-p8 */
+  .instagram-p8 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/busquedaInstagram/busquedaIns_paso8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  .instagram-p8-red-box {
+    background-color: rgba(255, 0, 0, 0); /* Red with 50% opacity */
+    width: 50px; /*Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-top: 40px;
+    margin-left: 0%;
+    border: 6px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+  
+      /* Animation */
+      animation-name: borderAnimationp3;
+      animation-duration: 3s; /* Total duration of the animation */
+      animation-iteration-count: infinite; /* Infinite loop */
+    }
+    
+    /* Define the keyframes for the animation */
+    @keyframes borderAnimationp3 {
+      0%, 100% {
+        /* Initial and final keyframes - the border will be red */
+        border-color: red;
+      }
+    
+      50% {
+        /* Midpoint keyframe - the border will be transparent (no border) */
+        border-color: transparent;
+      }
+    }
+
+  /* instagram-p9 */
+  .instagram-p9 {
+    background-image: url('src/assets/images/imagesTutoriales/instagram/busquedaInstagram/busquedaIns_paso7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to 100% to fill the entire .phone-screen */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }

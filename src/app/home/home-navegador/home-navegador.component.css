@@ -15,44 +15,39 @@
   }
   .facebook{
     cursor:pointer;
-    background-color: #0867ff18;
-    box-shadow: 4px 4px 8px #afafaf;
+    /* background-color: #0867ff18; */
+    background-color: #4289fb25;
+    /* box-shadow: 4px 4px 8px #afafaf; */
+    box-shadow: 4px 4px 8px #b8cde491;
     border-radius: 4%;
   }
   .whatsApp{
     cursor:pointer;
-    background-color: #49c9581c;
-    box-shadow: 4px 4px 8px #afafaf;
+    /* background-color: #49c9581c; */
+    background-color: #49c95824;
+    box-shadow: 4px 4px 8px #b8e4c191;
     border-radius: 4%;
   }
   .instagram{
     cursor:pointer;
-    background-color: #ff88001c;
-    box-shadow: 4px 4px 8px #afafaf;
+    background-color: #ff4c4c21;
+    box-shadow: 4px 4px 8px #e4b8b891;
     border-radius: 4%;
   }
-  .gmail{
-    cursor:pointer;
-    background-color: #ff00001c;
-    box-shadow: 4px 4px 8px #afafaf;
-    border-radius: 4%;
-  }
+
   .navbar {
-    background: white;
-    box-shadow: 4px 4px 8px #e7e7e7;
+    background: #002125;
   }
 
   .navbar-brand {
    /* Replace 'YourDesiredFont' with your chosen font */
     font-size: 2.3em; /* Adjust the font size as needed */
-    color: #333; /* Set the text color */
+    color: #e4d2b8; /* Set the text color */
     letter-spacing: 2px; /* Adjust letter spacing */
-    text-shadow: 4px 4px 8px #afafaf;
+    /* text-shadow: 4px 4px 8px #afafaf; */
   }
   .tituloRed{
     font-size: xx-large !important;
-   
-    text-shadow: 4px 4px 12px #afafaf;
   }
 
 .col-4{
@@ -61,4 +56,31 @@
 .col-4:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+
+.logoItsqmet{
+  background-image: url('src/assets/images/imagesHome/Itsqmet_logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.logoRioQuinto{
+  background-image: url('src/assets/images/imagesHome/RioQuinto_logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+body{
+  background-color: #011517;
+  color: #e4d2b8;
+}
+
+footer{
+  border-top: hidden;
+  margin-top: 2%;
+  padding: 1%;
+  background-color: #002125;
 }

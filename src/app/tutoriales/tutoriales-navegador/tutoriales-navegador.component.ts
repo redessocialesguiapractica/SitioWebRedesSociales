@@ -72,13 +72,11 @@ export class TutorialesNavegadorComponent {
   getFontColor(): string {
     switch (this.socialNetwork) {
       case 'facebook':
-        return '#0865FF';
+        return '#478bfc';
       case 'whatsapp':
-        return '#18B828';
+        return '#6EB56F';
       case 'instagram':
-        return '#FC7F26';
-      case 'gmail':
-        return '#DD3131';
+        return '#FC8A7B';
       default:
         return '#000000'; // Default font color if social network is not recognized
     }

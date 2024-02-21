@@ -4,53 +4,51 @@
   margin: 20px;
   border-radius: 50px; /* Agrega bordes redondeados */
   border-width: 20cap;
-
 }
-  .redesSociales {
-   
-    font-size: x-large;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 2%;
-  }
-  .facebook{
-    cursor:pointer;
-    /* background-color: #0867ff18; */
-    background-color: #4289fb25;
-    /* box-shadow: 4px 4px 8px #afafaf; */
-    box-shadow: 4px 4px 8px #b8cde491;
-    border-radius: 4%;
-  }
-  .whatsApp{
-    cursor:pointer;
-    /* background-color: #49c9581c; */
-    background-color: #49c95824;
-    box-shadow: 4px 4px 8px #b8e4c191;
-    border-radius: 4%;
-  }
-  .instagram{
-    cursor:pointer;
-    background-color: #ff4c4c21;
-    box-shadow: 4px 4px 8px #e4b8b891;
-    border-radius: 4%;
-  }
+.redesSociales {
+  font-size: x-large;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 2%;
+}
+.facebook {
+  cursor: pointer;
+  background-color: #0867ff18;
+  box-shadow: 4px 4px 8px #afafaf;
+  border-radius: 4%;
+}
+.whatsApp {
+  cursor: pointer;
+  background-color: #49c9581c;
+  box-shadow: 4px 4px 8px #afafaf;
+  border-radius: 4%;
+}
+.instagram {
+  cursor: pointer;
+  background-color: #ff88001c;
+  box-shadow: 4px 4px 8px #afafaf;
+  border-radius: 4%;
+}
 
-  .navbar {
-    background: #002125;
-  }
+.navbar {
+  background: #002125;
+  color: #e4d2b8;
+}
 
-  .navbar-brand {
-   /* Replace 'YourDesiredFont' with your chosen font */
-    font-size: 2.3em; /* Adjust the font size as needed */
-    color: #e4d2b8; /* Set the text color */
-    letter-spacing: 2px; /* Adjust letter spacing */
-    /* text-shadow: 4px 4px 8px #afafaf; */
-  }
-  .tituloRed{
-    font-size: xx-large !important;
-  }
+.navbar-brand {
+  /* Replace 'YourDesiredFont' with your chosen font */
+  font-size: 2.3em; /* Adjust the font size as needed */
+  color: #e4d2b8; /* Set the text color */
+  letter-spacing: 2px; /* Adjust letter spacing */
+  /* text-shadow: 4px 4px 8px #afafaf; */
+}
+.tituloRed {
+  font-size: xx-large !important;
 
-.col-4{
+  text-shadow: 4px 4px 12px #afafaf;
+}
+
+.col-4 {
   margin-left: 2%;
 }
 .col-4:hover {
@@ -58,29 +56,24 @@
   transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
-
-.logoItsqmet{
-  background-image: url('src/assets/images/imagesHome/Itsqmet_logo.png');
+.logoItsqmet {
+  background-image: url("src/assets/images/imagesHome/Itsqmet_logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
 }
 
-.logoRioQuinto{
-  background-image: url('src/assets/images/imagesHome/RioQuinto_logo.png');
+.logoRioQuinto {
+  background-image: url("src/assets/images/imagesHome/RioQuinto_logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
 }
 
-body{
-  background-color: #011517;
-  color: #e4d2b8;
-}
-
-footer{
+footer {
   border-top: hidden;
   margin-top: 2%;
   padding: 1%;
   background-color: #002125;
+  color: #e4d2b8;
 }

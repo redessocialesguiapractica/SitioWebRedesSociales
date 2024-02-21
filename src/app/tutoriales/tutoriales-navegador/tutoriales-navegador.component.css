@@ -33,14 +33,16 @@
 }
 
 .navbar {
-  background: white;
-  box-shadow: 6px 6px 12px #d8d8d8;
-  
+  background: #002125;
+  color: #e4d2b8;
 }
 
 .navbar-brand {
-  font-size: 2.3em;
-  letter-spacing: 2px;
+ /* Replace 'YourDesiredFont' with your chosen font */
+  font-size: 2.3em; /* Adjust the font size as needed */
+  color: #e4d2b8; /* Set the text color */
+  letter-spacing: 2px; /* Adjust letter spacing */
+  /* text-shadow: 4px 4px 8px #afafaf; */
 }
 
 .body {

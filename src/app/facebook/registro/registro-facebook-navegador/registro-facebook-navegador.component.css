@@ -667,23 +667,10 @@ margin-right: 26%!important;
       text-decoration: none;
       border-radius: 10px;
       cursor: pointer; /* Set default cursor to pointer */
-      animation-name: borderAnimationp10;
+      animation-name: borderAnimationp9;
     animation-duration: 2s; /* Total duration of the animation */
     animation-iteration-count: infinite; /* Infinite loop */
     animation-delay: 11s;
-  }
-  
-  /* Define the keyframes for the animation */
-  @keyframes borderAnimationp10 {
-    0%, 100% {
-      /* Initial and final keyframes - the border will be red */
-      border: 2px solid red;
-    }
-  
-    50% {
-      /* Midpoint keyframe - the border will be transparent (no border) */
-      border-color: transparent;
-    }
   }
 
   /* facebook-registro-p11 */

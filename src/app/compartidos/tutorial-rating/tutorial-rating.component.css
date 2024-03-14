@@ -1,0 +1,45 @@
+.rating-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 0;
+    margin-left: 70px;
+    border: 2px solid #3498db;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added position relative for positioning the index */
+}
+
+.rating-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex; /* Align icons and text vertically */
+    align-items: center; /* Align items vertically */
+}
+
+.rating-button:hover {
+    background-color: #609fff;
+}
+
+.rating-button i {
+    color: #FFD700; /* Set star color */
+    margin-right: 5px; /* Add spacing between stars and number */
+    font-size: 32px;
+}
+
+.rating-button span {
+    font-size: 32px;
+    margin-right: 10px;
+}
+.rating-container h1{
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    color: #2980b9;
+}
+.agradecimiento{
+    font-size: 32px;
+}

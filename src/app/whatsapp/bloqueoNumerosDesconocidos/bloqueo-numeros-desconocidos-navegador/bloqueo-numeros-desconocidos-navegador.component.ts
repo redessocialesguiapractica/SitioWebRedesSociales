@@ -69,6 +69,12 @@ export class BloqueoNumerosDesconocidosNavegadorComponent implements OnInit {
         'Al regresar a la pestaña de Chats podrás visualizar que el chat del número que fue bloqueado y ya no se encuentra en la ventana, por lo tanto, este contacto ya no podrá enviarte mensajes ni realizarte ninguna llamada por whatsapp. ¡Felicidades, has completado el tutorial! Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
       audio: '/assets/audio/whatsapp/BloquearNumeros/Paso9_bloquear.mp3',
     },
+    {
+      index: 10, // New index for the rating step
+      content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+      // You can add an empty string for audio if no audio is needed for this step
+      audio: ''
+    },
   ];
   currentIndex = 0;
 
@@ -147,6 +153,11 @@ export class BloqueoNumerosDesconocidosNavegadorComponent implements OnInit {
   bloquearNumerosRegistroClicked(): void {
     // Call the nextInstruction method or perform other actions specific to index 1
     this.nextInstruction();
+  }
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
   }
 
 }

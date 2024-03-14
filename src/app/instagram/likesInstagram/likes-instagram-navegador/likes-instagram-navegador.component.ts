@@ -56,6 +56,12 @@ export class LikesInstagramNavegadorComponent implements OnInit{
       content: 'Podrás visualizar la ventana “Me gusta” en la que estarán todas las publicaciones a las que diste like. ¡Felicidades, has completado el tutorial en el que has aprendido como dar likes en las publicaciones de Instagram! Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
       audio: 'assets/audio/instagram/likeInstagram/likeInstagram-paso8.mp3',
     },
+    {
+      index: 9, // New index for the rating step
+      content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+      // You can add an empty string for audio if no audio is needed for this step
+      audio: ''
+    },
   ];
   currentIndex = 0;
 
@@ -135,5 +141,9 @@ export class LikesInstagramNavegadorComponent implements OnInit{
     // Call the nextInstruction method or perform other actions specific to index 1
     this.nextInstruction();
   }
-  
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
+  }
 }

@@ -5,40 +5,47 @@
     [audioSrc]="audioInstruccionesData[currentIndex].audio"
     (buttonClick)="onAudioInstruccionesButtonClick($event)"
 ></app-audio-instrucciones>
-<app-phone-interface>
-    <body class="facebook-login" *ngIf="currentIndex === 0">
-        <img src="/assets/images/imagesHome/Facebook_logo_home.png" alt="Facebook Icon" class="facebook-login-button-image" (click)="facebookRegistroClicked()">
-      </body>
-      <body class="facebook-pantalla-inicio" *ngIf="currentIndex === 1">
-        <div
-          class="facebook-pantalla-inicio-red-box"
-          (click)="facebookRegistroClicked()"
-        ></div>
-      </body>
-      <body class="facebook-p3-publiMuro" *ngIf="currentIndex === 2">
-        <div
-          class="facebook-p3-publiMuro-red-box"
-          (click)="facebookRegistroClicked()"
-        ></div>
-      </body>
-      <body class="facebook-p4-publiMuro" *ngIf="currentIndex === 3">
-        <div
-          class="facebook-p4-publiMuro-red-box"
-          (click)="facebookRegistroClicked()"
-        ></div>
-      </body>
-      <body class="facebook-p5-publiMuro" *ngIf="currentIndex === 4">
-        <div
-          class="facebook-p5-publiMuro-red-box"
-          (click)="facebookRegistroClicked()"
-        ></div>
-      </body>
-      <body class="facebook-p6-publiMuro" *ngIf="currentIndex === 5">
-        <div
-          class="facebook-p6-publiMuro-red-box"
-          (click)="facebookRegistroClicked()"
-        ></div>
-      </body>
+<ng-container *ngIf="currentIndex !== audioInstruccionesData.length - 1">
+  <app-phone-interface>
+      <body class="facebook-login" *ngIf="currentIndex === 0">
+          <img src="/assets/images/imagesHome/Facebook_logo_home.png" alt="Facebook Icon" class="facebook-login-button-image" (click)="facebookRegistroClicked()">
+        </body>
+        <body class="facebook-pantalla-inicio" *ngIf="currentIndex === 1">
+          <div
+            class="facebook-pantalla-inicio-red-box"
+            (click)="facebookRegistroClicked()"
+          ></div>
+        </body>
+        <body class="facebook-p3-publiMuro" *ngIf="currentIndex === 2">
+          <div
+            class="facebook-p3-publiMuro-red-box"
+            (click)="facebookRegistroClicked()"
+          ></div>
+        </body>
+        <body class="facebook-p4-publiMuro" *ngIf="currentIndex === 3">
+          <div
+            class="facebook-p4-publiMuro-red-box"
+            (click)="facebookRegistroClicked()"
+          ></div>
+        </body>
+        <body class="facebook-p5-publiMuro" *ngIf="currentIndex === 4">
+          <div
+            class="facebook-p5-publiMuro-red-box"
+            (click)="facebookRegistroClicked()"
+          ></div>
+        </body>
+        <body class="facebook-p6-publiMuro" *ngIf="currentIndex === 5">
+          <div
+            class="facebook-p6-publiMuro-red-box"
+            (click)="facebookRegistroClicked()"
+          ></div>
+        </body>
 
-</app-phone-interface>
+  </app-phone-interface>
+</ng-container>
+
+<ng-container *ngIf="currentIndex === audioInstruccionesData.length - 1">
+  <!-- Dynamically generate tutorial ID -->
+  <app-tutorial-rating [tutorialId]="generateTutorialId()"></app-tutorial-rating>
+</ng-container>
 <app-back-button></app-back-button>

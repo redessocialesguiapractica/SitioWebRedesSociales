@@ -71,6 +71,12 @@ export class BarraNavegacionInstagramNavegadorComponent implements OnInit {
       content: 'Con esta opción podrás volver a la página de inicio de Instagram en cualquier momento. ¡Felicidades, has completado el tutorial para conocer la Barra de navegación de Instagram! Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
       audio: '/assets/audio/instagram/barraNavegacion/insta-paso11.mp3',
     },
+    {
+      index: 12, // New index for the rating step
+      content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+      // You can add an empty string for audio if no audio is needed for this step
+      audio: ''
+    },
   ];
   currentIndex = 0;
 
@@ -149,5 +155,10 @@ export class BarraNavegacionInstagramNavegadorComponent implements OnInit {
   instagramNavegacionClicked(): void {
     // Call the nextInstruction method or perform other actions specific to index 1
     this.nextInstruction();
+  }
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
   }
 }

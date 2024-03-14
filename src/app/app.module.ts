@@ -54,6 +54,8 @@ import { HistoriasInstagramNavegadorComponent } from './instagram/historiasInsta
 import { LikesInstagramComponent } from './instagram/likesInstagram/likes-instagram/likes-instagram.component';
 import { LikesInstagramNavegadorComponent } from './instagram/likesInstagram/likes-instagram-navegador/likes-instagram-navegador.component';
 import { AudioInstruccionesComponent } from './compartidos/componentes/audio-instrucciones/audio-instrucciones.component';
+import { TutorialRatingComponent } from './compartidos/tutorial-rating/tutorial-rating.component';
+import { HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
 
 @NgModule({
   declarations: [
@@ -110,10 +112,13 @@ import { AudioInstruccionesComponent } from './compartidos/componentes/audio-ins
     LikesInstagramComponent,
     LikesInstagramNavegadorComponent,
     AudioInstruccionesComponent,
+    TutorialRatingComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

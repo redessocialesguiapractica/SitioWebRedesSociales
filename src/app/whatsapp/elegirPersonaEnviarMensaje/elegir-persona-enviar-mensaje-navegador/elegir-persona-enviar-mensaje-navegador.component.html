@@ -5,131 +5,136 @@
   [audioSrc]="audioInstruccionesData[currentIndex].audio"
   (buttonClick)="onAudioInstruccionesButtonClick($event)"
 ></app-audio-instrucciones>
-
-<app-phone-interface>
-  <body class="whatsapp-mensajes-p1" *ngIf="currentIndex === 0"></body>
-  <body class="whatsapp-mensajes-p2" *ngIf="currentIndex === 1">
+<ng-container *ngIf="currentIndex !== audioInstruccionesData.length - 1">
+  <app-phone-interface>
+    <body class="whatsapp-mensajes-p1" *ngIf="currentIndex === 0"></body>
+    <body class="whatsapp-mensajes-p2" *ngIf="currentIndex === 1">
+      <img
+        src="assets/images/imagesTutoriales/whatsapp/img_frecuente/logo_whatsapp.png"
+        alt="whatsapp Icon"
+        class="whatsapp-mensajes-p2-button-image"
+        (click)="whatsappMensajesClicked()"
+      />
+    </body>
+    <body class="whatsapp-mensajes-p3" *ngIf="currentIndex === 2">
+      <div
+        class="whatsapp-mensajes-p3-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p4" *ngIf="currentIndex === 3">
+      <div
+        class="whatsapp-mensajes-p4-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p5" *ngIf="currentIndex === 4">
+      <div
+        class="whatsapp-mensajes-p5-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p6" *ngIf="currentIndex === 5">
+      <input
+        type="text"
+        placeholder="Mensaje"
+        class="whatsapp-mensajes-p6-input"
+        (input)="whatasappEnviarMensajeP6InputChanged($event)"
+      />
+    </body>
+    <body class="whatsapp-mensajes-p7" *ngIf="currentIndex === 6">
+      <div
+        class="whatsapp-mensajes-p7-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p8" *ngIf="currentIndex === 7">
+      <div
+        class="whatsapp-mensajes-p8-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p9" *ngIf="currentIndex === 8">
+      <div
+        class="whatsapp-mensajes-p9-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p10" *ngIf="currentIndex === 9">
+      <div
+        class="whatsapp-mensajes-p10-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p11" *ngIf="currentIndex === 10">
+      <div
+        class="whatsapp-mensajes-p11-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p12" *ngIf="currentIndex === 11">
+      <div
+        class="whatsapp-mensajes-p12-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p13" *ngIf="currentIndex === 12">
+      <div
+        class="whatsapp-mensajes-p13-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p14" *ngIf="currentIndex === 13">
+      <div
+        class="whatsapp-mensajes-p14-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-mensajes-p15" *ngIf="currentIndex === 14">
+      <div
+        class="whatsapp-mensajes-p15-red-box"
+        (click)="whatsappMensajesClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-enviarMensajes-p16" *ngIf="currentIndex === 15">
+      <img
+        src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso16_voz.jpeg"
+        alt="Whatsapp Icon"
+        class="whatsapp-enviarMensajes-p16-button-image"
+        (click)="whatsappMensajesClicked()"
+      />
+  </body>
+  <body class="whatsapp-enviarMensajes-p17" *ngIf="currentIndex === 16">
+      <img
+        src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso17_enviar.jpeg"
+        alt="Whatsapp Icon"
+        class="whatsapp-enviarMensajes-p17-button-image"
+        (click)="whatsappMensajesClicked()"
+      />
+  </body>
+  <body class="whatsapp-enviarMensajes-p18" *ngIf="currentIndex === 17">
     <img
-      src="assets/images/imagesTutoriales/whatsapp/img_frecuente/logo_whatsapp.png"
-      alt="whatsapp Icon"
-      class="whatsapp-mensajes-p2-button-image"
-      (click)="whatsappMensajesClicked()"
-    />
-  </body>
-  <body class="whatsapp-mensajes-p3" *ngIf="currentIndex === 2">
-    <div
-      class="whatsapp-mensajes-p3-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p4" *ngIf="currentIndex === 3">
-    <div
-      class="whatsapp-mensajes-p4-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p5" *ngIf="currentIndex === 4">
-    <div
-      class="whatsapp-mensajes-p5-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p6" *ngIf="currentIndex === 5">
-    <input
-      type="text"
-      placeholder="Mensaje"
-      class="whatsapp-mensajes-p6-input"
-      (input)="whatasappEnviarMensajeP6InputChanged($event)"
-    />
-  </body>
-  <body class="whatsapp-mensajes-p7" *ngIf="currentIndex === 6">
-    <div
-      class="whatsapp-mensajes-p7-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p8" *ngIf="currentIndex === 7">
-    <div
-      class="whatsapp-mensajes-p8-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p9" *ngIf="currentIndex === 8">
-    <div
-      class="whatsapp-mensajes-p9-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p10" *ngIf="currentIndex === 9">
-    <div
-      class="whatsapp-mensajes-p10-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p11" *ngIf="currentIndex === 10">
-    <div
-      class="whatsapp-mensajes-p11-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p12" *ngIf="currentIndex === 11">
-    <div
-      class="whatsapp-mensajes-p12-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p13" *ngIf="currentIndex === 12">
-    <div
-      class="whatsapp-mensajes-p13-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p14" *ngIf="currentIndex === 13">
-    <div
-      class="whatsapp-mensajes-p14-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-mensajes-p15" *ngIf="currentIndex === 14">
-    <div
-      class="whatsapp-mensajes-p15-red-box"
-      (click)="whatsappMensajesClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-enviarMensajes-p16" *ngIf="currentIndex === 15">
-    <img
-      src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso16_voz.jpeg"
+      src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso18_emoji.jpeg"
       alt="Whatsapp Icon"
-      class="whatsapp-enviarMensajes-p16-button-image"
+      class="whatsapp-enviarMensajes-p18-button-image"
       (click)="whatsappMensajesClicked()"
     />
-</body>
-<body class="whatsapp-enviarMensajes-p17" *ngIf="currentIndex === 16">
-    <img
-      src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso17_enviar.jpeg"
-      alt="Whatsapp Icon"
-      class="whatsapp-enviarMensajes-p17-button-image"
-      (click)="whatsappMensajesClicked()"
-    />
-</body>
-<body class="whatsapp-enviarMensajes-p18" *ngIf="currentIndex === 17">
+    <div class="whatsapp-enviarMensajes-p18-red-box"></div>
+  </body>
+  <body class="whatsapp-enviarMensajes-p19" *ngIf="currentIndex === 18">
   <img
-    src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso18_emoji.jpeg"
+    src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso19_sticker.jpeg"
     alt="Whatsapp Icon"
-    class="whatsapp-enviarMensajes-p18-button-image"
+    class="whatsapp-enviarMensajes-p19-button-image"
     (click)="whatsappMensajesClicked()"
   />
-  <div class="whatsapp-enviarMensajes-p18-red-box"></div>
-</body>
-<body class="whatsapp-enviarMensajes-p19" *ngIf="currentIndex === 18">
-<img
-  src="/assets/images/imagesTutoriales/whatsapp/enviarMensajes/EnviarMensaje_paso19_sticker.jpeg"
-  alt="Whatsapp Icon"
-  class="whatsapp-enviarMensajes-p19-button-image"
-  (click)="whatsappMensajesClicked()"
-/>
-<div class="whatsapp-enviarMensajes-p19-red-box"></div>    
-</body>
-<body class="whatsapp-enviarMensajes-p20" *ngIf="currentIndex === 19"></body>
-</app-phone-interface>
+  <div class="whatsapp-enviarMensajes-p19-red-box"></div>    
+  </body>
+  <body class="whatsapp-enviarMensajes-p20" *ngIf="currentIndex === 19"></body>
+  </app-phone-interface>
+</ng-container>
+<ng-container *ngIf="currentIndex === audioInstruccionesData.length - 1">
+  <!-- Dynamically generate tutorial ID -->
+  <app-tutorial-rating [tutorialId]="generateTutorialId()"></app-tutorial-rating>
+</ng-container>
 <app-back-button></app-back-button>

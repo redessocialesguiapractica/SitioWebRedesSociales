@@ -14,6 +14,7 @@ export class AudioInstruccionesComponent implements OnInit, OnChanges {
   @Output() buttonClick = new EventEmitter<string>();
 
   audio: HTMLAudioElement | undefined;
+  fontSize: number = 40; // Default font size
 
   ngOnInit() {
     this.initializeAudio();
@@ -46,6 +47,7 @@ export class AudioInstruccionesComponent implements OnInit, OnChanges {
       });
     }
   }
+
   onButtonClick(text: string): void {
     this.buttonClick.emit(text);
 
@@ -68,6 +70,7 @@ export class AudioInstruccionesComponent implements OnInit, OnChanges {
       }
     }
   }
+
   ngOnDestroy() {
     // Stop audio when the component is destroyed
     this.stopAudio();
@@ -79,6 +82,18 @@ export class AudioInstruccionesComponent implements OnInit, OnChanges {
       this.audio = undefined;
     }
   }
-  
-  
+
+  increaseFontSize() {
+    this.fontSize += 2; // Increase font size by 2px
+  }
+
+  decreaseFontSize() {
+    if (this.fontSize > 12) { // Minimum font size
+      this.fontSize -= 2; // Decrease font size by 2px
+    }
+  }
+
+  resetFontSize() {
+    this.fontSize = 40; // Reset font size to default
+  }
 }

@@ -5,79 +5,84 @@
   [audioSrc]="audioInstruccionesData[currentIndex].audio"
   (buttonClick)="onAudioInstruccionesButtonClick($event)"
 ></app-audio-instrucciones>
-
-<app-phone-interface>
-  <body class="whatsapp-llamada-p1" *ngIf="currentIndex === 0"></body>
-  <body class="whatsapp-llamada-p2" *ngIf="currentIndex === 1">
-    <img
-      src="/assets/images/imagesTutoriales/whatsapp/img_frecuente/logo_whatsapp.png"
-      alt="Whatsapp Icon"
-      class="whatsapp-llamada-p2-button-image"
-      (click)="whatsappLlamadaClicked()"
-    />
-  </body>
-  <body class="whatsapp-llamada-p3" *ngIf="currentIndex === 2">
-    <div
-      class="whatsapp-llamada-p3-red-box"
-      (click)="whatsappLlamadaClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-llamada-p4" *ngIf="currentIndex === 3">
-    <div
-      class="whatsapp-llamada-p4-red-box"
-      (click)="whatsappLlamadaClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-llamada-p5" *ngIf="currentIndex === 4">
-    <input
-      type="text"
-      placeholder="Buscar nombre o número"
-      class="whatsapp-llamada-p5-input"
-      (input)="whatsappLlamadaP5InputChanged($event)"
-    />
-  </body>
-  <body class="whatsapp-llamada-p6" *ngIf="currentIndex === 5">
-    <div
-      class="whatsapp-llamada-p6-red-box"
-      (click)="whatsappLlamadaClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-llamada-p7" *ngIf="currentIndex === 6">
-    <div
-      class="whatsapp-llamada-p7-red-box"
-      (click)="whatsappLlamadaClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-llamada-p8" *ngIf="currentIndex === 7">
-    <div
-      class="whatsapp-llamada-p8-red-box"
-      (click)="whatsappLlamadaClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-llamada-p9" *ngIf="currentIndex === 8">
-    <div
-      class="whatsapp-llamada-p9-red-box"
-      (click)="whatsappLlamadaClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-llamada-p10" *ngIf="currentIndex === 9">
-    <div
-      class="whatsapp-llamada-p10-red-box"
-      (click)="whatsappLlamadaClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-llamada-p11" *ngIf="currentIndex === 10">
-    <div
-      class="whatsapp-llamada-p11-red-box"
-      (click)="whatsappLlamadaClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-llamada-p12" *ngIf="currentIndex === 11">
-    <div
-      class="whatsapp-llamada-p12-red-box"
-      (click)="whatsappLlamadaClicked()"
-    ></div>
-  </body>
-  <body class="whatsapp-llamada-p13" *ngIf="currentIndex === 12"></body>
-</app-phone-interface>
+<ng-container *ngIf="currentIndex !== audioInstruccionesData.length - 1">
+  <app-phone-interface>
+    <body class="whatsapp-llamada-p1" *ngIf="currentIndex === 0"></body>
+    <body class="whatsapp-llamada-p2" *ngIf="currentIndex === 1">
+      <img
+        src="/assets/images/imagesTutoriales/whatsapp/img_frecuente/logo_whatsapp.png"
+        alt="Whatsapp Icon"
+        class="whatsapp-llamada-p2-button-image"
+        (click)="whatsappLlamadaClicked()"
+      />
+    </body>
+    <body class="whatsapp-llamada-p3" *ngIf="currentIndex === 2">
+      <div
+        class="whatsapp-llamada-p3-red-box"
+        (click)="whatsappLlamadaClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-llamada-p4" *ngIf="currentIndex === 3">
+      <div
+        class="whatsapp-llamada-p4-red-box"
+        (click)="whatsappLlamadaClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-llamada-p5" *ngIf="currentIndex === 4">
+      <input
+        type="text"
+        placeholder="Buscar nombre o número"
+        class="whatsapp-llamada-p5-input"
+        (input)="whatsappLlamadaP5InputChanged($event)"
+      />
+    </body>
+    <body class="whatsapp-llamada-p6" *ngIf="currentIndex === 5">
+      <div
+        class="whatsapp-llamada-p6-red-box"
+        (click)="whatsappLlamadaClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-llamada-p7" *ngIf="currentIndex === 6">
+      <div
+        class="whatsapp-llamada-p7-red-box"
+        (click)="whatsappLlamadaClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-llamada-p8" *ngIf="currentIndex === 7">
+      <div
+        class="whatsapp-llamada-p8-red-box"
+        (click)="whatsappLlamadaClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-llamada-p9" *ngIf="currentIndex === 8">
+      <div
+        class="whatsapp-llamada-p9-red-box"
+        (click)="whatsappLlamadaClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-llamada-p10" *ngIf="currentIndex === 9">
+      <div
+        class="whatsapp-llamada-p10-red-box"
+        (click)="whatsappLlamadaClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-llamada-p11" *ngIf="currentIndex === 10">
+      <div
+        class="whatsapp-llamada-p11-red-box"
+        (click)="whatsappLlamadaClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-llamada-p12" *ngIf="currentIndex === 11">
+      <div
+        class="whatsapp-llamada-p12-red-box"
+        (click)="whatsappLlamadaClicked()"
+      ></div>
+    </body>
+    <body class="whatsapp-llamada-p13" *ngIf="currentIndex === 12"></body>
+  </app-phone-interface>
+</ng-container>
+<ng-container *ngIf="currentIndex === audioInstruccionesData.length - 1">
+  <!-- Dynamically generate tutorial ID -->
+  <app-tutorial-rating [tutorialId]="generateTutorialId()"></app-tutorial-rating>
+</ng-container>
 <app-back-button></app-back-button>

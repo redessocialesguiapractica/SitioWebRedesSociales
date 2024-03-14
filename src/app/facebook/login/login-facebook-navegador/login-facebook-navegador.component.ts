@@ -41,7 +41,12 @@ export class LoginFacebookNavegadorComponent implements OnInit {
       content: 'Ahora, ya puedes disfrutar de todas las opciones de la aplicación, permitiendote disfrutar de contenido multimedia, como videos e imágenes, además de brindar la posibilidad de mantenerte informado acerca de noticias a nivel mundial. Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
       audio: '/assets/audio/facebook/Final.mp3',
     },
-    // Add more objects with different content as needed
+    {
+      index: 6, // New index for the rating step
+      content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+      // You can add an empty string for audio if no audio is needed for this step
+      audio: ''
+    },
   ];
   currentIndex = 0;
 
@@ -140,5 +145,10 @@ export class LoginFacebookNavegadorComponent implements OnInit {
       this.nextInstructionTimer = setTimeout(() => {
         this.nextInstruction();
       }, 29000);
+  }
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
   }
 }

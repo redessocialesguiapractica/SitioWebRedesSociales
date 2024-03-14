@@ -1,0 +1,54 @@
+{
+  "tutorialRatings": [
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 1,
+      "id": 1
+    },
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 2,
+      "id": 2
+    },
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 2,
+      "id": 3
+    },
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 3,
+      "id": 4
+    },
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 4,
+      "id": 5
+    },
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 4,
+      "id": 6
+    },
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 5,
+      "id": 7
+    },
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 3,
+      "id": 8
+    },
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 4,
+      "id": 9
+    },
+    {
+      "tutorialId": "agregar-amigos-facebook",
+      "rating": 5,
+      "id": 10
+    }
+  ]
+}

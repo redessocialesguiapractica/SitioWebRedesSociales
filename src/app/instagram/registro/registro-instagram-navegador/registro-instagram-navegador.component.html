@@ -5,57 +5,62 @@
     [audioSrc]="audioInstruccionesData[currentIndex].audio"
     (buttonClick)="onAudioInstruccionesButtonClick($event)"
 ></app-audio-instrucciones>
-
-<app-phone-interface>
-    <body class="instagram-registro-p1" *ngIf="currentIndex === 0">
-    </body>
-    <body class="instagram-registro-p2" *ngIf="currentIndex === 1">
-        <img src="/assets/images/imagesTutoriales/facebook/registro/playstore-icon.png" alt="Playstore Icon" class="instagram-registro-p2-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p3" *ngIf="currentIndex === 2">
-        <img src="/assets/images/imagesTutoriales/facebook/registro/buscar-playstore-icon.png" alt="Playstore Icon" class="instagram-registro-p3-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p4" *ngIf="currentIndex === 3">
-        <input type="text" placeholder="Buscar apps y juegos" class="instagram-registro-p4-input" (input)="instagramRegistroP4InputChanged($event)">
-    </body>
-    <body class="instagram-registro-p5" *ngIf="currentIndex === 4">
-        <img src="/assets/images/imagesTutoriales/facebook/registro/instalar_facebook_boton.png" alt="Instalar Icon" class="instagram-registro-p5-button-image" (click)="instagramRegistroClicked()">
-        <div class="instagram-registro-p5-red-box"></div>
-    </body>
-    <body class="instagram-registro-p6" *ngIf="currentIndex === 5">
-        <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/abrir.png" alt="abrir" class="instagram-registro-p6-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p7" *ngIf="currentIndex === 6">
-        <div class="instagram-registro-p7-red-box" (click)="instagramRegistroClicked()"></div>
-    </body>
-    <body class="instagram-registro-p8" *ngIf="currentIndex === 7">
-        <div class="instagram-registro-p8-red-box" (click)="instagramRegistroClicked()"></div>
-    </body>
-    <body class="instagram-registro-p9" *ngIf="currentIndex === 8">
-        <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p9-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p10" *ngIf="currentIndex === 9">
-        <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p10-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p11" *ngIf="currentIndex === 10">
-        <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/guardar.png" alt="guardar" class="instagram-registro-p11-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p12" *ngIf="currentIndex === 11">
-        <div class="instagram-registro-p12-red-box" (click)="instagramRegistroClicked()"></div>
-    </body>
-    <body class="instagram-registro-p13" *ngIf="currentIndex === 12">
-        <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p13-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p14" *ngIf="currentIndex === 13">
-        <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p14-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p15" *ngIf="currentIndex === 14">
-        <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p15-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p16" *ngIf="currentIndex === 15">
-        <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/acepto.png" alt="acepto" class="instagram-registro-p16-button-image" (click)="instagramRegistroClicked()">
-    </body>
-    <body class="instagram-registro-p17" *ngIf="currentIndex === 16">
-    </body>
-</app-phone-interface>
+<ng-container *ngIf="currentIndex !== audioInstruccionesData.length - 1">
+    <app-phone-interface>
+        <body class="instagram-registro-p1" *ngIf="currentIndex === 0">
+        </body>
+        <body class="instagram-registro-p2" *ngIf="currentIndex === 1">
+            <img src="/assets/images/imagesTutoriales/facebook/registro/playstore-icon.png" alt="Playstore Icon" class="instagram-registro-p2-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p3" *ngIf="currentIndex === 2">
+            <img src="/assets/images/imagesTutoriales/facebook/registro/buscar-playstore-icon.png" alt="Playstore Icon" class="instagram-registro-p3-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p4" *ngIf="currentIndex === 3">
+            <input type="text" placeholder="Buscar apps y juegos" class="instagram-registro-p4-input" (input)="instagramRegistroP4InputChanged($event)">
+        </body>
+        <body class="instagram-registro-p5" *ngIf="currentIndex === 4">
+            <img src="/assets/images/imagesTutoriales/facebook/registro/instalar_facebook_boton.png" alt="Instalar Icon" class="instagram-registro-p5-button-image" (click)="instagramRegistroClicked()">
+            <div class="instagram-registro-p5-red-box"></div>
+        </body>
+        <body class="instagram-registro-p6" *ngIf="currentIndex === 5">
+            <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/abrir.png" alt="abrir" class="instagram-registro-p6-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p7" *ngIf="currentIndex === 6">
+            <div class="instagram-registro-p7-red-box" (click)="instagramRegistroClicked()"></div>
+        </body>
+        <body class="instagram-registro-p8" *ngIf="currentIndex === 7">
+            <div class="instagram-registro-p8-red-box" (click)="instagramRegistroClicked()"></div>
+        </body>
+        <body class="instagram-registro-p9" *ngIf="currentIndex === 8">
+            <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p9-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p10" *ngIf="currentIndex === 9">
+            <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p10-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p11" *ngIf="currentIndex === 10">
+            <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/guardar.png" alt="guardar" class="instagram-registro-p11-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p12" *ngIf="currentIndex === 11">
+            <div class="instagram-registro-p12-red-box" (click)="instagramRegistroClicked()"></div>
+        </body>
+        <body class="instagram-registro-p13" *ngIf="currentIndex === 12">
+            <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p13-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p14" *ngIf="currentIndex === 13">
+            <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p14-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p15" *ngIf="currentIndex === 14">
+            <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/siguiente.png" alt="siguiente" class="instagram-registro-p15-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p16" *ngIf="currentIndex === 15">
+            <img src="/assets/images/imagesTutoriales/instagram/registroInstagram/acepto.png" alt="acepto" class="instagram-registro-p16-button-image" (click)="instagramRegistroClicked()">
+        </body>
+        <body class="instagram-registro-p17" *ngIf="currentIndex === 16">
+        </body>
+    </app-phone-interface>
+</ng-container>
+<ng-container *ngIf="currentIndex === audioInstruccionesData.length - 1">
+    <!-- Dynamically generate tutorial ID -->
+    <app-tutorial-rating [tutorialId]="generateTutorialId()"></app-tutorial-rating>
+  </ng-container>
 <app-back-button></app-back-button>

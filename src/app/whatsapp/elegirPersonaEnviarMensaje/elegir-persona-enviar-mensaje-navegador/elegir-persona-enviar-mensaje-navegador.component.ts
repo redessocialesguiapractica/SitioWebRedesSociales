@@ -121,6 +121,12 @@ export class ElegirPersonaEnviarMensajeNavegadorComponent implements OnInit {
         'Te aparecerán los stickers que tienes guardados en tu cuenta de whatsapp, selecciona el sticker que más te guste y pulsa sobre el para poder enviarlo. ¡Felicidades, has completado el tutorial de envío de mensajes en WhatsApp! Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
       audio: '/assets/audio/whatsapp/enviarMensajes/Paso20_mensaje.mp3',
     },
+    {
+      index: 21, // New index for the rating step
+      content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+      // You can add an empty string for audio if no audio is needed for this step
+      audio: ''
+    },
   ];
   currentIndex = 0;
 
@@ -210,5 +216,9 @@ export class ElegirPersonaEnviarMensajeNavegadorComponent implements OnInit {
       }, 1000);
     }
   }
-
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
+  }
 }

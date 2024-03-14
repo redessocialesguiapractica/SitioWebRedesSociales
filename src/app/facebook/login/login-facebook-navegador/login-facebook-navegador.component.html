@@ -5,25 +5,31 @@
     [audioSrc]="audioInstruccionesData[currentIndex].audio"
     (buttonClick)="onAudioInstruccionesButtonClick($event)"
 ></app-audio-instrucciones>
+<ng-container *ngIf="currentIndex !== audioInstruccionesData.length - 1">
+  <app-phone-interface>
+    <body class="facebook-login" *ngIf="currentIndex === 0">
+      <img src="/assets/images/imagesHome/Facebook_logo_home.png" alt="Facebook Icon" class="facebook-login-button-image" (click)="facebookRegistroClicked()">
+    </body>
+      <body class="facebook-login-inicio" *ngIf="currentIndex === 1">
+        <input type="text" placeholder="Celular o correo electrónico" class="facebook-login-inicio-input" (input)="facebookRegistroP4InputChanged($event)">
+        <input type="text" placeholder="Contraseña" class="facebook-login-inicio-input-2" (input)="facebookRegistroP4InputChanged($event)">
+        <img src="/assets/images/imagesTutoriales/facebook/registro/boton-siguiente-facebook-registro.png" alt="Playstore Icon" class="facebook-login-inicio-button" (click)="facebookRegistroClicked()">  
+      </body>
+      <body class="facebook-login-carga" *ngIf="currentIndex === 2">
+        <img src="/assets/images/imagesTutoriales/facebook/registro/crear_cuenta_nueva.png" alt="Playstore Icon" class="imagen-evento" (load)="cambiarPantallaP3($event)">
+      </body>
+      <body class="facebook-login-guardar" *ngIf="currentIndex === 3">
+        <img src="/assets/images/imagesTutoriales/facebook/login/boton-guardar-login.png" alt="Playstore Icon" class="facebook-login-guardar-button" (click)="facebookRegistroClicked()">  
+      </body>
+      <body class="facebook-pantalla-inicio" *ngIf="currentIndex === 4">
+        <div></div>
+      </body>
 
-<app-phone-interface>
-  <body class="facebook-login" *ngIf="currentIndex === 0">
-    <img src="/assets/images/imagesHome/Facebook_logo_home.png" alt="Facebook Icon" class="facebook-login-button-image" (click)="facebookRegistroClicked()">
-  </body>
-    <body class="facebook-login-inicio" *ngIf="currentIndex === 1">
-      <input type="text" placeholder="Celular o correo electrónico" class="facebook-login-inicio-input" (input)="facebookRegistroP4InputChanged($event)">
-      <input type="text" placeholder="Contraseña" class="facebook-login-inicio-input-2" (input)="facebookRegistroP4InputChanged($event)">
-      <img src="/assets/images/imagesTutoriales/facebook/registro/boton-siguiente-facebook-registro.png" alt="Playstore Icon" class="facebook-login-inicio-button" (click)="facebookRegistroClicked()">  
-    </body>
-    <body class="facebook-login-carga" *ngIf="currentIndex === 2">
-      <img src="/assets/images/imagesTutoriales/facebook/registro/crear_cuenta_nueva.png" alt="Playstore Icon" class="imagen-evento" (load)="cambiarPantallaP3($event)">
-    </body>
-    <body class="facebook-login-guardar" *ngIf="currentIndex === 3">
-      <img src="/assets/images/imagesTutoriales/facebook/login/boton-guardar-login.png" alt="Playstore Icon" class="facebook-login-guardar-button" (click)="facebookRegistroClicked()">  
-    </body>
-    <body class="facebook-pantalla-inicio" *ngIf="currentIndex === 4">
-      <div></div>
-    </body>
-    
-</app-phone-interface>
+  </app-phone-interface>
+</ng-container>
+
+<ng-container *ngIf="currentIndex === audioInstruccionesData.length - 1">
+  <!-- Dynamically generate tutorial ID -->
+  <app-tutorial-rating [tutorialId]="generateTutorialId()"></app-tutorial-rating>
+</ng-container>
 <app-back-button></app-back-button>

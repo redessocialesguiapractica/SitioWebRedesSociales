@@ -61,6 +61,12 @@ export class HacerLlamadasNavegadorComponent implements OnInit {
       content: 'La aplicación te va a pedir calificar la calidad de la llamada si deseas hacerlo pulsa "Buena" o "Deficiente", caso contrario pulsa la opción "Cerrar" señalada en el recuadro rojo. ¡Y listo! Te esperamos en nuestro siguiente tutorial.',
       audio: '/assets/audio/facebook/hacer_llamadas/paso_10.mp3',
     },
+    {
+      index: 10, // New index for the rating step
+      content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+      // You can add an empty string for audio if no audio is needed for this step
+      audio: ''
+    },
     // Add more objects with different content as needed
   ];
   currentIndex = 0;
@@ -140,5 +146,11 @@ export class HacerLlamadasNavegadorComponent implements OnInit {
   facebookLlamadasClicked(): void {
     // Call the nextInstruction method or perform other actions specific to index 1
     this.nextInstruction();
+  }
+
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
   }
 }

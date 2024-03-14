@@ -87,6 +87,12 @@ export class EnviarMensajesNavegadorComponent implements OnInit {
         '¡Y listo! tu mensaje a sido enviado, ahora debes esperar a que tu amigo lo vea y te responda. Te esperamos en nuestro siguiente tutorial.',
       audio: '/assets/audio/facebook/enviarMensajes/paso12.mp3',
     },
+    {
+      index: 13, // New index for the rating step
+      content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+      // You can add an empty string for audio if no audio is needed for this step
+      audio: ''
+    },
   ];
   currentIndex = 0;
 
@@ -185,5 +191,10 @@ export class EnviarMensajesNavegadorComponent implements OnInit {
         this.nextInstruction();
       }, 1000);
     }
+  }
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
   }
 }

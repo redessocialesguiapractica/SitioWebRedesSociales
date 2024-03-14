@@ -1,16 +1,32 @@
 <div class="audio-instrucciones-box">
   <div class="index">{{ index !== undefined ? index + 1 : 'N/A' }} / {{ maxIndex !== undefined ? maxIndex : 'N/A' }}</div>
   <h1>Instrucciones</h1>
-  <p>{{ content }}</p>
+  <p [style.font-size.px]="fontSize">{{ content }}</p> <!-- Bind font size dynamically -->
   <div class="button-container">
-      <button (click)="onButtonClick('Anterior')">
-          <i class="fas fa-arrow-left"></i> Anterior
+    <button (click)="onButtonClick('Anterior')">
+      <i class="fas fa-arrow-left"></i> Anterior
+    </button>
+    <button (click)="onButtonClick('Siguiente')">
+      Siguiente <i class="fas fa-arrow-right"></i>
+    </button>
+    <button (click)="onButtonClick('Repetir')">
+      Repetir Audio <i class="fas fa-redo"></i>
+    </button>
+  </div>
+  <hr>
+  <div class="volumen-controles">
+    <div>
+      <button (click)="increaseFontSize()">
+        <i class="fas fa-plus-circle"></i> Aumentar tamaño de la letra
       </button>
-      <button (click)="onButtonClick('Siguiente')">
-          Siguiente <i class="fas fa-arrow-right"></i>
+      <button (click)="decreaseFontSize()">
+        <i class="fas fa-minus-circle"></i> Disminuir tamaño de la letra
       </button>
-      <button (click)="onButtonClick('Repetir')">
-          Repetir Audio <i class="fas fa-redo"></i>
+    </div>
+    <div class="reset-boton">
+      <button (click)="resetFontSize()">
+        <i class="fas fa-sync-alt"></i> Restablecer tamaño de la letra
       </button>
+    </div>
   </div>
 </div>

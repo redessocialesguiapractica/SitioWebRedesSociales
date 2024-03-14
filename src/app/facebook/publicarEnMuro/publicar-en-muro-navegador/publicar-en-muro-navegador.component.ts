@@ -45,6 +45,12 @@ export class PublicarEnMuroNavegadorComponent implements OnInit {
       content: 'Una vez que hayas redactado tu mensaje y estés satisfecho, haz clic en el botón "Publicar" para compartir tu publicación en tu muro. Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones.',
       audio: '/assets/audio/facebook/septimopasomuro.mp3',
     },
+    {
+      index: 7, // New index for the rating step
+      content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+      // You can add an empty string for audio if no audio is needed for this step
+      audio: ''
+    },
     // Add more objects with different content as needed
   ];
   currentIndex = 0;
@@ -144,6 +150,11 @@ export class PublicarEnMuroNavegadorComponent implements OnInit {
       this.nextInstructionTimer = setTimeout(() => {
         this.nextInstruction();
       }, 29000);
+  }
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
   }
 
 }

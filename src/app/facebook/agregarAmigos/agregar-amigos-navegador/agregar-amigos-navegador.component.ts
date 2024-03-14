@@ -82,6 +82,12 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
         'Te aparecerá un recuadro con la pregunta "¿Cancelar la solicitud de amistad?" con las opciones "CERRAR" y "CANCELAR SOLICITUD", presiona la opción "CANCELAR SOLICITUD" para que elimines la solicitud de amistad enviada a esa persona. ¡Y listo! Te esperamos en nuestro siguiente tutorial.',
       audio: '/assets/audio/facebook/agregar_amigos/paso_11.mp3',
     },
+    {
+      index: 12, // New index for the rating step
+      content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+      // You can add an empty string for audio if no audio is needed for this step
+      audio: ''
+    },
   ];
   currentIndex = 0;
 
@@ -105,6 +111,11 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
       this.currentIndex++;
       this.clearNextInstructionTrigger(); // clear existing timer
       this.setupNextInstructionTrigger();
+    } else {
+      // Last instruction reached, navigate to rating component
+      // You might want to handle this differently based on your application flow
+      // For now, we'll just log a message
+      console.log('Last instruction reached. Display rating component.');
     }
   }
 
@@ -171,6 +182,11 @@ export class AgregarAmigosNavegadorComponent implements OnInit {
         this.nextInstruction();
       }, 1000);
     }
+  }
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
   }
   
 }

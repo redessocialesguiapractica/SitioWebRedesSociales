@@ -45,3 +45,9 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+.volumen-controles{
+    padding: 10px;
+}
+.reset-boton{
+    margin-top: 10px;
+}

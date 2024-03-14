@@ -5,54 +5,60 @@
     [audioSrc]="audioInstruccionesData[currentIndex].audio"
     (buttonClick)="onAudioInstruccionesButtonClick($event)"
 ></app-audio-instrucciones>
-<app-phone-interface>
-    <body class="instagram-p1" *ngIf="currentIndex === 0">
-    </body>
-    <body class="instagram-p2" *ngIf="currentIndex === 1">
-        <div
-          class="instagram-p2-red-box"
-          (click)="instagramBusquedaClicked()"
-        ></div>
-    </body>
-    <body class="instagram-p3" *ngIf="currentIndex === 2"> 
-        <div
-          class="instagram-p3-red-box"
-          (click)="instagramBusquedaClicked()"
-        ></div>
-    </body>
-    <body class="instagram-p4" *ngIf="currentIndex === 3"> 
-        <div
-          class="instagram-p4-red-box"
-          (click)="instagramBusquedaClicked()"
-        ></div>       
-    </body>
-    <body class="instagram-p5" *ngIf="currentIndex === 4"> 
-        <input
-            type="text"
-            placeholder="Buscar"
-            class="instagram-p5-input"
-            (input)="instagramBusquedaP5InputChanged($event)"
-        />       
-    </body>
-    <body class="instagram-p6" *ngIf="currentIndex === 5"> 
-        <div
-          class="instagram-p6-red-box"
-          (click)="instagramBusquedaClicked()"
-        ></div>       
-    </body>
-    <body class="instagram-p7" *ngIf="currentIndex === 6"> 
-        <div
-          class="instagram-p7-red-box"
-          (click)="instagramBusquedaClicked()"
-        ></div>       
-    </body>
-    <body class="instagram-p8" *ngIf="currentIndex === 7">
-        <div
-          class="instagram-p8-red-box"
-          (click)="instagramBusquedaClicked()"
-        ></div>        
-    </body>
-    <body class="instagram-p9" *ngIf="currentIndex === 8">     
-    </body>
-</app-phone-interface>
+<ng-container *ngIf="currentIndex !== audioInstruccionesData.length - 1">
+  <app-phone-interface>
+      <body class="instagram-p1" *ngIf="currentIndex === 0">
+      </body>
+      <body class="instagram-p2" *ngIf="currentIndex === 1">
+          <div
+            class="instagram-p2-red-box"
+            (click)="instagramBusquedaClicked()"
+          ></div>
+      </body>
+      <body class="instagram-p3" *ngIf="currentIndex === 2"> 
+          <div
+            class="instagram-p3-red-box"
+            (click)="instagramBusquedaClicked()"
+          ></div>
+      </body>
+      <body class="instagram-p4" *ngIf="currentIndex === 3"> 
+          <div
+            class="instagram-p4-red-box"
+            (click)="instagramBusquedaClicked()"
+          ></div>       
+      </body>
+      <body class="instagram-p5" *ngIf="currentIndex === 4"> 
+          <input
+              type="text"
+              placeholder="Buscar"
+              class="instagram-p5-input"
+              (input)="instagramBusquedaP5InputChanged($event)"
+          />       
+      </body>
+      <body class="instagram-p6" *ngIf="currentIndex === 5"> 
+          <div
+            class="instagram-p6-red-box"
+            (click)="instagramBusquedaClicked()"
+          ></div>       
+      </body>
+      <body class="instagram-p7" *ngIf="currentIndex === 6"> 
+          <div
+            class="instagram-p7-red-box"
+            (click)="instagramBusquedaClicked()"
+          ></div>       
+      </body>
+      <body class="instagram-p8" *ngIf="currentIndex === 7">
+          <div
+            class="instagram-p8-red-box"
+            (click)="instagramBusquedaClicked()"
+          ></div>        
+      </body>
+      <body class="instagram-p9" *ngIf="currentIndex === 8">     
+      </body>
+  </app-phone-interface>
+</ng-container>
+<ng-container *ngIf="currentIndex === audioInstruccionesData.length - 1">
+  <!-- Dynamically generate tutorial ID -->
+  <app-tutorial-rating [tutorialId]="generateTutorialId()"></app-tutorial-rating>
+</ng-container>
 <app-back-button></app-back-button>

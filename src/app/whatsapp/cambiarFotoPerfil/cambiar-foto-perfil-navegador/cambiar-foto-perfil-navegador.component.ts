@@ -66,7 +66,13 @@ audioInstruccionesData = [
     index: 10,
     content: 'Y podrás ver en la ventana de Perfil, tu nueva foto en WhatsApp. ¡Felicidades, has completado el tutorial para Cambiar foto de perfil en WhatsApp! Si quieres ver otros tutoriales, puedes hacerlo pulsando el botón "Regresar", o si necesitas repetir algún paso, puedes hacerlo navegando con los botones de la caja de instrucciones. ',
     audio: '/assets/audio/whatsapp/CambiarFoto/Paso10_foto.mp3',
-  }
+  },
+  {
+    index: 11, // New index for the rating step
+    content: '¡Has completado el tutorial! Por favor, califica esta guía del 1 al 5 para ayudarnos a mejorar. Gracias.',
+    // You can add an empty string for audio if no audio is needed for this step
+    audio: ''
+  },
 ]
 currentIndex = 0;
 
@@ -157,5 +163,11 @@ clearNextInstructionTrigger(): void {
       
     }
   }
+  generateTutorialId(): string {
+    const tutorialName = 'agregar-amigos'; // Update with the actual tutorial name
+    const socialNetwork = 'facebook'; // Update with the actual social network
+    return `${tutorialName}-${socialNetwork}`;
+  }
+
 
 }

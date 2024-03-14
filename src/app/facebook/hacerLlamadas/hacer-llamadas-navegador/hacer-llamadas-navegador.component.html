@@ -6,52 +6,60 @@
   (buttonClick)="onAudioInstruccionesButtonClick($event)"
 ></app-audio-instrucciones>
 
-<app-phone-interface>
-  <body class="facebook-llamadas-p1" *ngIf="currentIndex === 0"></body>
-  <body class="facebook-llamadas-p2" *ngIf="currentIndex === 1">
-    <div
-      class="facebook-llamadas-p2-red-box"
-      (click)="facebookLlamadasClicked()"
-    ></div>
-  </body>
-  <body class="facebook-llamadas-p3" *ngIf="currentIndex === 2">
-    <input
-      type="text"
-      placeholder="Buscar"
-      class="facebook-registro-p4-input"
-    />
-  </body>
-  <body class="facebook-llamadas-p4" *ngIf="currentIndex === 3">
-    <div
-      class="facebook-llamadas-p4-red-box"
-      (click)="facebookLlamadasClicked()"
-    ></div>
-  </body>
-  <body class="facebook-llamadas-p5" *ngIf="currentIndex === 4">
-    <div
-      class="facebook-llamadas-p5-red-box"
-      (click)="facebookLlamadasClicked()"
-    ></div>
-  </body>
-    <!--PASO 7-->
-    <body class="facebook-hacer-llamadas-p7" *ngIf="currentIndex === 5">
-    <div class="facebook-hacer-llamadas-p7-red-box" (click)="facebookLlamadasClicked()"></div>
+<ng-container *ngIf="currentIndex !== audioInstruccionesData.length - 1">
+  <app-phone-interface>
+    <body class="facebook-llamadas-p1" *ngIf="currentIndex === 0"></body>
+    <body class="facebook-llamadas-p2" *ngIf="currentIndex === 1">
+      <div
+        class="facebook-llamadas-p2-red-box"
+        (click)="facebookLlamadasClicked()"
+      ></div>
     </body>
+    <body class="facebook-llamadas-p3" *ngIf="currentIndex === 2">
+      <input
+        type="text"
+        placeholder="Buscar"
+        class="facebook-registro-p4-input"
+      />
+    </body>
+    <body class="facebook-llamadas-p4" *ngIf="currentIndex === 3">
+      <div
+        class="facebook-llamadas-p4-red-box"
+        (click)="facebookLlamadasClicked()"
+      ></div>
+    </body>
+    <body class="facebook-llamadas-p5" *ngIf="currentIndex === 4">
+      <div
+        class="facebook-llamadas-p5-red-box"
+        (click)="facebookLlamadasClicked()"
+      ></div>
+    </body>
+      <!--PASO 7-->
+      <body class="facebook-hacer-llamadas-p7" *ngIf="currentIndex === 5">
+      <div class="facebook-hacer-llamadas-p7-red-box" (click)="facebookLlamadasClicked()"></div>
+      </body>
 
-    <!--PASO 8-->
-    <body class="facebook-hacer-llamadas-p8" *ngIf="currentIndex === 6">
-    <div class="facebook-hacer-llamadas-p8-red-box" (click)="facebookLlamadasClicked()"></div>
-    </body>
-    
-    <!--PASO 9-->
-    <body class="facebook-hacer-llamadas-p9" *ngIf="currentIndex === 7">
-        <img src="/assets/images/imagesTutoriales/facebook/hacer_llamadas/colgar.png" alt="Colgar Icon" class="facebook-hacer-llamadas-p9-button-image" (click)="facebookLlamadasClicked()">
-    <div class="facebook-hacer-llamadas-p9-red-box"></div>
-    </body>
+      <!--PASO 8-->
+      <body class="facebook-hacer-llamadas-p8" *ngIf="currentIndex === 6">
+      <div class="facebook-hacer-llamadas-p8-red-box" (click)="facebookLlamadasClicked()"></div>
+      </body>
+      
+      <!--PASO 9-->
+      <body class="facebook-hacer-llamadas-p9" *ngIf="currentIndex === 7">
+          <img src="/assets/images/imagesTutoriales/facebook/hacer_llamadas/colgar.png" alt="Colgar Icon" class="facebook-hacer-llamadas-p9-button-image" (click)="facebookLlamadasClicked()">
+      <div class="facebook-hacer-llamadas-p9-red-box"></div>
+      </body>
 
-    <!--PASO 10-->
-    <body class="facebook-hacer-llamadas-p10" *ngIf="currentIndex === 8">
-        <div class="facebook-hacer-llamadas-p10-red-box"></div>
-        </body>
-</app-phone-interface>
+      <!--PASO 10-->
+      <body class="facebook-hacer-llamadas-p10" *ngIf="currentIndex === 8">
+          <div class="facebook-hacer-llamadas-p10-red-box"></div>
+          </body>
+  </app-phone-interface>
+</ng-container>
+
+
+<ng-container *ngIf="currentIndex === audioInstruccionesData.length - 1">
+  <!-- Dynamically generate tutorial ID -->
+  <app-tutorial-rating [tutorialId]="generateTutorialId()"></app-tutorial-rating>
+</ng-container>
 <app-back-button></app-back-button>
